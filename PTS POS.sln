@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PtsApplication", "PTS\PtsApplication.vbproj", "{F08CE389-6931-4864-893F-43388E6AA46C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PTS", "PtsLib\PTS.vbproj", "{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "radarpos", "radarpos\radarpos.vdproj", "{A2F4E38C-A8E9-429C-8939-FB729F7EC39D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Debug|x86.ActiveCfg = Debug|x86
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Debug|x86.Build.0 = Debug|x86
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Release|Any CPU.ActiveCfg = Release|x86
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Release|x86.ActiveCfg = Release|x86
+		{F08CE389-6931-4864-893F-43388E6AA46C}.Release|x86.Build.0 = Release|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Debug|x86.ActiveCfg = Debug|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Debug|x86.Build.0 = Debug|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Release|Any CPU.ActiveCfg = Release|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Release|x86.ActiveCfg = Release|x86
+		{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}.Release|x86.Build.0 = Release|x86
+		{A2F4E38C-A8E9-429C-8939-FB729F7EC39D}.Debug|Any CPU.ActiveCfg = Debug
+		{A2F4E38C-A8E9-429C-8939-FB729F7EC39D}.Debug|x86.ActiveCfg = Debug
+		{A2F4E38C-A8E9-429C-8939-FB729F7EC39D}.Release|Any CPU.ActiveCfg = Release
+		{A2F4E38C-A8E9-429C-8939-FB729F7EC39D}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07F21A00-F17D-491C-AC02-517FDBE336F6}
+	EndGlobalSection
+EndGlobal

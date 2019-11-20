@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="PTS controller description" Url="html/11135d03-aaec-4eba-a6e3-e89f9def049b.htm" />
+  <HelpTOCNode Id="d35fa1b9-ab71-4262-8173-267021f6f700" Title="TiT.PTS Namespace" Url="html/N_TiT_PTS.htm">
+    <HelpTOCNode Id="bfbb8a43-49a4-4d64-b2b9-d48c536d60e1" Title="AsciiConversion Class" Url="html/T_TiT_PTS_AsciiConversion.htm">
+      <HelpTOCNode Title="AsciiConversion Members" Url="html/AllMembers_T_TiT_PTS_AsciiConversion.htm" />
+      <HelpTOCNode Id="7173c41f-09b4-44e9-ba78-cb48fcde927b" Title="AsciiConversion Methods" Url="html/Methods_T_TiT_PTS_AsciiConversion.htm">
+        <HelpTOCNode Title="AsciiToByte Method " Url="html/M_TiT_PTS_AsciiConversion_AsciiToByte.htm" />
+        <HelpTOCNode Title="AsciiToInt Method " Url="html/M_TiT_PTS_AsciiConversion_AsciiToInt.htm" />
+        <HelpTOCNode Title="BytesArrayToString Method " Url="html/M_TiT_PTS_AsciiConversion_BytesArrayToString.htm" />
+        <HelpTOCNode Title="ByteToAscii Method " Url="html/M_TiT_PTS_AsciiConversion_ByteToAscii.htm" />
+        <HelpTOCNode Title="ByteToAsciiExt Method " Url="html/M_TiT_PTS_AsciiConversion_ByteToAsciiExt.htm" />
+        <HelpTOCNode Title="HexAsciiToInt Method " Url="html/M_TiT_PTS_AsciiConversion_HexAsciiToInt.htm" />
+        <HelpTOCNode Title="IntToAscii Method " Url="html/M_TiT_PTS_AsciiConversion_IntToAscii.htm" />
+        <HelpTOCNode Title="IntToAsciiExt Method " Url="html/M_TiT_PTS_AsciiConversion_IntToAsciiExt.htm" />
+        <HelpTOCNode Title="StringToBytesArray Method " Url="html/M_TiT_PTS_AsciiConversion_StringToBytesArray.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ef3b1ac8-c604-411e-8ab4-c9f2b0b9c88c" Title="ATG Class" Url="html/T_TiT_PTS_ATG.htm">
+      <HelpTOCNode Title="ATG Members" Url="html/AllMembers_T_TiT_PTS_ATG.htm" />
+      <HelpTOCNode Title="ATG Constructor " Url="html/M_TiT_PTS_ATG__ctor.htm" />
+      <HelpTOCNode Id="03ec1d84-e19f-40e8-aa26-d99606d1b98d" Title="ATG Fields" Url="html/Fields_T_TiT_PTS_ATG.htm">
+        <HelpTOCNode Title="_atgChannel Field" Url="html/F_TiT_PTS_ATG__atgChannel.htm" />
+        <HelpTOCNode Title="_channelId Field" Url="html/F_TiT_PTS_ATG__channelId.htm" />
+        <HelpTOCNode Title="_isActive Field" Url="html/F_TiT_PTS_ATG__isActive.htm" />
+        <HelpTOCNode Title="_physicalAddress Field" Url="html/F_TiT_PTS_ATG__physicalAddress.htm" />
+        <HelpTOCNode Title="_pts Field" Url="html/F_TiT_PTS_ATG__pts.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="90af17ab-70d8-43cb-a090-0b4aa76cc338" Title="ATG Methods" Url="html/Methods_T_TiT_PTS_ATG.htm">
+        <HelpTOCNode Title="GetMeasurementData Method " Url="html/M_TiT_PTS_ATG_GetMeasurementData.htm" />
+        <HelpTOCNode Title="OnDataUpdated Method " Url="html/M_TiT_PTS_ATG_OnDataUpdated.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_TiT_PTS_ATG_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2c14f301-3c55-4423-93fb-7bf4933c5555" Title="ATG Properties" Url="html/Properties_T_TiT_PTS_ATG.htm">
+        <HelpTOCNode Title="Channel Property " Url="html/P_TiT_PTS_ATG_Channel.htm" />
+        <HelpTOCNode Title="ChannelID Property " Url="html/P_TiT_PTS_ATG_ChannelID.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P_TiT_PTS_ATG_ID.htm" />
+        <HelpTOCNode Title="IsActive Property " Url="html/P_TiT_PTS_ATG_IsActive.htm" />
+        <HelpTOCNode Title="MaxTankHeight Property " Url="html/P_TiT_PTS_ATG_MaxTankHeight.htm" />
+        <HelpTOCNode Title="PhysicalAddress Property " Url="html/P_TiT_PTS_ATG_PhysicalAddress.htm" />
+        <HelpTOCNode Title="ProductDensity Property " Url="html/P_TiT_PTS_ATG_ProductDensity.htm" />
+        <HelpTOCNode Title="ProductDensityPresent Property " Url="html/P_TiT_PTS_ATG_ProductDensityPresent.htm" />
+        <HelpTOCNode Title="ProductHeight Property " Url="html/P_TiT_PTS_ATG_ProductHeight.htm" />
+        <HelpTOCNode Title="ProductHeightPresent Property " Url="html/P_TiT_PTS_ATG_ProductHeightPresent.htm" />
+        <HelpTOCNode Title="ProductMass Property " Url="html/P_TiT_PTS_ATG_ProductMass.htm" />
+        <HelpTOCNode Title="ProductMassPresent Property " Url="html/P_TiT_PTS_ATG_ProductMassPresent.htm" />
+        <HelpTOCNode Title="ProductTCVolume Property " Url="html/P_TiT_PTS_ATG_ProductTCVolume.htm" />
+        <HelpTOCNode Title="ProductTCVolumePresent Property " Url="html/P_TiT_PTS_ATG_ProductTCVolumePresent.htm" />
+        <HelpTOCNode Title="ProductUllage Property " Url="html/P_TiT_PTS_ATG_ProductUllage.htm" />
+        <HelpTOCNode Title="ProductUllagePresent Property " Url="html/P_TiT_PTS_ATG_ProductUllagePresent.htm" />
+        <HelpTOCNode Title="ProductVolume Property " Url="html/P_TiT_PTS_ATG_ProductVolume.htm" />
+        <HelpTOCNode Title="ProductVolumePresent Property " Url="html/P_TiT_PTS_ATG_ProductVolumePresent.htm" />
+        <HelpTOCNode Title="Temperature Property " Url="html/P_TiT_PTS_ATG_Temperature.htm" />
+        <HelpTOCNode Title="TemperaturePresent Property " Url="html/P_TiT_PTS_ATG_TemperaturePresent.htm" />
+        <HelpTOCNode Title="WaterHeight Property " Url="html/P_TiT_PTS_ATG_WaterHeight.htm" />
+        <HelpTOCNode Title="WaterHeightPresent Property " Url="html/P_TiT_PTS_ATG_WaterHeightPresent.htm" />
+        <HelpTOCNode Title="WaterVolume Property " Url="html/P_TiT_PTS_ATG_WaterVolume.htm" />
+        <HelpTOCNode Title="WaterVolumePresent Property " Url="html/P_TiT_PTS_ATG_WaterVolumePresent.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f992596-3d8a-4e6b-9208-e47384d0d58a" Title="ATG Events" Url="html/Events_T_TiT_PTS_ATG.htm">
+        <HelpTOCNode Title="DataUpdated Event" Url="html/E_TiT_PTS_ATG_DataUpdated.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b744e5ba-a5ca-41da-88fa-73afbb09a224" Title="AtgChannel Class" Url="html/T_TiT_PTS_AtgChannel.htm">
+      <HelpTOCNode Title="AtgChannel Members" Url="html/AllMembers_T_TiT_PTS_AtgChannel.htm" />
+      <HelpTOCNode Title="AtgChannel Constructor " Url="html/M_TiT_PTS_AtgChannel__ctor.htm" />
+      <HelpTOCNode Id="1fdf96e5-cc90-492c-96c1-8232a386b38e" Title="AtgChannel Fields" Url="html/Fields_T_TiT_PTS_AtgChannel.htm">
+        <HelpTOCNode Title="_atgs Field" Url="html/F_TiT_PTS_AtgChannel__atgs.htm" />
+        <HelpTOCNode Title="_baudRate Field" Url="html/F_TiT_PTS_AtgChannel__baudRate.htm" />
+        <HelpTOCNode Title="_protocol Field" Url="html/F_TiT_PTS_AtgChannel__protocol.htm" />
+        <HelpTOCNode Title="_pts Field" Url="html/F_TiT_PTS_AtgChannel__pts.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="96d15ad3-f77b-4042-9b28-d53fdde58395" Title="AtgChannel Methods" Url="html/Methods_T_TiT_PTS_AtgChannel.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_TiT_PTS_AtgChannel_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7e414ce2-bdca-4d1c-915d-1f1725bbf8b2" Title="AtgChannel Properties" Url="html/Properties_T_TiT_PTS_AtgChannel.htm">
+        <HelpTOCNode Title="ATGs Property " Url="html/P_TiT_PTS_AtgChannel_ATGs.htm" />
+        <HelpTOCNode Title="BaudRate Property " Url="html/P_TiT_PTS_AtgChannel_BaudRate.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P_TiT_PTS_AtgChannel_ID.htm" />
+        <HelpTOCNode Title="Protocol Property " Url="html/P_TiT_PTS_AtgChannel_Protocol.htm" />
+        <HelpTOCNode Title="PTS Property " Url="html/P_TiT_PTS_AtgChannel_PTS.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AtgChannelProtocol Enumeration" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+    <HelpTOCNode Title="AuthorizeType Enumeration" Url="html/T_TiT_PTS_AuthorizeType.htm" />
+    <HelpTOCNode Title="ChannelBaudRate Enumeration" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+    <HelpTOCNode Id="e48e4c25-f259-41b2-8e9c-7f87bac0ea87" Title="FuelPoint Class" Url="html/T_TiT_PTS_FuelPoint.htm">
+      <HelpTOCNode Title="FuelPoint Members" Url="html/AllMembers_T_TiT_PTS_FuelPoint.htm" />
+      <HelpTOCNode Title="FuelPoint Constructor " Url="html/M_TiT_PTS_FuelPoint__ctor.htm" />
+      <HelpTOCNode Id="bd082b9c-163a-48ab-aa9e-9590a1c23e5c" Title="FuelPoint Fields" Url="html/Fields_T_TiT_PTS_FuelPoint.htm">
+        <HelpTOCNode Title="_activeNozzleId Field" Url="html/F_TiT_PTS_FuelPoint__activeNozzleId.htm" />
+        <HelpTOCNode Title="_channel Field" Url="html/F_TiT_PTS_FuelPoint__channel.htm" />
+        <HelpTOCNode Title="_channelId Field" Url="html/F_TiT_PTS_FuelPoint__channelId.htm" />
+        <HelpTOCNode Title="_currentPendingCommand Field" Url="html/F_TiT_PTS_FuelPoint__currentPendingCommand.htm" />
+        <HelpTOCNode Title="_isActive Field" Url="html/F_TiT_PTS_FuelPoint__isActive.htm" />
+        <HelpTOCNode Title="_nozzles Field" Url="html/F_TiT_PTS_FuelPoint__nozzles.htm" />
+        <HelpTOCNode Title="_orderMode Field" Url="html/F_TiT_PTS_FuelPoint__orderMode.htm" />
+        <HelpTOCNode Title="_physicalAddress Field" Url="html/F_TiT_PTS_FuelPoint__physicalAddress.htm" />
+        <HelpTOCNode Title="_previousPendingCommand Field" Url="html/F_TiT_PTS_FuelPoint__previousPendingCommand.htm" />
+        <HelpTOCNode Title="_pts Field" Url="html/F_TiT_PTS_FuelPoint__pts.htm" />
+        <HelpTOCNode Title="_status Field" Url="html/F_TiT_PTS_FuelPoint__status.htm" />
+        <HelpTOCNode Title="_transactionNozzleId Field" Url="html/F_TiT_PTS_FuelPoint__transactionNozzleId.htm" />
+        <HelpTOCNode Title="_transEventRised Field" Url="html/F_TiT_PTS_FuelPoint__transEventRised.htm" />
+        <HelpTOCNode Title="_transFinished Field" Url="html/F_TiT_PTS_FuelPoint__transFinished.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a478fecd-0972-4f9d-9099-ee44427fd6c4" Title="FuelPoint Methods" Url="html/Methods_T_TiT_PTS_FuelPoint.htm">
+        <HelpTOCNode Title="Authorize Method " Url="html/M_TiT_PTS_FuelPoint_Authorize.htm" />
+        <HelpTOCNode Title="CloseTransaction Method " Url="html/M_TiT_PTS_FuelPoint_CloseTransaction.htm" />
+        <HelpTOCNode Title="GetPrices Method " Url="html/M_TiT_PTS_FuelPoint_GetPrices.htm" />
+        <HelpTOCNode Title="GetStatus Method " Url="html/M_TiT_PTS_FuelPoint_GetStatus.htm" />
+        <HelpTOCNode Title="GetTotals Method " Url="html/M_TiT_PTS_FuelPoint_GetTotals.htm" />
+        <HelpTOCNode Title="Halt Method " Url="html/M_TiT_PTS_FuelPoint_Halt.htm" />
+        <HelpTOCNode Title="Lock Method " Url="html/M_TiT_PTS_FuelPoint_Lock.htm" />
+        <HelpTOCNode Title="OnNozzleChanged Method " Url="html/M_TiT_PTS_FuelPoint_OnNozzleChanged.htm" />
+        <HelpTOCNode Title="OnPendingCommandChanged Method " Url="html/M_TiT_PTS_FuelPoint_OnPendingCommandChanged.htm" />
+        <HelpTOCNode Title="OnPricesGet Method " Url="html/M_TiT_PTS_FuelPoint_OnPricesGet.htm" />
+        <HelpTOCNode Title="OnStatusChanged Method " Url="html/M_TiT_PTS_FuelPoint_OnStatusChanged.htm" />
+        <HelpTOCNode Title="OnTotalsUpdated Method " Url="html/M_TiT_PTS_FuelPoint_OnTotalsUpdated.htm" />
+        <HelpTOCNode Title="OnTransactionFinished Method " Url="html/M_TiT_PTS_FuelPoint_OnTransactionFinished.htm" />
+        <HelpTOCNode Title="SetPrices Method " Url="html/M_TiT_PTS_FuelPoint_SetPrices.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_TiT_PTS_FuelPoint_ToString.htm" />
+        <HelpTOCNode Title="Unlock Method " Url="html/M_TiT_PTS_FuelPoint_Unlock.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2a8441b1-51f9-497f-b33d-7569245e3d79" Title="FuelPoint Properties" Url="html/Properties_T_TiT_PTS_FuelPoint.htm">
+        <HelpTOCNode Title="ActiveNozzle Property " Url="html/P_TiT_PTS_FuelPoint_ActiveNozzle.htm" />
+        <HelpTOCNode Title="ActiveNozzleID Property " Url="html/P_TiT_PTS_FuelPoint_ActiveNozzleID.htm" />
+        <HelpTOCNode Title="AutocloseTransaction Property " Url="html/P_TiT_PTS_FuelPoint_AutocloseTransaction.htm" />
+        <HelpTOCNode Title="Channel Property " Url="html/P_TiT_PTS_FuelPoint_Channel.htm" />
+        <HelpTOCNode Title="ChannelID Property " Url="html/P_TiT_PTS_FuelPoint_ChannelID.htm" />
+        <HelpTOCNode Title="CurrentPendingCommand Property " Url="html/P_TiT_PTS_FuelPoint_CurrentPendingCommand.htm" />
+        <HelpTOCNode Title="DispensedAmount Property " Url="html/P_TiT_PTS_FuelPoint_DispensedAmount.htm" />
+        <HelpTOCNode Title="DispensedVolume Property " Url="html/P_TiT_PTS_FuelPoint_DispensedVolume.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P_TiT_PTS_FuelPoint_ID.htm" />
+        <HelpTOCNode Title="IsActive Property " Url="html/P_TiT_PTS_FuelPoint_IsActive.htm" />
+        <HelpTOCNode Title="Locked Property " Url="html/P_TiT_PTS_FuelPoint_Locked.htm" />
+        <HelpTOCNode Title="Nozzles Property " Url="html/P_TiT_PTS_FuelPoint_Nozzles.htm" />
+        <HelpTOCNode Title="OrderMode Property " Url="html/P_TiT_PTS_FuelPoint_OrderMode.htm" />
+        <HelpTOCNode Title="PhysicalAddress Property " Url="html/P_TiT_PTS_FuelPoint_PhysicalAddress.htm" />
+        <HelpTOCNode Title="PreviousPendingCommand Property " Url="html/P_TiT_PTS_FuelPoint_PreviousPendingCommand.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/P_TiT_PTS_FuelPoint_Status.htm" />
+        <HelpTOCNode Title="TransactionID Property " Url="html/P_TiT_PTS_FuelPoint_TransactionID.htm" />
+        <HelpTOCNode Title="TransactionNozzleID Property " Url="html/P_TiT_PTS_FuelPoint_TransactionNozzleID.htm" />
+        <HelpTOCNode Title="TransFinished Property " Url="html/P_TiT_PTS_FuelPoint_TransFinished.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="51a14425-8437-4d56-8106-fbf50fb87235" Title="FuelPoint Events" Url="html/Events_T_TiT_PTS_FuelPoint.htm">
+        <HelpTOCNode Title="NozzleChanged Event" Url="html/E_TiT_PTS_FuelPoint_NozzleChanged.htm" />
+        <HelpTOCNode Title="PendingCommandChanged Event" Url="html/E_TiT_PTS_FuelPoint_PendingCommandChanged.htm" />
+        <HelpTOCNode Title="PricesGet Event" Url="html/E_TiT_PTS_FuelPoint_PricesGet.htm" />
+        <HelpTOCNode Title="StatusChanged Event" Url="html/E_TiT_PTS_FuelPoint_StatusChanged.htm" />
+        <HelpTOCNode Title="TotalsUpdated Event" Url="html/E_TiT_PTS_FuelPoint_TotalsUpdated.htm" />
+        <HelpTOCNode Title="TransactionFinished Event" Url="html/E_TiT_PTS_FuelPoint_TransactionFinished.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5219c6aa-9c79-4756-88bd-083e66418950" Title="FuelPointChannel Class" Url="html/T_TiT_PTS_FuelPointChannel.htm">
+      <HelpTOCNode Title="FuelPointChannel Members" Url="html/AllMembers_T_TiT_PTS_FuelPointChannel.htm" />
+      <HelpTOCNode Title="FuelPointChannel Constructor " Url="html/M_TiT_PTS_FuelPointChannel__ctor.htm" />
+      <HelpTOCNode Id="3af208df-c6e2-45bf-8f8b-e1e6508f56f9" Title="FuelPointChannel Fields" Url="html/Fields_T_TiT_PTS_FuelPointChannel.htm">
+        <HelpTOCNode Title="_baudRate Field" Url="html/F_TiT_PTS_FuelPointChannel__baudRate.htm" />
+        <HelpTOCNode Title="_dispensers Field" Url="html/F_TiT_PTS_FuelPointChannel__dispensers.htm" />
+        <HelpTOCNode Title="_protocol Field" Url="html/F_TiT_PTS_FuelPointChannel__protocol.htm" />
+        <HelpTOCNode Title="_pts Field" Url="html/F_TiT_PTS_FuelPointChannel__pts.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67072a20-dd97-45fa-a7d6-1071e4b168ce" Title="FuelPointChannel Methods" Url="html/Methods_T_TiT_PTS_FuelPointChannel.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_TiT_PTS_FuelPointChannel_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7b224de-e87c-411a-b3c7-aa0fac056612" Title="FuelPointChannel Properties" Url="html/Properties_T_TiT_PTS_FuelPointChannel.htm">
+        <HelpTOCNode Title="BaudRate Property " Url="html/P_TiT_PTS_FuelPointChannel_BaudRate.htm" />
+        <HelpTOCNode Title="FuelPoints Property " Url="html/P_TiT_PTS_FuelPointChannel_FuelPoints.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P_TiT_PTS_FuelPointChannel_ID.htm" />
+        <HelpTOCNode Title="Protocol Property " Url="html/P_TiT_PTS_FuelPointChannel_Protocol.htm" />
+        <HelpTOCNode Title="PTS Property " Url="html/P_TiT_PTS_FuelPointChannel_PTS.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FuelPointChannelProtocol Enumeration" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+    <HelpTOCNode Title="FuelPointStatus Enumeration" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+    <HelpTOCNode Id="bcca9395-9030-41f8-8007-5474059de697" Title="MessageErrorEventArgs Class" Url="html/T_TiT_PTS_MessageErrorEventArgs.htm">
+      <HelpTOCNode Title="MessageErrorEventArgs Members" Url="html/AllMembers_T_TiT_PTS_MessageErrorEventArgs.htm" />
+      <HelpTOCNode Id="a4e1e994-3834-4852-ae30-5a7f174d901c" Title="MessageErrorEventArgs Constructor " Url="html/Overload_TiT_PTS_MessageErrorEventArgs__ctor.htm">
+        <HelpTOCNode Title="MessageErrorEventArgs Constructor (Byte[])" Url="html/M_TiT_PTS_MessageErrorEventArgs__ctor.htm" />
+        <HelpTOCNode Title="MessageErrorEventArgs Constructor (Int32, Byte[])" Url="html/M_TiT_PTS_MessageErrorEventArgs__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="359a86fb-bc93-4336-a5d0-bb468e7c05e7" Title="MessageErrorEventArgs Fields" Url="html/Fields_T_TiT_PTS_MessageErrorEventArgs.htm">
+        <HelpTOCNode Title="_errorCode Field" Url="html/F_TiT_PTS_MessageErrorEventArgs__errorCode.htm" />
+        <HelpTOCNode Title="_message Field" Url="html/F_TiT_PTS_MessageErrorEventArgs__message.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MessageErrorEventArgs Methods" Url="html/Methods_T_TiT_PTS_MessageErrorEventArgs.htm" />
+      <HelpTOCNode Id="e7f12c73-8c56-49dc-8bd1-428b1023d48f" Title="MessageErrorEventArgs Properties" Url="html/Properties_T_TiT_PTS_MessageErrorEventArgs.htm">
+        <HelpTOCNode Title="ErrorCode Property " Url="html/P_TiT_PTS_MessageErrorEventArgs_ErrorCode.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P_TiT_PTS_MessageErrorEventArgs_Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a4bdd5e0-4963-464b-a640-130cb4be8098" Title="Nozzle Class" Url="html/T_TiT_PTS_Nozzle.htm">
+      <HelpTOCNode Title="Nozzle Members" Url="html/AllMembers_T_TiT_PTS_Nozzle.htm" />
+      <HelpTOCNode Title="Nozzle Constructor " Url="html/M_TiT_PTS_Nozzle__ctor.htm" />
+      <HelpTOCNode Id="4e838431-93a8-400a-a9f2-dca947f234af" Title="Nozzle Fields" Url="html/Fields_T_TiT_PTS_Nozzle.htm">
+        <HelpTOCNode Title="_fuelPoint Field" Url="html/F_TiT_PTS_Nozzle__fuelPoint.htm" />
+        <HelpTOCNode Title="_id Field" Url="html/F_TiT_PTS_Nozzle__id.htm" />
+        <HelpTOCNode Title="_pricePerLiter Field" Url="html/F_TiT_PTS_Nozzle__pricePerLiter.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="38c1b584-0aba-4309-8575-98ea1300b70c" Title="Nozzle Methods" Url="html/Methods_T_TiT_PTS_Nozzle.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M_TiT_PTS_Nozzle_ToString.htm" />
+        <HelpTOCNode Title="UpdateTotals Method " Url="html/M_TiT_PTS_Nozzle_UpdateTotals.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="60a3701e-e421-427b-9844-931958cbdf01" Title="Nozzle Properties" Url="html/Properties_T_TiT_PTS_Nozzle.htm">
+        <HelpTOCNode Title="FuelPoint Property " Url="html/P_TiT_PTS_Nozzle_FuelPoint.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P_TiT_PTS_Nozzle_ID.htm" />
+        <HelpTOCNode Title="PricePerLiter Property " Url="html/P_TiT_PTS_Nozzle_PricePerLiter.htm" />
+        <HelpTOCNode Title="TotalDispensedAmount Property " Url="html/P_TiT_PTS_Nozzle_TotalDispensedAmount.htm" />
+        <HelpTOCNode Title="TotalDispensedVolume Property " Url="html/P_TiT_PTS_Nozzle_TotalDispensedVolume.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4f4056b5-7032-4e72-bcef-03167cc217b4" Title="NozzleChangedEventArgs Class" Url="html/T_TiT_PTS_NozzleChangedEventArgs.htm">
+      <HelpTOCNode Title="NozzleChangedEventArgs Members" Url="html/AllMembers_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+      <HelpTOCNode Title="NozzleChangedEventArgs Constructor " Url="html/M_TiT_PTS_NozzleChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Id="e365bd6b-f77f-49dd-9bdc-f60e6cf3182a" Title="NozzleChangedEventArgs Fields" Url="html/Fields_T_TiT_PTS_NozzleChangedEventArgs.htm">
+        <HelpTOCNode Title="_currentNozzleId Field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__currentNozzleId.htm" />
+        <HelpTOCNode Title="_previousNozzleId Field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__previousNozzleId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NozzleChangedEventArgs Methods" Url="html/Methods_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+      <HelpTOCNode Id="aefae581-688b-48cd-a225-0c16b14ae146" Title="NozzleChangedEventArgs Properties" Url="html/Properties_T_TiT_PTS_NozzleChangedEventArgs.htm">
+        <HelpTOCNode Title="CurrentNozzleID Property " Url="html/P_TiT_PTS_NozzleChangedEventArgs_CurrentNozzleID.htm" />
+        <HelpTOCNode Title="PreviousNozzleID Property " Url="html/P_TiT_PTS_NozzleChangedEventArgs_PreviousNozzleID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="OrderModes Enumeration" Url="html/T_TiT_PTS_OrderModes.htm" />
+    <HelpTOCNode Id="b99d1507-19a9-4b0e-9b38-8fc71a31c5fa" Title="PendingCommandChangedEventArgs Class" Url="html/T_TiT_PTS_PendingCommandChangedEventArgs.htm">
+      <HelpTOCNode Title="PendingCommandChangedEventArgs Members" Url="html/AllMembers_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+      <HelpTOCNode Title="PendingCommandChangedEventArgs Constructor " Url="html/M_TiT_PTS_PendingCommandChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Id="78310582-1f77-4e7c-bff8-adf87f7d3708" Title="PendingCommandChangedEventArgs Fields" Url="html/Fields_T_TiT_PTS_PendingCommandChangedEventArgs.htm">
+        <HelpTOCNode Title="_currentPendingCommand Field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__currentPendingCommand.htm" />
+        <HelpTOCNode Title="_previousPendingCommand Field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__previousPendingCommand.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PendingCommandChangedEventArgs Methods" Url="html/Methods_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+      <HelpTOCNode Id="8effe682-a27c-47c1-8f00-84c18784457b" Title="PendingCommandChangedEventArgs Properties" Url="html/Properties_T_TiT_PTS_PendingCommandChangedEventArgs.htm">
+        <HelpTOCNode Title="CurrentPendingCommand Property " Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_CurrentPendingCommand.htm" />
+        <HelpTOCNode Title="PreviousPendingCommand Property " Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_PreviousPendingCommand.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dab4710a-56af-4601-b6f0-ec0f753f6899" Title="PricesEventArgs Class" Url="html/T_TiT_PTS_PricesEventArgs.htm">
+      <HelpTOCNode Title="PricesEventArgs Members" Url="html/AllMembers_T_TiT_PTS_PricesEventArgs.htm" />
+      <HelpTOCNode Title="PricesEventArgs Constructor " Url="html/M_TiT_PTS_PricesEventArgs__ctor.htm" />
+      <HelpTOCNode Id="df3e0856-0ef1-4460-a5a8-b4e3ea730ef4" Title="PricesEventArgs Fields" Url="html/Fields_T_TiT_PTS_PricesEventArgs.htm">
+        <HelpTOCNode Title="_address Field" Url="html/F_TiT_PTS_PricesEventArgs__address.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PricesEventArgs Methods" Url="html/Methods_T_TiT_PTS_PricesEventArgs.htm" />
+      <HelpTOCNode Id="4a9b818f-2dc5-4c1d-88b2-049eb7d5c4fb" Title="PricesEventArgs Properties" Url="html/Properties_T_TiT_PTS_PricesEventArgs.htm">
+        <HelpTOCNode Title="Address Property " Url="html/P_TiT_PTS_PricesEventArgs_Address.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb628e00-ed56-46b7-874d-01b4b04f1836" Title="PTS Class" Url="html/T_TiT_PTS_PTS.htm">
+      <HelpTOCNode Title="PTS Members" Url="html/AllMembers_T_TiT_PTS_PTS.htm" />
+      <HelpTOCNode Title="PTS Constructor " Url="html/M_TiT_PTS_PTS__ctor.htm" />
+      <HelpTOCNode Id="0541ade8-8fbb-4a39-9e3d-ccc19b353805" Title="PTS Fields" Url="html/Fields_T_TiT_PTS_PTS.htm">
+        <HelpTOCNode Title="_authorizationPolling Field" Url="html/F_TiT_PTS_PTS__authorizationPolling.htm" />
+        <HelpTOCNode Title="_automaticAuthorize Field" Url="html/F_TiT_PTS_PTS__automaticAuthorize.htm" />
+        <HelpTOCNode Title="_configuration Field" Url="html/F_TiT_PTS_PTS__configuration.htm" />
+        <HelpTOCNode Title="_initializing Field" Url="html/F_TiT_PTS_PTS__initializing.htm" />
+        <HelpTOCNode Title="_manualModeAuthorizeValue Field" Url="html/F_TiT_PTS_PTS__manualModeAuthorizeValue.htm" />
+        <HelpTOCNode Title="_maxPacketSize Field" Url="html/F_TiT_PTS_PTS__maxPacketSize.htm" />
+        <HelpTOCNode Title="_maxResponseTimeout Field" Url="html/F_TiT_PTS_PTS__maxResponseTimeout.htm" />
+        <HelpTOCNode Title="_parameter Field" Url="html/F_TiT_PTS_PTS__parameter.htm" />
+        <HelpTOCNode Title="_port Field" Url="html/F_TiT_PTS_PTS__port.htm" />
+        <HelpTOCNode Title="_refreshThread Field" Url="html/F_TiT_PTS_PTS__refreshThread.htm" />
+        <HelpTOCNode Title="_releaseInfo Field" Url="html/F_TiT_PTS_PTS__releaseInfo.htm" />
+        <HelpTOCNode Title="_requestTotalizers Field" Url="html/F_TiT_PTS_PTS__requestTotalizers.htm" />
+        <HelpTOCNode Title="_responseCode Field" Url="html/F_TiT_PTS_PTS__responseCode.htm" />
+        <HelpTOCNode Title="_responseExtCode Field" Url="html/F_TiT_PTS_PTS__responseExtCode.htm" />
+        <HelpTOCNode Title="_selectedAuthorizationType Field" Url="html/F_TiT_PTS_PTS__selectedAuthorizationType.htm" />
+        <HelpTOCNode Title="_totalsUpdateTimeout Field" Url="html/F_TiT_PTS_PTS__totalsUpdateTimeout.htm" />
+        <HelpTOCNode Title="_uniPumpTimeout Field" Url="html/F_TiT_PTS_PTS__uniPumpTimeout.htm" />
+        <HelpTOCNode Title="_useExtendedCommands Field" Url="html/F_TiT_PTS_PTS__useExtendedCommands.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2907bd94-28e7-4f6f-9ddf-a4d56626a023" Title="PTS Methods" Url="html/Methods_T_TiT_PTS_PTS.htm">
+        <HelpTOCNode Title="Close Method " Url="html/M_TiT_PTS_PTS_Close.htm" />
+        <HelpTOCNode Id="89f68958-1a61-4f2e-83d8-80f76d00003a" Title="Dispose Method " Url="html/Overload_TiT_PTS_PTS_Dispose.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_TiT_PTS_PTS_Dispose.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAtgByID Method " Url="html/M_TiT_PTS_PTS_GetAtgByID.htm" />
+        <HelpTOCNode Title="GetAtgConfiguration Method " Url="html/M_TiT_PTS_PTS_GetAtgConfiguration.htm" />
+        <HelpTOCNode Title="GetFuelPointByID Method " Url="html/M_TiT_PTS_PTS_GetFuelPointByID.htm" />
+        <HelpTOCNode Title="GetFuelPointConfiguration Method " Url="html/M_TiT_PTS_PTS_GetFuelPointConfiguration.htm" />
+        <HelpTOCNode Title="InitializeConfig Method " Url="html/M_TiT_PTS_PTS_InitializeConfig.htm" />
+        <HelpTOCNode Title="OnClosed Method " Url="html/M_TiT_PTS_PTS_OnClosed.htm" />
+        <HelpTOCNode Title="OnClosing Method " Url="html/M_TiT_PTS_PTS_OnClosing.htm" />
+        <HelpTOCNode Title="OnInitialized Method " Url="html/M_TiT_PTS_PTS_OnInitialized.htm" />
+        <HelpTOCNode Title="OnInitializing Method " Url="html/M_TiT_PTS_PTS_OnInitializing.htm" />
+        <HelpTOCNode Title="OnMessageError Method " Url="html/M_TiT_PTS_PTS_OnMessageError.htm" />
+        <HelpTOCNode Title="OnOpened Method " Url="html/M_TiT_PTS_PTS_OnOpened.htm" />
+        <HelpTOCNode Title="OnOpening Method " Url="html/M_TiT_PTS_PTS_OnOpening.htm" />
+        <HelpTOCNode Title="OnPricesGet Method " Url="html/M_TiT_PTS_PTS_OnPricesGet.htm" />
+        <HelpTOCNode Title="OnTimeoutExpired Method " Url="html/M_TiT_PTS_PTS_OnTimeoutExpired.htm" />
+        <HelpTOCNode Title="OnTotalsUpdated Method " Url="html/M_TiT_PTS_PTS_OnTotalsUpdated.htm" />
+        <HelpTOCNode Title="Open Method " Url="html/M_TiT_PTS_PTS_Open.htm" />
+        <HelpTOCNode Title="processResponseMessage Method " Url="html/M_TiT_PTS_PTS_processResponseMessage.htm" />
+        <HelpTOCNode Title="readResponseMessage Method " Url="html/M_TiT_PTS_PTS_readResponseMessage.htm" />
+        <HelpTOCNode Title="RequestAtgConfigurationGet Method " Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationGet.htm" />
+        <HelpTOCNode Title="RequestAtgConfigurationSet Method " Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationSet.htm" />
+        <HelpTOCNode Title="RequestAtgMeasurementData Method " Url="html/M_TiT_PTS_PTS_RequestAtgMeasurementData.htm" />
+        <HelpTOCNode Title="RequestAuthorize Method " Url="html/M_TiT_PTS_PTS_RequestAuthorize.htm" />
+        <HelpTOCNode Title="RequestCloseTransaction Method " Url="html/M_TiT_PTS_PTS_RequestCloseTransaction.htm" />
+        <HelpTOCNode Title="RequestExtendedAuthorize Method " Url="html/M_TiT_PTS_PTS_RequestExtendedAuthorize.htm" />
+        <HelpTOCNode Title="RequestExtendedPricesSet Method " Url="html/M_TiT_PTS_PTS_RequestExtendedPricesSet.htm" />
+        <HelpTOCNode Title="RequestExtendedStatus Method " Url="html/M_TiT_PTS_PTS_RequestExtendedStatus.htm" />
+        <HelpTOCNode Title="RequestExtendedTotals Method " Url="html/M_TiT_PTS_PTS_RequestExtendedTotals.htm" />
+        <HelpTOCNode Title="RequestFuelPointConfigurationGet Method " Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationGet.htm" />
+        <HelpTOCNode Title="RequestFuelPointConfigurationSet Method " Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationSet.htm" />
+        <HelpTOCNode Title="RequestHalt Method " Url="html/M_TiT_PTS_PTS_RequestHalt.htm" />
+        <HelpTOCNode Title="RequestLock Method " Url="html/M_TiT_PTS_PTS_RequestLock.htm" />
+        <HelpTOCNode Title="RequestParameterGet Method " Url="html/M_TiT_PTS_PTS_RequestParameterGet.htm" />
+        <HelpTOCNode Title="RequestParameterSet Method " Url="html/M_TiT_PTS_PTS_RequestParameterSet.htm" />
+        <HelpTOCNode Title="RequestPricesGet Method " Url="html/M_TiT_PTS_PTS_RequestPricesGet.htm" />
+        <HelpTOCNode Title="RequestPricesSet Method " Url="html/M_TiT_PTS_PTS_RequestPricesSet.htm" />
+        <HelpTOCNode Title="RequestStatus Method " Url="html/M_TiT_PTS_PTS_RequestStatus.htm" />
+        <HelpTOCNode Title="RequestTotals Method " Url="html/M_TiT_PTS_PTS_RequestTotals.htm" />
+        <HelpTOCNode Title="RequestUnlock Method " Url="html/M_TiT_PTS_PTS_RequestUnlock.htm" />
+        <HelpTOCNode Title="RequestVersion Method " Url="html/M_TiT_PTS_PTS_RequestVersion.htm" />
+        <HelpTOCNode Title="sendMessage Method " Url="html/M_TiT_PTS_PTS_sendMessage.htm" />
+        <HelpTOCNode Title="SetAtgConfiguration Method " Url="html/M_TiT_PTS_PTS_SetAtgConfiguration.htm" />
+        <HelpTOCNode Title="SetFuelPointConfiguration Method " Url="html/M_TiT_PTS_PTS_SetFuelPointConfiguration.htm" />
+        <HelpTOCNode Title="startRefreshThread Method " Url="html/M_TiT_PTS_PTS_startRefreshThread.htm" />
+        <HelpTOCNode Title="stopRefreshThread Method " Url="html/M_TiT_PTS_PTS_stopRefreshThread.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="54184bab-bcd7-4e9f-a97f-19a6837d6379" Title="PTS Properties" Url="html/Properties_T_TiT_PTS_PTS.htm">
+        <HelpTOCNode Title="AtgChannels Property " Url="html/P_TiT_PTS_PTS_AtgChannels.htm" />
+        <HelpTOCNode Title="ATGs Property " Url="html/P_TiT_PTS_PTS_ATGs.htm" />
+        <HelpTOCNode Title="AuthorizationPolling Property " Url="html/P_TiT_PTS_PTS_AuthorizationPolling.htm" />
+        <HelpTOCNode Title="AutomaticAuthorize Property " Url="html/P_TiT_PTS_PTS_AutomaticAuthorize.htm" />
+        <HelpTOCNode Title="Configuration Property " Url="html/P_TiT_PTS_PTS_Configuration.htm" />
+        <HelpTOCNode Title="FuelPointChannels Property " Url="html/P_TiT_PTS_PTS_FuelPointChannels.htm" />
+        <HelpTOCNode Title="FuelPoints Property " Url="html/P_TiT_PTS_PTS_FuelPoints.htm" />
+        <HelpTOCNode Title="IsOpen Property " Url="html/P_TiT_PTS_PTS_IsOpen.htm" />
+        <HelpTOCNode Title="ManualModeAuthorizeValue Property " Url="html/P_TiT_PTS_PTS_ManualModeAuthorizeValue.htm" />
+        <HelpTOCNode Title="Parameter Property " Url="html/P_TiT_PTS_PTS_Parameter.htm" />
+        <HelpTOCNode Title="PortName Property " Url="html/P_TiT_PTS_PTS_PortName.htm" />
+        <HelpTOCNode Title="ReleaseInfo Property " Url="html/P_TiT_PTS_PTS_ReleaseInfo.htm" />
+        <HelpTOCNode Title="RequestTotalizers Property " Url="html/P_TiT_PTS_PTS_RequestTotalizers.htm" />
+        <HelpTOCNode Title="ResponseCode Property " Url="html/P_TiT_PTS_PTS_ResponseCode.htm" />
+        <HelpTOCNode Title="ResponseExtCode Property " Url="html/P_TiT_PTS_PTS_ResponseExtCode.htm" />
+        <HelpTOCNode Title="ResponseTimeout Property " Url="html/P_TiT_PTS_PTS_ResponseTimeout.htm" />
+        <HelpTOCNode Title="SelectedAuthorizationType Property " Url="html/P_TiT_PTS_PTS_SelectedAuthorizationType.htm" />
+        <HelpTOCNode Title="TotalsUpdateTimeout Property " Url="html/P_TiT_PTS_PTS_TotalsUpdateTimeout.htm" />
+        <HelpTOCNode Title="UniPumpTimeout Property " Url="html/P_TiT_PTS_PTS_UniPumpTimeout.htm" />
+        <HelpTOCNode Title="UseExtendedCommands Property " Url="html/P_TiT_PTS_PTS_UseExtendedCommands.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="65cbcb30-adf1-4dd0-a5c5-8f7fddfd2fdc" Title="PTS Events" Url="html/Events_T_TiT_PTS_PTS.htm">
+        <HelpTOCNode Title="Closed Event" Url="html/E_TiT_PTS_PTS_Closed.htm" />
+        <HelpTOCNode Title="Closing Event" Url="html/E_TiT_PTS_PTS_Closing.htm" />
+        <HelpTOCNode Title="Initialized Event" Url="html/E_TiT_PTS_PTS_Initialized.htm" />
+        <HelpTOCNode Title="Initializing Event" Url="html/E_TiT_PTS_PTS_Initializing.htm" />
+        <HelpTOCNode Title="Opened Event" Url="html/E_TiT_PTS_PTS_Opened.htm" />
+        <HelpTOCNode Title="Opening Event" Url="html/E_TiT_PTS_PTS_Opening.htm" />
+        <HelpTOCNode Title="PricesGet Event" Url="html/E_TiT_PTS_PTS_PricesGet.htm" />
+        <HelpTOCNode Title="TimeoutExpired Event" Url="html/E_TiT_PTS_PTS_TimeoutExpired.htm" />
+        <HelpTOCNode Title="TotalsUpdated Event" Url="html/E_TiT_PTS_PTS_TotalsUpdated.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="84441ddf-4903-488e-baf2-814100f019ab" Title="PtsConfiguration Class" Url="html/T_TiT_PTS_PtsConfiguration.htm">
+      <HelpTOCNode Title="PtsConfiguration Members" Url="html/AllMembers_T_TiT_PTS_PtsConfiguration.htm" />
+      <HelpTOCNode Title="PtsConfiguration Constructor " Url="html/M_TiT_PTS_PtsConfiguration__ctor.htm" />
+      <HelpTOCNode Id="1fe9bcc1-7ba5-4ed2-9464-bbff62c93aef" Title="PtsConfiguration Fields" Url="html/Fields_T_TiT_PTS_PtsConfiguration.htm">
+        <HelpTOCNode Title="_atgChannels Field" Url="html/F_TiT_PTS_PtsConfiguration__atgChannels.htm" />
+        <HelpTOCNode Title="_atgs Field" Url="html/F_TiT_PTS_PtsConfiguration__atgs.htm" />
+        <HelpTOCNode Title="_fuelDispensers Field" Url="html/F_TiT_PTS_PtsConfiguration__fuelDispensers.htm" />
+        <HelpTOCNode Title="_fuelPointChannels Field" Url="html/F_TiT_PTS_PtsConfiguration__fuelPointChannels.htm" />
+        <HelpTOCNode Title="_pts Field" Url="html/F_TiT_PTS_PtsConfiguration__pts.htm" />
+        <HelpTOCNode Title="AtgAddressQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_AtgAddressQuantity.htm" />
+        <HelpTOCNode Title="AtgChannelQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_AtgChannelQuantity.htm" />
+        <HelpTOCNode Title="AtgQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_AtgQuantity.htm" />
+        <HelpTOCNode Title="FuelPointAddressQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointAddressQuantity.htm" />
+        <HelpTOCNode Title="FuelPointChannelQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointChannelQuantity.htm" />
+        <HelpTOCNode Title="FuelPointQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointQuantity.htm" />
+        <HelpTOCNode Title="NozzleQuantity Field" Url="html/F_TiT_PTS_PtsConfiguration_NozzleQuantity.htm" />
+        <HelpTOCNode Title="PtsBaudRate Field" Url="html/F_TiT_PTS_PtsConfiguration_PtsBaudRate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="75f5c5ac-75a0-48dc-b015-652af15e3851" Title="PtsConfiguration Methods" Url="html/Methods_T_TiT_PTS_PtsConfiguration.htm">
+        <HelpTOCNode Title="AtgInit Method " Url="html/M_TiT_PTS_PtsConfiguration_AtgInit.htm" />
+        <HelpTOCNode Title="FuelPointInit Method " Url="html/M_TiT_PTS_PtsConfiguration_FuelPointInit.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5dea680d-eb98-43ef-81e9-c9e49bf02ab1" Title="PtsConfiguration Properties" Url="html/Properties_T_TiT_PTS_PtsConfiguration.htm">
+        <HelpTOCNode Title="AtgChannels Property " Url="html/P_TiT_PTS_PtsConfiguration_AtgChannels.htm" />
+        <HelpTOCNode Title="ATGs Property " Url="html/P_TiT_PTS_PtsConfiguration_ATGs.htm" />
+        <HelpTOCNode Title="FuelPointChannels Property " Url="html/P_TiT_PTS_PtsConfiguration_FuelPointChannels.htm" />
+        <HelpTOCNode Title="FuelPoints Property " Url="html/P_TiT_PTS_PtsConfiguration_FuelPoints.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac8d5146-9fca-43e6-a0c7-18caa494c123" Title="PtsCRC16 Class" Url="html/T_TiT_PTS_PtsCRC16.htm">
+      <HelpTOCNode Title="PtsCRC16 Members" Url="html/AllMembers_T_TiT_PTS_PtsCRC16.htm" />
+      <HelpTOCNode Title="PtsCRC16 Constructor " Url="html/M_TiT_PTS_PtsCRC16__cctor.htm" />
+      <HelpTOCNode Id="f4265d9e-ba00-43be-b5dd-9a8c41545b89" Title="PtsCRC16 Fields" Url="html/Fields_T_TiT_PTS_PtsCRC16.htm">
+        <HelpTOCNode Title="Crc16Table Field" Url="html/F_TiT_PTS_PtsCRC16_Crc16Table.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca3c6006-ad12-45f3-847a-55bf60951fdb" Title="PtsCRC16 Methods" Url="html/Methods_T_TiT_PTS_PtsCRC16.htm">
+        <HelpTOCNode Title="Calculate Method " Url="html/M_TiT_PTS_PtsCRC16_Calculate.htm" />
+        <HelpTOCNode Title="CalculateFast Method " Url="html/M_TiT_PTS_PtsCRC16_CalculateFast.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="22f4298d-4c05-4063-9428-49f05ab5340a" Title="PtsParameter Class" Url="html/T_TiT_PTS_PtsParameter.htm">
+      <HelpTOCNode Title="PtsParameter Members" Url="html/AllMembers_T_TiT_PTS_PtsParameter.htm" />
+      <HelpTOCNode Title="PtsParameter Constructor " Url="html/M_TiT_PTS_PtsParameter__ctor.htm" />
+      <HelpTOCNode Title="PtsParameter Methods" Url="html/Methods_T_TiT_PTS_PtsParameter.htm" />
+      <HelpTOCNode Id="44a97b0e-1b03-45b1-a14d-13e98ab490cc" Title="PtsParameter Properties" Url="html/Properties_T_TiT_PTS_PtsParameter.htm">
+        <HelpTOCNode Title="ParameterAddress Property " Url="html/P_TiT_PTS_PtsParameter_ParameterAddress.htm" />
+        <HelpTOCNode Title="ParameterNumber Property " Url="html/P_TiT_PTS_PtsParameter_ParameterNumber.htm" />
+        <HelpTOCNode Title="ParameterValue Property " Url="html/P_TiT_PTS_PtsParameter_ParameterValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c0cef65e-6a72-4b86-aa6c-1a73e9560a5f" Title="ReleaseInfo Class" Url="html/T_TiT_PTS_ReleaseInfo.htm">
+      <HelpTOCNode Title="ReleaseInfo Members" Url="html/AllMembers_T_TiT_PTS_ReleaseInfo.htm" />
+      <HelpTOCNode Title="ReleaseInfo Constructor " Url="html/M_TiT_PTS_ReleaseInfo__ctor.htm" />
+      <HelpTOCNode Title="ReleaseInfo Methods" Url="html/Methods_T_TiT_PTS_ReleaseInfo.htm" />
+      <HelpTOCNode Id="8b27c794-6dad-4d3e-b14e-9520f40ec144" Title="ReleaseInfo Properties" Url="html/Properties_T_TiT_PTS_ReleaseInfo.htm">
+        <HelpTOCNode Title="ReleaseDate Property " Url="html/P_TiT_PTS_ReleaseInfo_ReleaseDate.htm" />
+        <HelpTOCNode Title="ReleaseNum Property " Url="html/P_TiT_PTS_ReleaseInfo_ReleaseNum.htm" />
+        <HelpTOCNode Title="ReleaseVersion Property " Url="html/P_TiT_PTS_ReleaseInfo_ReleaseVersion.htm" />
+        <HelpTOCNode Title="SupportedAtgProtocols Property " Url="html/P_TiT_PTS_ReleaseInfo_SupportedAtgProtocols.htm" />
+        <HelpTOCNode Title="SupportedFuelPointProtocols Property " Url="html/P_TiT_PTS_ReleaseInfo_SupportedFuelPointProtocols.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bac34e12-c437-48a4-b1c7-1de95792d692" Title="StatusChangedEventArgs Class" Url="html/T_TiT_PTS_StatusChangedEventArgs.htm">
+      <HelpTOCNode Title="StatusChangedEventArgs Members" Url="html/AllMembers_T_TiT_PTS_StatusChangedEventArgs.htm" />
+      <HelpTOCNode Title="StatusChangedEventArgs Constructor " Url="html/M_TiT_PTS_StatusChangedEventArgs__ctor.htm" />
+      <HelpTOCNode Id="3ebb13d6-5162-4205-96bf-f58d556d7d2b" Title="StatusChangedEventArgs Fields" Url="html/Fields_T_TiT_PTS_StatusChangedEventArgs.htm">
+        <HelpTOCNode Title="_currentStatus Field" Url="html/F_TiT_PTS_StatusChangedEventArgs__currentStatus.htm" />
+        <HelpTOCNode Title="_previousStatus Field" Url="html/F_TiT_PTS_StatusChangedEventArgs__previousStatus.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StatusChangedEventArgs Methods" Url="html/Methods_T_TiT_PTS_StatusChangedEventArgs.htm" />
+      <HelpTOCNode Id="0184151f-d50f-4559-ab8c-7fa142597077" Title="StatusChangedEventArgs Properties" Url="html/Properties_T_TiT_PTS_StatusChangedEventArgs.htm">
+        <HelpTOCNode Title="CurrentStatus Property " Url="html/P_TiT_PTS_StatusChangedEventArgs_CurrentStatus.htm" />
+        <HelpTOCNode Title="PreviousStatus Property " Url="html/P_TiT_PTS_StatusChangedEventArgs_PreviousStatus.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="80b02ebc-fb3d-4aaf-b2be-aae81ceee5ef" Title="TotalsEventArgs Class" Url="html/T_TiT_PTS_TotalsEventArgs.htm">
+      <HelpTOCNode Title="TotalsEventArgs Members" Url="html/AllMembers_T_TiT_PTS_TotalsEventArgs.htm" />
+      <HelpTOCNode Title="TotalsEventArgs Constructor " Url="html/M_TiT_PTS_TotalsEventArgs__ctor.htm" />
+      <HelpTOCNode Id="db692434-0945-418c-b698-33ad62857ad2" Title="TotalsEventArgs Fields" Url="html/Fields_T_TiT_PTS_TotalsEventArgs.htm">
+        <HelpTOCNode Title="_address Field" Url="html/F_TiT_PTS_TotalsEventArgs__address.htm" />
+        <HelpTOCNode Title="_nozzle Field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzle.htm" />
+        <HelpTOCNode Title="_nozzleId Field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzleId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TotalsEventArgs Methods" Url="html/Methods_T_TiT_PTS_TotalsEventArgs.htm" />
+      <HelpTOCNode Id="8f971895-7b53-4092-a858-4f1b698e40a5" Title="TotalsEventArgs Properties" Url="html/Properties_T_TiT_PTS_TotalsEventArgs.htm">
+        <HelpTOCNode Title="Address Property " Url="html/P_TiT_PTS_TotalsEventArgs_Address.htm" />
+        <HelpTOCNode Title="Nozzle Property " Url="html/P_TiT_PTS_TotalsEventArgs_Nozzle.htm" />
+        <HelpTOCNode Title="NozzleID Property " Url="html/P_TiT_PTS_TotalsEventArgs_NozzleID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1dd4f157-4bd1-4d8e-8026-ef536f575626" Title="TransactionEventArgs Class" Url="html/T_TiT_PTS_TransactionEventArgs.htm">
+      <HelpTOCNode Title="TransactionEventArgs Members" Url="html/AllMembers_T_TiT_PTS_TransactionEventArgs.htm" />
+      <HelpTOCNode Title="TransactionEventArgs Constructor " Url="html/M_TiT_PTS_TransactionEventArgs__ctor.htm" />
+      <HelpTOCNode Id="56a5ed56-ec24-4c0b-873a-de345d01ab5c" Title="TransactionEventArgs Fields" Url="html/Fields_T_TiT_PTS_TransactionEventArgs.htm">
+        <HelpTOCNode Title="_dispensedAmount Field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedAmount.htm" />
+        <HelpTOCNode Title="_dispensedPrice Field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedPrice.htm" />
+        <HelpTOCNode Title="_dispensedVolume Field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedVolume.htm" />
+        <HelpTOCNode Title="_nozzle Field" Url="html/F_TiT_PTS_TransactionEventArgs__nozzle.htm" />
+        <HelpTOCNode Title="_transactionId Field" Url="html/F_TiT_PTS_TransactionEventArgs__transactionId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TransactionEventArgs Methods" Url="html/Methods_T_TiT_PTS_TransactionEventArgs.htm" />
+      <HelpTOCNode Id="2f31343b-e3da-4fec-b044-b9fca7496781" Title="TransactionEventArgs Properties" Url="html/Properties_T_TiT_PTS_TransactionEventArgs.htm">
+        <HelpTOCNode Title="DispensedAmount Property " Url="html/P_TiT_PTS_TransactionEventArgs_DispensedAmount.htm" />
+        <HelpTOCNode Title="DispensedPrice Property " Url="html/P_TiT_PTS_TransactionEventArgs_DispensedPrice.htm" />
+        <HelpTOCNode Title="DispensedVolume Property " Url="html/P_TiT_PTS_TransactionEventArgs_DispensedVolume.htm" />
+        <HelpTOCNode Title="Nozzle Property " Url="html/P_TiT_PTS_TransactionEventArgs_Nozzle.htm" />
+        <HelpTOCNode Title="TransactionID Property " Url="html/P_TiT_PTS_TransactionEventArgs_TransactionID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3734bb10-9162-4dab-9b3a-a12c5b2c2228" Title="TiT.Unipump Namespace" Url="html/N_TiT_Unipump.htm">
+    <HelpTOCNode Id="08156894-bb24-4c8d-801b-ccc6ca71194d" Title="UnipumpUtils Class" Url="html/T_TiT_Unipump_UnipumpUtils.htm">
+      <HelpTOCNode Title="UnipumpUtils Members" Url="html/AllMembers_T_TiT_Unipump_UnipumpUtils.htm" />
+      <HelpTOCNode Title="UnipumpUtils Constructor " Url="html/M_TiT_Unipump_UnipumpUtils__cctor.htm" />
+      <HelpTOCNode Id="c660f541-148a-4752-be11-6d68d2c2421c" Title="UnipumpUtils Fields" Url="html/Fields_T_TiT_Unipump_UnipumpUtils.htm">
+        <HelpTOCNode Title="_dle Field" Url="html/F_TiT_Unipump_UnipumpUtils__dle.htm" />
+        <HelpTOCNode Title="DLE Field" Url="html/F_TiT_Unipump_UnipumpUtils_DLE.htm" />
+        <HelpTOCNode Title="ETX Field" Url="html/F_TiT_Unipump_UnipumpUtils_ETX.htm" />
+        <HelpTOCNode Title="STX Field" Url="html/F_TiT_Unipump_UnipumpUtils_STX.htm" />
+        <HelpTOCNode Title="uAmountInfoResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAmountInfoResponse.htm" />
+        <HelpTOCNode Title="uAtgConfigGetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigGetRequest.htm" />
+        <HelpTOCNode Title="uAtgConfigResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigResponse.htm" />
+        <HelpTOCNode Title="uAtgConfigSetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigSetRequest.htm" />
+        <HelpTOCNode Title="uAtgMeasureRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureRequest.htm" />
+        <HelpTOCNode Title="uAtgMeasureResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureResponse.htm" />
+        <HelpTOCNode Title="uAutorizeRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uAutorizeRequest.htm" />
+        <HelpTOCNode Title="uCloseTransactionRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uCloseTransactionRequest.htm" />
+        <HelpTOCNode Title="uExtended Field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtended.htm" />
+        <HelpTOCNode Title="uExtendedSeparator Field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtendedSeparator.htm" />
+        <HelpTOCNode Title="uHaltRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uHaltRequest.htm" />
+        <HelpTOCNode Title="uLockRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uLockRequest.htm" />
+        <HelpTOCNode Title="uParamGetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamGetRequest.htm" />
+        <HelpTOCNode Title="uParamResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamResponse.htm" />
+        <HelpTOCNode Title="uParamSetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamSetRequest.htm" />
+        <HelpTOCNode Title="uPricesGetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesGetRequest.htm" />
+        <HelpTOCNode Title="uPricesResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesResponse.htm" />
+        <HelpTOCNode Title="uPricesSetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesSetRequest.htm" />
+        <HelpTOCNode Title="uPumpConfigGetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigGetRequest.htm" />
+        <HelpTOCNode Title="uPumpConfigResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigResponse.htm" />
+        <HelpTOCNode Title="uPumpConfigSetRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigSetRequest.htm" />
+        <HelpTOCNode Title="uStatusRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusRequest.htm" />
+        <HelpTOCNode Title="uStatusResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusResponse.htm" />
+        <HelpTOCNode Title="uTotalInfoResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalInfoResponse.htm" />
+        <HelpTOCNode Title="uTotalRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalRequest.htm" />
+        <HelpTOCNode Title="uTransactionInfoResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uTransactionInfoResponse.htm" />
+        <HelpTOCNode Title="uUnlockRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockRequest.htm" />
+        <HelpTOCNode Title="uUnlockStatusResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockStatusResponse.htm" />
+        <HelpTOCNode Title="uVersionRequest Field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionRequest.htm" />
+        <HelpTOCNode Title="uVersionResponse Field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionResponse.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="331210ef-d717-43a0-9f12-75ef11444c48" Title="UnipumpUtils Methods" Url="html/Methods_T_TiT_Unipump_UnipumpUtils.htm">
+        <HelpTOCNode Title="CreateAtgConfigGetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigGetRequestMessage.htm" />
+        <HelpTOCNode Title="CreateAtgConfigSetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigSetRequestMessage.htm" />
+        <HelpTOCNode Title="CreateAtgDataRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgDataRequestMessage.htm" />
+        <HelpTOCNode Title="CreateAuthorizeRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateAuthorizeRequestMessage.htm" />
+        <HelpTOCNode Title="CreateCloseTransactionRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateCloseTransactionRequestMessage.htm" />
+        <HelpTOCNode Title="CreateExtendedAuthorizeRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedAuthorizeRequestMessage.htm" />
+        <HelpTOCNode Title="CreateExtendedPricesSetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedPricesSetRequestMessage.htm" />
+        <HelpTOCNode Title="CreateExtendedStatusRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedStatusRequestMessage.htm" />
+        <HelpTOCNode Title="CreateExtendedTotalRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedTotalRequestMessage.htm" />
+        <HelpTOCNode Title="CreateHaltRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateHaltRequestMessage.htm" />
+        <HelpTOCNode Title="CreateLockRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateLockRequestMessage.htm" />
+        <HelpTOCNode Title="CreateMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateMessage.htm" />
+        <HelpTOCNode Title="CreateParameterGetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterGetRequestMessage.htm" />
+        <HelpTOCNode Title="CreateParameterSetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterSetRequestMessage.htm" />
+        <HelpTOCNode Title="CreatePricesGetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesGetRequestMessage.htm" />
+        <HelpTOCNode Title="CreatePricesSetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesSetRequestMessage.htm" />
+        <HelpTOCNode Title="CreatePumpConfigGetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigGetRequestMessage.htm" />
+        <HelpTOCNode Title="CreatePumpConfigSetRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigSetRequestMessage.htm" />
+        <HelpTOCNode Title="CreateRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateRequestMessage.htm" />
+        <HelpTOCNode Title="CreateStatusRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateStatusRequestMessage.htm" />
+        <HelpTOCNode Title="CreateTotalRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateTotalRequestMessage.htm" />
+        <HelpTOCNode Title="CreateUnlockRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateUnlockRequestMessage.htm" />
+        <HelpTOCNode Title="CreateVersionRequestMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_CreateVersionRequestMessage.htm" />
+        <HelpTOCNode Title="IsValidCRC Method " Url="html/M_TiT_Unipump_UnipumpUtils_IsValidCRC.htm" />
+        <HelpTOCNode Title="IsValidMessage Method " Url="html/M_TiT_Unipump_UnipumpUtils_IsValidMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

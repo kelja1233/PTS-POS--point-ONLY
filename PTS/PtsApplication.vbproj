@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F08CE389-6931-4864-893F-43388E6AA46C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>RADAR POS</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E5A0F4AFCA356AADEE147AAA02F1F7C1DCB5F72E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PtsApplication_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Image\points.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllTotalsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllTotalsDialog.Designer.vb">
+      <DependentUpon>AllTotalsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AtgControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AtgControl.designer.vb">
+      <DependentUpon>AtgControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AtgDisplaySettingDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtgDisplaySettingDialog.designer.vb">
+      <DependentUpon>AtgDisplaySettingDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AtgMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtgMainForm.designer.vb">
+      <DependentUpon>AtgMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\BALANCr Reading\BalanceReadingBatch.Designer.vb">
+      <DependentUpon>BalanceReadingBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\BALANCr Reading\BalanceReadingBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\BALANCr Reading\BalanceReadingBatchAuto.Designer.vb">
+      <DependentUpon>BalanceReadingBatchAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\BALANCr Reading\BalanceReadingBatchAuto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\classdrawer.vb" />
+    <Compile Include="Connect\CmdComandPumpTransactionInsert.vb" />
+    <Compile Include="Connect\CmdComandTotalizer.vb" />
+    <Compile Include="Connect\CmdComandTotalizerUpdateOP.vb" />
+    <Compile Include="Connect\CmdPruductName.vb" />
+    <Compile Include="Connect\CmdptRefershPedding.vb" />
+    <Compile Include="Connect\CmdShowPumpTransaction.vb" />
+    <Compile Include="Connect\Command.vb" />
+    <Compile Include="Connect\SQLConnect.Designer.vb">
+      <DependentUpon>SQLConnect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connect\SQLConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Change Price\Adjustment.designer.vb">
+      <DependentUpon>Adjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Change Price\Adjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connect\ChangeEndShift.vb" />
+    <Compile Include="POS\Change Price\Pricechange.designer.vb">
+      <DependentUpon>Pricechange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Change Price\Pricechange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Change Price\PricechangeSet.Designer.vb">
+      <DependentUpon>PricechangeSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Change Price\PricechangeSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\CmdCheckTransaction.vb" />
+    <Compile Include="POS\CmdInsertTender.vb" />
+    <Compile Include="POS\ComputationShow.vb" />
+    <Compile Include="POS\Discount\frmDiscount.Designer.vb">
+      <DependentUpon>frmDiscount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Discount\frmDiscount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\CashDrop.designer.vb">
+      <DependentUpon>CashDrop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\CashDrop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\frmDropPayout.designer.vb">
+      <DependentUpon>frmDropPayout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\frmDropPayout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\Payout.designer.vb">
+      <DependentUpon>Payout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\Payout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\QTY.Designer.vb">
+      <DependentUpon>QTY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\QTY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\Void.designer.vb">
+      <DependentUpon>Void.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\Void.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\POINT\ClassCheckCard.vb" />
+    <Compile Include="POS\POINT\frmPoint.Designer.vb">
+      <DependentUpon>frmPoint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POINT\frmPoint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\POINT\SMSTextClass.vb" />
+    <Compile Include="POS\Receipt\CashierReportUpdate.vb" />
+    <Compile Include="POS\Receipt\LoyalTYreport.Designer.vb">
+      <DependentUpon>LoyalTYreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Receipt\LoyalTYreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Redeem\frmprint1.Designer.vb">
+      <DependentUpon>frmprint1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Redeem\frmprint1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Redeem\frmprint2.Designer.vb">
+      <DependentUpon>frmprint2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Redeem\frmprint2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Redeem\frmRedeem.Designer.vb">
+      <DependentUpon>frmRedeem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Redeem\frmRedeem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Report\Crpara.Designer.vb">
+      <DependentUpon>Crpara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Report\Crpara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Receipt\myPrinter.vb" />
+    <Compile Include="POS\Receipt\ReceiptClass.vb" />
+    <Compile Include="POS\Item\ShowCustomer.designer.vb">
+      <DependentUpon>ShowCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\ShowCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Item\ShowInventory.Designer.vb">
+      <DependentUpon>ShowInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Item\ShowInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Receipt\TenderTyperReceipt.vb" />
+    <Compile Include="POS\Report\CashierReport.vb" />
+    <Compile Include="POS\Report\LoyaltyReport.vb" />
+    <Compile Include="POS\Report\PumpBatch.designer.vb">
+      <DependentUpon>PumpBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Report\PumpBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\Report\PumpReadingReport.vb" />
+    <Compile Include="POS\Split\Split.Designer.vb">
+      <DependentUpon>Split.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Split\Split.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PtsConfigDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PtsConfigDialog.Designer.vb">
+      <DependentUpon>PtsConfigDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PtsDispensingSettingsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PtsDispensingSettingsDialog.Designer.vb">
+      <DependentUpon>PtsDispensingSettingsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FuelPointSettingDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuelPointSettingDialog.Designer.vb">
+      <DependentUpon>FuelPointSettingDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FuelPointControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FuelPointControl.Designer.vb">
+      <DependentUpon>FuelPointControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="TankLevelGauge.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TankLevelGauge.Designer.vb">
+      <DependentUpon>TankLevelGauge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TotalsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalsDialog.Designer.vb">
+      <DependentUpon>TotalsDialog.vb</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllTotalsDialog.resx">
+      <DependentUpon>AllTotalsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtgControl.resx">
+      <DependentUpon>AtgControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtgDisplaySettingDialog.resx">
+      <DependentUpon>AtgDisplaySettingDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtgMainForm.resx">
+      <DependentUpon>AtgMainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connect\SQLConnect.resx">
+      <DependentUpon>SQLConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\BALANCr Reading\BalanceReadingBatch.resx">
+      <DependentUpon>BalanceReadingBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\BALANCr Reading\BalanceReadingBatchAuto.resx">
+      <DependentUpon>BalanceReadingBatchAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Change Price\Adjustment.resx">
+      <DependentUpon>Adjustment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Change Price\PriceChange.resx">
+      <DependentUpon>Pricechange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Change Price\PricechangeSet.resx">
+      <DependentUpon>PricechangeSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Discount\frmDiscount.resx">
+      <DependentUpon>frmDiscount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\CashDrop.resx">
+      <DependentUpon>CashDrop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\frmDropPayout.resx">
+      <DependentUpon>frmDropPayout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\Payout.resx">
+      <DependentUpon>Payout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\QTY.resx">
+      <DependentUpon>QTY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\ShowCustomer.resx">
+      <DependentUpon>ShowCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\ShowInventory.resx">
+      <DependentUpon>ShowInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Item\Void.resx">
+      <DependentUpon>Void.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\POINT\frmPoint.resx">
+      <DependentUpon>frmPoint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Receipt\LoyalTYreport.resx">
+      <DependentUpon>LoyalTYreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Redeem\frmprint1.resx">
+      <DependentUpon>frmprint1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Redeem\frmprint2.resx">
+      <DependentUpon>frmprint2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Redeem\frmRedeem.resx">
+      <DependentUpon>frmRedeem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Report\Crpara.resx">
+      <DependentUpon>Crpara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Report\PumpBatch.resx">
+      <DependentUpon>PumpBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Split\Split.resx">
+      <DependentUpon>Split.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PtsConfigDialog.resx">
+      <DependentUpon>PtsConfigDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PtsDispensingSettingsDialog.resx">
+      <DependentUpon>PtsDispensingSettingsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuelPointSettingDialog.resx">
+      <DependentUpon>FuelPointSettingDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuelPointControl.resx">
+      <DependentUpon>FuelPointControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.sq.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TankLevelGauge.resx">
+      <DependentUpon>TankLevelGauge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalsDialog.resx">
+      <DependentUpon>TotalsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\DataSources\TnT.PTS.PTS.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PtsLib\PTS.vbproj">
+      <Project>{CDDCE444-C7C7-41E1-9B56-FBF8E2605D02}</Project>
+      <Name>PTS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ConnectionButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PtsApplication_TemporaryKey.pfx" />
+    <None Include="Resources\levelYellow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attention_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonBlue.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levelGreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levelRed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalsRequest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajax-loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\0.jpg" />
+    <Content Include="Image\1.jpg" />
+    <Content Include="Image\2 %282%29.JPG" />
+    <Content Include="Image\2.jpg" />
+    <Content Include="Image\3 %282%29.JPG" />
+    <Content Include="Image\3.jpg" />
+    <Content Include="Image\99.jpg" />
+    <Content Include="Image\a.JPG" />
+    <Content Include="Image\b.JPG" />
+    <Content Include="Image\blue.png" />
+    <Content Include="Image\blueblue.png" />
+    <Content Include="Image\blue_2.png" />
+    <Content Include="Image\c.JPG" />
+    <Content Include="Image\green.png" />
+    <Content Include="Image\greengreen.png" />
+    <Content Include="Image\green_2.png" />
+    <Content Include="Image\lightblue.png" />
+    <Content Include="Image\lightgreen.png" />
+    <Content Include="Image\lightorange.png" />
+    <Content Include="Image\lightred.png" />
+    <Content Include="Image\lightviolet.png" />
+    <Content Include="Image\lightyellow.png" />
+    <Content Include="Image\Lock.jpg" />
+    <Content Include="Image\points.ico" />
+    <Content Include="Image\POS.ico" />
+    <Content Include="Image\red.png" />
+    <Content Include="Image\redred.png" />
+    <Content Include="Image\red_2.png" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

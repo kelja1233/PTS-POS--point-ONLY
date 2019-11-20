@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="ActiveNozzle property" Url="html/P_TiT_PTS_FuelPoint_ActiveNozzle.htm" />
+  <HelpKINode Title="ActiveNozzleID property" Url="html/P_TiT_PTS_FuelPoint_ActiveNozzleID.htm" />
+  <HelpKINode Title="ADAST_EASYCALL enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Address property" Url="html/P_TiT_PTS_PricesEventArgs_Address.htm" />
+  <HelpKINode Title="Address property" Url="html/P_TiT_PTS_TotalsEventArgs_Address.htm" />
+  <HelpKINode Title="Amount enumeration member" Url="html/T_TiT_PTS_AuthorizeType.htm" />
+  <HelpKINode Title="AsciiConversion class" Url="html/AllMembers_T_TiT_PTS_AsciiConversion.htm" />
+  <HelpKINode Title="AsciiConversion class" Url="html/T_TiT_PTS_AsciiConversion.htm" />
+  <HelpKINode Title="AsciiConversion class">
+    <HelpKINode Title="about AsciiConversion class" Url="html/T_TiT_PTS_AsciiConversion.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_AsciiConversion.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_AsciiConversion.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AsciiConversion.AsciiToByte method" Url="html/M_TiT_PTS_AsciiConversion_AsciiToByte.htm" />
+  <HelpKINode Title="AsciiConversion.AsciiToInt method" Url="html/M_TiT_PTS_AsciiConversion_AsciiToInt.htm" />
+  <HelpKINode Title="AsciiConversion.BytesArrayToString method" Url="html/M_TiT_PTS_AsciiConversion_BytesArrayToString.htm" />
+  <HelpKINode Title="AsciiConversion.ByteToAscii method" Url="html/M_TiT_PTS_AsciiConversion_ByteToAscii.htm" />
+  <HelpKINode Title="AsciiConversion.ByteToAsciiExt method" Url="html/M_TiT_PTS_AsciiConversion_ByteToAsciiExt.htm" />
+  <HelpKINode Title="AsciiConversion.HexAsciiToInt method" Url="html/M_TiT_PTS_AsciiConversion_HexAsciiToInt.htm" />
+  <HelpKINode Title="AsciiConversion.IntToAscii method" Url="html/M_TiT_PTS_AsciiConversion_IntToAscii.htm" />
+  <HelpKINode Title="AsciiConversion.IntToAsciiExt method" Url="html/M_TiT_PTS_AsciiConversion_IntToAsciiExt.htm" />
+  <HelpKINode Title="AsciiConversion.StringToBytesArray method" Url="html/M_TiT_PTS_AsciiConversion_StringToBytesArray.htm" />
+  <HelpKINode Title="AsciiToByte method" Url="html/M_TiT_PTS_AsciiConversion_AsciiToByte.htm" />
+  <HelpKINode Title="AsciiToInt method" Url="html/M_TiT_PTS_AsciiConversion_AsciiToInt.htm" />
+  <HelpKINode Title="ASSYTECH enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="ATG class" Url="html/AllMembers_T_TiT_PTS_ATG.htm" />
+  <HelpKINode Title="ATG class" Url="html/T_TiT_PTS_ATG.htm" />
+  <HelpKINode Title="ATG class">
+    <HelpKINode Title="about ATG class" Url="html/T_TiT_PTS_ATG.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_ATG.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_ATG__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_TiT_PTS_ATG.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_ATG.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_ATG.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_ATG.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ATG.ATG constructor" Url="html/M_TiT_PTS_ATG__ctor.htm" />
+  <HelpKINode Title="ATG.Channel property" Url="html/P_TiT_PTS_ATG_Channel.htm" />
+  <HelpKINode Title="ATG.ChannelID property" Url="html/P_TiT_PTS_ATG_ChannelID.htm" />
+  <HelpKINode Title="ATG.DataUpdated event" Url="html/E_TiT_PTS_ATG_DataUpdated.htm" />
+  <HelpKINode Title="ATG.GetMeasurementData method" Url="html/M_TiT_PTS_ATG_GetMeasurementData.htm" />
+  <HelpKINode Title="ATG.ID property" Url="html/P_TiT_PTS_ATG_ID.htm" />
+  <HelpKINode Title="ATG.IsActive property" Url="html/P_TiT_PTS_ATG_IsActive.htm" />
+  <HelpKINode Title="ATG.MaxTankHeight property" Url="html/P_TiT_PTS_ATG_MaxTankHeight.htm" />
+  <HelpKINode Title="ATG.OnDataUpdated method" Url="html/M_TiT_PTS_ATG_OnDataUpdated.htm" />
+  <HelpKINode Title="ATG.PhysicalAddress property" Url="html/P_TiT_PTS_ATG_PhysicalAddress.htm" />
+  <HelpKINode Title="ATG.ProductDensity property" Url="html/P_TiT_PTS_ATG_ProductDensity.htm" />
+  <HelpKINode Title="ATG.ProductDensityPresent property" Url="html/P_TiT_PTS_ATG_ProductDensityPresent.htm" />
+  <HelpKINode Title="ATG.ProductHeight property" Url="html/P_TiT_PTS_ATG_ProductHeight.htm" />
+  <HelpKINode Title="ATG.ProductHeightPresent property" Url="html/P_TiT_PTS_ATG_ProductHeightPresent.htm" />
+  <HelpKINode Title="ATG.ProductMass property" Url="html/P_TiT_PTS_ATG_ProductMass.htm" />
+  <HelpKINode Title="ATG.ProductMassPresent property" Url="html/P_TiT_PTS_ATG_ProductMassPresent.htm" />
+  <HelpKINode Title="ATG.ProductTCVolume property" Url="html/P_TiT_PTS_ATG_ProductTCVolume.htm" />
+  <HelpKINode Title="ATG.ProductTCVolumePresent property" Url="html/P_TiT_PTS_ATG_ProductTCVolumePresent.htm" />
+  <HelpKINode Title="ATG.ProductUllage property" Url="html/P_TiT_PTS_ATG_ProductUllage.htm" />
+  <HelpKINode Title="ATG.ProductUllagePresent property" Url="html/P_TiT_PTS_ATG_ProductUllagePresent.htm" />
+  <HelpKINode Title="ATG.ProductVolume property" Url="html/P_TiT_PTS_ATG_ProductVolume.htm" />
+  <HelpKINode Title="ATG.ProductVolumePresent property" Url="html/P_TiT_PTS_ATG_ProductVolumePresent.htm" />
+  <HelpKINode Title="ATG.Temperature property" Url="html/P_TiT_PTS_ATG_Temperature.htm" />
+  <HelpKINode Title="ATG.TemperaturePresent property" Url="html/P_TiT_PTS_ATG_TemperaturePresent.htm" />
+  <HelpKINode Title="ATG.ToString method" Url="html/M_TiT_PTS_ATG_ToString.htm" />
+  <HelpKINode Title="ATG.WaterHeight property" Url="html/P_TiT_PTS_ATG_WaterHeight.htm" />
+  <HelpKINode Title="ATG.WaterHeightPresent property" Url="html/P_TiT_PTS_ATG_WaterHeightPresent.htm" />
+  <HelpKINode Title="ATG.WaterVolume property" Url="html/P_TiT_PTS_ATG_WaterVolume.htm" />
+  <HelpKINode Title="ATG.WaterVolumePresent property" Url="html/P_TiT_PTS_ATG_WaterVolumePresent.htm" />
+  <HelpKINode Title="ATG._atgChannel field" Url="html/F_TiT_PTS_ATG__atgChannel.htm" />
+  <HelpKINode Title="ATG._channelId field" Url="html/F_TiT_PTS_ATG__channelId.htm" />
+  <HelpKINode Title="ATG._isActive field" Url="html/F_TiT_PTS_ATG__isActive.htm" />
+  <HelpKINode Title="ATG._physicalAddress field" Url="html/F_TiT_PTS_ATG__physicalAddress.htm" />
+  <HelpKINode Title="ATG._pts field" Url="html/F_TiT_PTS_ATG__pts.htm" />
+  <HelpKINode Title="AtgAddressQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgAddressQuantity.htm" />
+  <HelpKINode Title="AtgChannel class" Url="html/AllMembers_T_TiT_PTS_AtgChannel.htm" />
+  <HelpKINode Title="AtgChannel class" Url="html/T_TiT_PTS_AtgChannel.htm" />
+  <HelpKINode Title="AtgChannel class">
+    <HelpKINode Title="about AtgChannel class" Url="html/T_TiT_PTS_AtgChannel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_AtgChannel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_AtgChannel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_AtgChannel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_AtgChannel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_AtgChannel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AtgChannel.AtgChannel constructor" Url="html/M_TiT_PTS_AtgChannel__ctor.htm" />
+  <HelpKINode Title="AtgChannel.ATGs property" Url="html/P_TiT_PTS_AtgChannel_ATGs.htm" />
+  <HelpKINode Title="AtgChannel.BaudRate property" Url="html/P_TiT_PTS_AtgChannel_BaudRate.htm" />
+  <HelpKINode Title="AtgChannel.ID property" Url="html/P_TiT_PTS_AtgChannel_ID.htm" />
+  <HelpKINode Title="AtgChannel.Protocol property" Url="html/P_TiT_PTS_AtgChannel_Protocol.htm" />
+  <HelpKINode Title="AtgChannel.PTS property" Url="html/P_TiT_PTS_AtgChannel_PTS.htm" />
+  <HelpKINode Title="AtgChannel.ToString method" Url="html/M_TiT_PTS_AtgChannel_ToString.htm" />
+  <HelpKINode Title="AtgChannel._atgs field" Url="html/F_TiT_PTS_AtgChannel__atgs.htm" />
+  <HelpKINode Title="AtgChannel._baudRate field" Url="html/F_TiT_PTS_AtgChannel__baudRate.htm" />
+  <HelpKINode Title="AtgChannel._protocol field" Url="html/F_TiT_PTS_AtgChannel__protocol.htm" />
+  <HelpKINode Title="AtgChannel._pts field" Url="html/F_TiT_PTS_AtgChannel__pts.htm" />
+  <HelpKINode Title="AtgChannelProtocol enumeration" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="AtgChannelQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgChannelQuantity.htm" />
+  <HelpKINode Title="AtgChannels property" Url="html/P_TiT_PTS_PtsConfiguration_AtgChannels.htm" />
+  <HelpKINode Title="AtgChannels property" Url="html/P_TiT_PTS_PTS_AtgChannels.htm" />
+  <HelpKINode Title="AtgInit method" Url="html/M_TiT_PTS_PtsConfiguration_AtgInit.htm" />
+  <HelpKINode Title="AtgQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgQuantity.htm" />
+  <HelpKINode Title="ATGs property" Url="html/P_TiT_PTS_AtgChannel_ATGs.htm" />
+  <HelpKINode Title="ATGs property" Url="html/P_TiT_PTS_PtsConfiguration_ATGs.htm" />
+  <HelpKINode Title="ATGs property" Url="html/P_TiT_PTS_PTS_ATGs.htm" />
+  <HelpKINode Title="ATG_SIMULATOR enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="AuthorizationPolling property" Url="html/P_TiT_PTS_PTS_AuthorizationPolling.htm" />
+  <HelpKINode Title="Authorize method" Url="html/M_TiT_PTS_FuelPoint_Authorize.htm" />
+  <HelpKINode Title="AuthorizeType enumeration" Url="html/T_TiT_PTS_AuthorizeType.htm" />
+  <HelpKINode Title="AutocloseTransaction property" Url="html/P_TiT_PTS_FuelPoint_AutocloseTransaction.htm" />
+  <HelpKINode Title="AutomaticAuthorize property" Url="html/P_TiT_PTS_PTS_AutomaticAuthorize.htm" />
+  <HelpKINode Title="BATCHEN_Electroline enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="BATCHEN_MPP enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="BaudRate property" Url="html/P_TiT_PTS_AtgChannel_BaudRate.htm" />
+  <HelpKINode Title="BaudRate property" Url="html/P_TiT_PTS_FuelPointChannel_BaudRate.htm" />
+  <HelpKINode Title="BENNETT_CL enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="BENNETT_RS485 enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="BLUE_SKY enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="BR115200 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR1200 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR19200 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR2400 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR300 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR38400 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR4800 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR5787 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR600 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BR9600 enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="BytesArrayToString method" Url="html/M_TiT_PTS_AsciiConversion_BytesArrayToString.htm" />
+  <HelpKINode Title="ByteToAscii method" Url="html/M_TiT_PTS_AsciiConversion_ByteToAscii.htm" />
+  <HelpKINode Title="ByteToAsciiExt method" Url="html/M_TiT_PTS_AsciiConversion_ByteToAsciiExt.htm" />
+  <HelpKINode Title="Calculate method" Url="html/M_TiT_PTS_PtsCRC16_Calculate.htm" />
+  <HelpKINode Title="CalculateFast method" Url="html/M_TiT_PTS_PtsCRC16_CalculateFast.htm" />
+  <HelpKINode Title="Channel property" Url="html/P_TiT_PTS_ATG_Channel.htm" />
+  <HelpKINode Title="Channel property" Url="html/P_TiT_PTS_FuelPoint_Channel.htm" />
+  <HelpKINode Title="ChannelBaudRate enumeration" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="ChannelID property" Url="html/P_TiT_PTS_ATG_ChannelID.htm" />
+  <HelpKINode Title="ChannelID property" Url="html/P_TiT_PTS_FuelPoint_ChannelID.htm" />
+  <HelpKINode Title="Close method" Url="html/M_TiT_PTS_PTS_Close.htm" />
+  <HelpKINode Title="Closed event" Url="html/E_TiT_PTS_PTS_Closed.htm" />
+  <HelpKINode Title="CloseTransaction method" Url="html/M_TiT_PTS_FuelPoint_CloseTransaction.htm" />
+  <HelpKINode Title="Closing event" Url="html/E_TiT_PTS_PTS_Closing.htm" />
+  <HelpKINode Title="Configuration property" Url="html/P_TiT_PTS_PTS_Configuration.htm" />
+  <HelpKINode Title="Crc16Table field" Url="html/F_TiT_PTS_PtsCRC16_Crc16Table.htm" />
+  <HelpKINode Title="CreateAtgConfigGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigGetRequestMessage.htm" />
+  <HelpKINode Title="CreateAtgConfigSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigSetRequestMessage.htm" />
+  <HelpKINode Title="CreateAtgDataRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgDataRequestMessage.htm" />
+  <HelpKINode Title="CreateAuthorizeRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAuthorizeRequestMessage.htm" />
+  <HelpKINode Title="CreateCloseTransactionRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateCloseTransactionRequestMessage.htm" />
+  <HelpKINode Title="CreateExtendedAuthorizeRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedAuthorizeRequestMessage.htm" />
+  <HelpKINode Title="CreateExtendedPricesSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedPricesSetRequestMessage.htm" />
+  <HelpKINode Title="CreateExtendedStatusRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedStatusRequestMessage.htm" />
+  <HelpKINode Title="CreateExtendedTotalRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedTotalRequestMessage.htm" />
+  <HelpKINode Title="CreateHaltRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateHaltRequestMessage.htm" />
+  <HelpKINode Title="CreateLockRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateLockRequestMessage.htm" />
+  <HelpKINode Title="CreateMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateMessage.htm" />
+  <HelpKINode Title="CreateParameterGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterGetRequestMessage.htm" />
+  <HelpKINode Title="CreateParameterSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterSetRequestMessage.htm" />
+  <HelpKINode Title="CreatePricesGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesGetRequestMessage.htm" />
+  <HelpKINode Title="CreatePricesSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesSetRequestMessage.htm" />
+  <HelpKINode Title="CreatePumpConfigGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigGetRequestMessage.htm" />
+  <HelpKINode Title="CreatePumpConfigSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigSetRequestMessage.htm" />
+  <HelpKINode Title="CreateRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateRequestMessage.htm" />
+  <HelpKINode Title="CreateStatusRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateStatusRequestMessage.htm" />
+  <HelpKINode Title="CreateTotalRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateTotalRequestMessage.htm" />
+  <HelpKINode Title="CreateUnlockRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateUnlockRequestMessage.htm" />
+  <HelpKINode Title="CreateVersionRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateVersionRequestMessage.htm" />
+  <HelpKINode Title="CurrentNozzleID property" Url="html/P_TiT_PTS_NozzleChangedEventArgs_CurrentNozzleID.htm" />
+  <HelpKINode Title="CurrentPendingCommand property" Url="html/P_TiT_PTS_FuelPoint_CurrentPendingCommand.htm" />
+  <HelpKINode Title="CurrentPendingCommand property" Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_CurrentPendingCommand.htm" />
+  <HelpKINode Title="CurrentStatus property" Url="html/P_TiT_PTS_StatusChangedEventArgs_CurrentStatus.htm" />
+  <HelpKINode Title="DataUpdated event" Url="html/E_TiT_PTS_ATG_DataUpdated.htm" />
+  <HelpKINode Title="DEVELCO enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="DispensedAmount property" Url="html/P_TiT_PTS_FuelPoint_DispensedAmount.htm" />
+  <HelpKINode Title="DispensedAmount property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedAmount.htm" />
+  <HelpKINode Title="DispensedPrice property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedPrice.htm" />
+  <HelpKINode Title="DispensedVolume property" Url="html/P_TiT_PTS_FuelPoint_DispensedVolume.htm" />
+  <HelpKINode Title="DispensedVolume property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedVolume.htm" />
+  <HelpKINode Title="Dispose method" Url="html/Overload_TiT_PTS_PTS_Dispose.htm" />
+  <HelpKINode Title="DLE field" Url="html/F_TiT_Unipump_UnipumpUtils_DLE.htm" />
+  <HelpKINode Title="DONG_HWA_Prime enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="EPCO enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="ER3_Data_interface enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="ERROR enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="ErrorCode property" Url="html/P_TiT_PTS_MessageErrorEventArgs_ErrorCode.htm" />
+  <HelpKINode Title="ETX field" Url="html/F_TiT_Unipump_UnipumpUtils_ETX.htm" />
+  <HelpKINode Title="FAFNIR_VISY_Quick enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="FALCON_LPG enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="FuelPoint class" Url="html/AllMembers_T_TiT_PTS_FuelPoint.htm" />
+  <HelpKINode Title="FuelPoint class" Url="html/T_TiT_PTS_FuelPoint.htm" />
+  <HelpKINode Title="FuelPoint class">
+    <HelpKINode Title="about FuelPoint class" Url="html/T_TiT_PTS_FuelPoint.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_FuelPoint.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_FuelPoint__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_TiT_PTS_FuelPoint.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_FuelPoint.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_FuelPoint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_FuelPoint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FuelPoint property" Url="html/P_TiT_PTS_Nozzle_FuelPoint.htm" />
+  <HelpKINode Title="FuelPoint.ActiveNozzle property" Url="html/P_TiT_PTS_FuelPoint_ActiveNozzle.htm" />
+  <HelpKINode Title="FuelPoint.ActiveNozzleID property" Url="html/P_TiT_PTS_FuelPoint_ActiveNozzleID.htm" />
+  <HelpKINode Title="FuelPoint.Authorize method" Url="html/M_TiT_PTS_FuelPoint_Authorize.htm" />
+  <HelpKINode Title="FuelPoint.AutocloseTransaction property" Url="html/P_TiT_PTS_FuelPoint_AutocloseTransaction.htm" />
+  <HelpKINode Title="FuelPoint.Channel property" Url="html/P_TiT_PTS_FuelPoint_Channel.htm" />
+  <HelpKINode Title="FuelPoint.ChannelID property" Url="html/P_TiT_PTS_FuelPoint_ChannelID.htm" />
+  <HelpKINode Title="FuelPoint.CloseTransaction method" Url="html/M_TiT_PTS_FuelPoint_CloseTransaction.htm" />
+  <HelpKINode Title="FuelPoint.CurrentPendingCommand property" Url="html/P_TiT_PTS_FuelPoint_CurrentPendingCommand.htm" />
+  <HelpKINode Title="FuelPoint.DispensedAmount property" Url="html/P_TiT_PTS_FuelPoint_DispensedAmount.htm" />
+  <HelpKINode Title="FuelPoint.DispensedVolume property" Url="html/P_TiT_PTS_FuelPoint_DispensedVolume.htm" />
+  <HelpKINode Title="FuelPoint.FuelPoint constructor" Url="html/M_TiT_PTS_FuelPoint__ctor.htm" />
+  <HelpKINode Title="FuelPoint.GetPrices method" Url="html/M_TiT_PTS_FuelPoint_GetPrices.htm" />
+  <HelpKINode Title="FuelPoint.GetStatus method" Url="html/M_TiT_PTS_FuelPoint_GetStatus.htm" />
+  <HelpKINode Title="FuelPoint.GetTotals method" Url="html/M_TiT_PTS_FuelPoint_GetTotals.htm" />
+  <HelpKINode Title="FuelPoint.Halt method" Url="html/M_TiT_PTS_FuelPoint_Halt.htm" />
+  <HelpKINode Title="FuelPoint.ID property" Url="html/P_TiT_PTS_FuelPoint_ID.htm" />
+  <HelpKINode Title="FuelPoint.IsActive property" Url="html/P_TiT_PTS_FuelPoint_IsActive.htm" />
+  <HelpKINode Title="FuelPoint.Lock method" Url="html/M_TiT_PTS_FuelPoint_Lock.htm" />
+  <HelpKINode Title="FuelPoint.Locked property" Url="html/P_TiT_PTS_FuelPoint_Locked.htm" />
+  <HelpKINode Title="FuelPoint.NozzleChanged event" Url="html/E_TiT_PTS_FuelPoint_NozzleChanged.htm" />
+  <HelpKINode Title="FuelPoint.Nozzles property" Url="html/P_TiT_PTS_FuelPoint_Nozzles.htm" />
+  <HelpKINode Title="FuelPoint.OnNozzleChanged method" Url="html/M_TiT_PTS_FuelPoint_OnNozzleChanged.htm" />
+  <HelpKINode Title="FuelPoint.OnPendingCommandChanged method" Url="html/M_TiT_PTS_FuelPoint_OnPendingCommandChanged.htm" />
+  <HelpKINode Title="FuelPoint.OnPricesGet method" Url="html/M_TiT_PTS_FuelPoint_OnPricesGet.htm" />
+  <HelpKINode Title="FuelPoint.OnStatusChanged method" Url="html/M_TiT_PTS_FuelPoint_OnStatusChanged.htm" />
+  <HelpKINode Title="FuelPoint.OnTotalsUpdated method" Url="html/M_TiT_PTS_FuelPoint_OnTotalsUpdated.htm" />
+  <HelpKINode Title="FuelPoint.OnTransactionFinished method" Url="html/M_TiT_PTS_FuelPoint_OnTransactionFinished.htm" />
+  <HelpKINode Title="FuelPoint.OrderMode property" Url="html/P_TiT_PTS_FuelPoint_OrderMode.htm" />
+  <HelpKINode Title="FuelPoint.PendingCommandChanged event" Url="html/E_TiT_PTS_FuelPoint_PendingCommandChanged.htm" />
+  <HelpKINode Title="FuelPoint.PhysicalAddress property" Url="html/P_TiT_PTS_FuelPoint_PhysicalAddress.htm" />
+  <HelpKINode Title="FuelPoint.PreviousPendingCommand property" Url="html/P_TiT_PTS_FuelPoint_PreviousPendingCommand.htm" />
+  <HelpKINode Title="FuelPoint.PricesGet event" Url="html/E_TiT_PTS_FuelPoint_PricesGet.htm" />
+  <HelpKINode Title="FuelPoint.SetPrices method" Url="html/M_TiT_PTS_FuelPoint_SetPrices.htm" />
+  <HelpKINode Title="FuelPoint.Status property" Url="html/P_TiT_PTS_FuelPoint_Status.htm" />
+  <HelpKINode Title="FuelPoint.StatusChanged event" Url="html/E_TiT_PTS_FuelPoint_StatusChanged.htm" />
+  <HelpKINode Title="FuelPoint.ToString method" Url="html/M_TiT_PTS_FuelPoint_ToString.htm" />
+  <HelpKINode Title="FuelPoint.TotalsUpdated event" Url="html/E_TiT_PTS_FuelPoint_TotalsUpdated.htm" />
+  <HelpKINode Title="FuelPoint.TransactionFinished event" Url="html/E_TiT_PTS_FuelPoint_TransactionFinished.htm" />
+  <HelpKINode Title="FuelPoint.TransactionID property" Url="html/P_TiT_PTS_FuelPoint_TransactionID.htm" />
+  <HelpKINode Title="FuelPoint.TransactionNozzleID property" Url="html/P_TiT_PTS_FuelPoint_TransactionNozzleID.htm" />
+  <HelpKINode Title="FuelPoint.TransFinished property" Url="html/P_TiT_PTS_FuelPoint_TransFinished.htm" />
+  <HelpKINode Title="FuelPoint.Unlock method" Url="html/M_TiT_PTS_FuelPoint_Unlock.htm" />
+  <HelpKINode Title="FuelPoint._activeNozzleId field" Url="html/F_TiT_PTS_FuelPoint__activeNozzleId.htm" />
+  <HelpKINode Title="FuelPoint._channel field" Url="html/F_TiT_PTS_FuelPoint__channel.htm" />
+  <HelpKINode Title="FuelPoint._channelId field" Url="html/F_TiT_PTS_FuelPoint__channelId.htm" />
+  <HelpKINode Title="FuelPoint._currentPendingCommand field" Url="html/F_TiT_PTS_FuelPoint__currentPendingCommand.htm" />
+  <HelpKINode Title="FuelPoint._isActive field" Url="html/F_TiT_PTS_FuelPoint__isActive.htm" />
+  <HelpKINode Title="FuelPoint._nozzles field" Url="html/F_TiT_PTS_FuelPoint__nozzles.htm" />
+  <HelpKINode Title="FuelPoint._orderMode field" Url="html/F_TiT_PTS_FuelPoint__orderMode.htm" />
+  <HelpKINode Title="FuelPoint._physicalAddress field" Url="html/F_TiT_PTS_FuelPoint__physicalAddress.htm" />
+  <HelpKINode Title="FuelPoint._previousPendingCommand field" Url="html/F_TiT_PTS_FuelPoint__previousPendingCommand.htm" />
+  <HelpKINode Title="FuelPoint._pts field" Url="html/F_TiT_PTS_FuelPoint__pts.htm" />
+  <HelpKINode Title="FuelPoint._status field" Url="html/F_TiT_PTS_FuelPoint__status.htm" />
+  <HelpKINode Title="FuelPoint._transactionNozzleId field" Url="html/F_TiT_PTS_FuelPoint__transactionNozzleId.htm" />
+  <HelpKINode Title="FuelPoint._transEventRised field" Url="html/F_TiT_PTS_FuelPoint__transEventRised.htm" />
+  <HelpKINode Title="FuelPoint._transFinished field" Url="html/F_TiT_PTS_FuelPoint__transFinished.htm" />
+  <HelpKINode Title="FuelPointAddressQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointAddressQuantity.htm" />
+  <HelpKINode Title="FuelPointChannel class" Url="html/AllMembers_T_TiT_PTS_FuelPointChannel.htm" />
+  <HelpKINode Title="FuelPointChannel class" Url="html/T_TiT_PTS_FuelPointChannel.htm" />
+  <HelpKINode Title="FuelPointChannel class">
+    <HelpKINode Title="about FuelPointChannel class" Url="html/T_TiT_PTS_FuelPointChannel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_FuelPointChannel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_FuelPointChannel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_FuelPointChannel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_FuelPointChannel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_FuelPointChannel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FuelPointChannel.BaudRate property" Url="html/P_TiT_PTS_FuelPointChannel_BaudRate.htm" />
+  <HelpKINode Title="FuelPointChannel.FuelPointChannel constructor" Url="html/M_TiT_PTS_FuelPointChannel__ctor.htm" />
+  <HelpKINode Title="FuelPointChannel.FuelPoints property" Url="html/P_TiT_PTS_FuelPointChannel_FuelPoints.htm" />
+  <HelpKINode Title="FuelPointChannel.ID property" Url="html/P_TiT_PTS_FuelPointChannel_ID.htm" />
+  <HelpKINode Title="FuelPointChannel.Protocol property" Url="html/P_TiT_PTS_FuelPointChannel_Protocol.htm" />
+  <HelpKINode Title="FuelPointChannel.PTS property" Url="html/P_TiT_PTS_FuelPointChannel_PTS.htm" />
+  <HelpKINode Title="FuelPointChannel.ToString method" Url="html/M_TiT_PTS_FuelPointChannel_ToString.htm" />
+  <HelpKINode Title="FuelPointChannel._baudRate field" Url="html/F_TiT_PTS_FuelPointChannel__baudRate.htm" />
+  <HelpKINode Title="FuelPointChannel._dispensers field" Url="html/F_TiT_PTS_FuelPointChannel__dispensers.htm" />
+  <HelpKINode Title="FuelPointChannel._protocol field" Url="html/F_TiT_PTS_FuelPointChannel__protocol.htm" />
+  <HelpKINode Title="FuelPointChannel._pts field" Url="html/F_TiT_PTS_FuelPointChannel__pts.htm" />
+  <HelpKINode Title="FuelPointChannelProtocol enumeration" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="FuelPointChannelQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointChannelQuantity.htm" />
+  <HelpKINode Title="FuelPointChannels property" Url="html/P_TiT_PTS_PtsConfiguration_FuelPointChannels.htm" />
+  <HelpKINode Title="FuelPointChannels property" Url="html/P_TiT_PTS_PTS_FuelPointChannels.htm" />
+  <HelpKINode Title="FuelPointInit method" Url="html/M_TiT_PTS_PtsConfiguration_FuelPointInit.htm" />
+  <HelpKINode Title="FuelPointQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointQuantity.htm" />
+  <HelpKINode Title="FuelPoints property" Url="html/P_TiT_PTS_FuelPointChannel_FuelPoints.htm" />
+  <HelpKINode Title="FuelPoints property" Url="html/P_TiT_PTS_PtsConfiguration_FuelPoints.htm" />
+  <HelpKINode Title="FuelPoints property" Url="html/P_TiT_PTS_PTS_FuelPoints.htm" />
+  <HelpKINode Title="FuelPointStatus enumeration" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="GALILEO_PUMP_CONTROL enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="GetAtgByID method" Url="html/M_TiT_PTS_PTS_GetAtgByID.htm" />
+  <HelpKINode Title="GetAtgConfiguration method" Url="html/M_TiT_PTS_PTS_GetAtgConfiguration.htm" />
+  <HelpKINode Title="GetFuelPointByID method" Url="html/M_TiT_PTS_PTS_GetFuelPointByID.htm" />
+  <HelpKINode Title="GetFuelPointConfiguration method" Url="html/M_TiT_PTS_PTS_GetFuelPointConfiguration.htm" />
+  <HelpKINode Title="GetMeasurementData method" Url="html/M_TiT_PTS_ATG_GetMeasurementData.htm" />
+  <HelpKINode Title="GetPrices method" Url="html/M_TiT_PTS_FuelPoint_GetPrices.htm" />
+  <HelpKINode Title="GetStatus method" Url="html/M_TiT_PTS_FuelPoint_GetStatus.htm" />
+  <HelpKINode Title="GetTotals method" Url="html/M_TiT_PTS_FuelPoint_GetTotals.htm" />
+  <HelpKINode Title="GILBARCO_TWO_WIRE enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Halt method" Url="html/M_TiT_PTS_FuelPoint_Halt.htm" />
+  <HelpKINode Title="HECTRONIC_HLS enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="HexAsciiToInt method" Url="html/M_TiT_PTS_AsciiConversion_HexAsciiToInt.htm" />
+  <HelpKINode Title="HONG_YANG_886 enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="HONG_YANG_FZ enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="HONG_YANG_MPD_886 enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="ID property" Url="html/P_TiT_PTS_AtgChannel_ID.htm" />
+  <HelpKINode Title="ID property" Url="html/P_TiT_PTS_ATG_ID.htm" />
+  <HelpKINode Title="ID property" Url="html/P_TiT_PTS_FuelPointChannel_ID.htm" />
+  <HelpKINode Title="ID property" Url="html/P_TiT_PTS_FuelPoint_ID.htm" />
+  <HelpKINode Title="ID property" Url="html/P_TiT_PTS_Nozzle_ID.htm" />
+  <HelpKINode Title="IDLE enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="InitializeConfig method" Url="html/M_TiT_PTS_PTS_InitializeConfig.htm" />
+  <HelpKINode Title="Initialized event" Url="html/E_TiT_PTS_PTS_Initialized.htm" />
+  <HelpKINode Title="Initializing event" Url="html/E_TiT_PTS_PTS_Initializing.htm" />
+  <HelpKINode Title="IntToAscii method" Url="html/M_TiT_PTS_AsciiConversion_IntToAscii.htm" />
+  <HelpKINode Title="IntToAsciiExt method" Url="html/M_TiT_PTS_AsciiConversion_IntToAsciiExt.htm" />
+  <HelpKINode Title="IsActive property" Url="html/P_TiT_PTS_ATG_IsActive.htm" />
+  <HelpKINode Title="IsActive property" Url="html/P_TiT_PTS_FuelPoint_IsActive.htm" />
+  <HelpKINode Title="IsOpen property" Url="html/P_TiT_PTS_PTS_IsOpen.htm" />
+  <HelpKINode Title="IsValidCRC method" Url="html/M_TiT_Unipump_UnipumpUtils_IsValidCRC.htm" />
+  <HelpKINode Title="IsValidMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_IsValidMessage.htm" />
+  <HelpKINode Title="KALVACHA enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="KOREA_EnE enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="KRAUS_MNET enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="LANFENG enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Lock method" Url="html/M_TiT_PTS_FuelPoint_Lock.htm" />
+  <HelpKINode Title="Locked property" Url="html/P_TiT_PTS_FuelPoint_Locked.htm" />
+  <HelpKINode Title="Manual enumeration member" Url="html/T_TiT_PTS_OrderModes.htm" />
+  <HelpKINode Title="ManualModeAuthorizeValue property" Url="html/P_TiT_PTS_PTS_ManualModeAuthorizeValue.htm" />
+  <HelpKINode Title="MASER_GMS enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="MaxTankHeight property" Url="html/P_TiT_PTS_ATG_MaxTankHeight.htm" />
+  <HelpKINode Title="Message property" Url="html/P_TiT_PTS_MessageErrorEventArgs_Message.htm" />
+  <HelpKINode Title="MessageErrorEventArgs class" Url="html/AllMembers_T_TiT_PTS_MessageErrorEventArgs.htm" />
+  <HelpKINode Title="MessageErrorEventArgs class" Url="html/T_TiT_PTS_MessageErrorEventArgs.htm" />
+  <HelpKINode Title="MessageErrorEventArgs class">
+    <HelpKINode Title="about MessageErrorEventArgs class" Url="html/T_TiT_PTS_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_TiT_PTS_MessageErrorEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_MessageErrorEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_MessageErrorEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageErrorEventArgs.ErrorCode property" Url="html/P_TiT_PTS_MessageErrorEventArgs_ErrorCode.htm" />
+  <HelpKINode Title="MessageErrorEventArgs.Message property" Url="html/P_TiT_PTS_MessageErrorEventArgs_Message.htm" />
+  <HelpKINode Title="MessageErrorEventArgs.MessageErrorEventArgs constructor" Url="html/Overload_TiT_PTS_MessageErrorEventArgs__ctor.htm" />
+  <HelpKINode Title="MessageErrorEventArgs._errorCode field" Url="html/F_TiT_PTS_MessageErrorEventArgs__errorCode.htm" />
+  <HelpKINode Title="MessageErrorEventArgs._message field" Url="html/F_TiT_PTS_MessageErrorEventArgs__message.htm" />
+  <HelpKINode Title="MIDCO enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="MMPETRO_ZAP enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Nozzle class" Url="html/AllMembers_T_TiT_PTS_Nozzle.htm" />
+  <HelpKINode Title="Nozzle class" Url="html/T_TiT_PTS_Nozzle.htm" />
+  <HelpKINode Title="Nozzle class">
+    <HelpKINode Title="about Nozzle class" Url="html/T_TiT_PTS_Nozzle.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_Nozzle.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_Nozzle__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_Nozzle.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_Nozzle.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_Nozzle.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NOZZLE enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="Nozzle property" Url="html/P_TiT_PTS_TotalsEventArgs_Nozzle.htm" />
+  <HelpKINode Title="Nozzle property" Url="html/P_TiT_PTS_TransactionEventArgs_Nozzle.htm" />
+  <HelpKINode Title="Nozzle.FuelPoint property" Url="html/P_TiT_PTS_Nozzle_FuelPoint.htm" />
+  <HelpKINode Title="Nozzle.ID property" Url="html/P_TiT_PTS_Nozzle_ID.htm" />
+  <HelpKINode Title="Nozzle.Nozzle constructor" Url="html/M_TiT_PTS_Nozzle__ctor.htm" />
+  <HelpKINode Title="Nozzle.PricePerLiter property" Url="html/P_TiT_PTS_Nozzle_PricePerLiter.htm" />
+  <HelpKINode Title="Nozzle.ToString method" Url="html/M_TiT_PTS_Nozzle_ToString.htm" />
+  <HelpKINode Title="Nozzle.TotalDispensedAmount property" Url="html/P_TiT_PTS_Nozzle_TotalDispensedAmount.htm" />
+  <HelpKINode Title="Nozzle.TotalDispensedVolume property" Url="html/P_TiT_PTS_Nozzle_TotalDispensedVolume.htm" />
+  <HelpKINode Title="Nozzle.UpdateTotals method" Url="html/M_TiT_PTS_Nozzle_UpdateTotals.htm" />
+  <HelpKINode Title="Nozzle._fuelPoint field" Url="html/F_TiT_PTS_Nozzle__fuelPoint.htm" />
+  <HelpKINode Title="Nozzle._id field" Url="html/F_TiT_PTS_Nozzle__id.htm" />
+  <HelpKINode Title="Nozzle._pricePerLiter field" Url="html/F_TiT_PTS_Nozzle__pricePerLiter.htm" />
+  <HelpKINode Title="NozzleChanged event" Url="html/E_TiT_PTS_FuelPoint_NozzleChanged.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs class" Url="html/T_TiT_PTS_NozzleChangedEventArgs.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs class">
+    <HelpKINode Title="about NozzleChangedEventArgs class" Url="html/T_TiT_PTS_NozzleChangedEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_NozzleChangedEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NozzleChangedEventArgs.CurrentNozzleID property" Url="html/P_TiT_PTS_NozzleChangedEventArgs_CurrentNozzleID.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs.NozzleChangedEventArgs constructor" Url="html/M_TiT_PTS_NozzleChangedEventArgs__ctor.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs.PreviousNozzleID property" Url="html/P_TiT_PTS_NozzleChangedEventArgs_PreviousNozzleID.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs._currentNozzleId field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__currentNozzleId.htm" />
+  <HelpKINode Title="NozzleChangedEventArgs._previousNozzleId field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__previousNozzleId.htm" />
+  <HelpKINode Title="NozzleID property" Url="html/P_TiT_PTS_TotalsEventArgs_NozzleID.htm" />
+  <HelpKINode Title="NozzleQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_NozzleQuantity.htm" />
+  <HelpKINode Title="Nozzles property" Url="html/P_TiT_PTS_FuelPoint_Nozzles.htm" />
+  <HelpKINode Title="NUOVO_PIGNONE_CL enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="OFFLINE enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="OnClosed method" Url="html/M_TiT_PTS_PTS_OnClosed.htm" />
+  <HelpKINode Title="OnClosing method" Url="html/M_TiT_PTS_PTS_OnClosing.htm" />
+  <HelpKINode Title="OnDataUpdated method" Url="html/M_TiT_PTS_ATG_OnDataUpdated.htm" />
+  <HelpKINode Title="OnInitialized method" Url="html/M_TiT_PTS_PTS_OnInitialized.htm" />
+  <HelpKINode Title="OnInitializing method" Url="html/M_TiT_PTS_PTS_OnInitializing.htm" />
+  <HelpKINode Title="OnMessageError method" Url="html/M_TiT_PTS_PTS_OnMessageError.htm" />
+  <HelpKINode Title="OnNozzleChanged method" Url="html/M_TiT_PTS_FuelPoint_OnNozzleChanged.htm" />
+  <HelpKINode Title="OnOpened method" Url="html/M_TiT_PTS_PTS_OnOpened.htm" />
+  <HelpKINode Title="OnOpening method" Url="html/M_TiT_PTS_PTS_OnOpening.htm" />
+  <HelpKINode Title="OnPendingCommandChanged method" Url="html/M_TiT_PTS_FuelPoint_OnPendingCommandChanged.htm" />
+  <HelpKINode Title="OnPricesGet method" Url="html/M_TiT_PTS_FuelPoint_OnPricesGet.htm" />
+  <HelpKINode Title="OnPricesGet method" Url="html/M_TiT_PTS_PTS_OnPricesGet.htm" />
+  <HelpKINode Title="OnStatusChanged method" Url="html/M_TiT_PTS_FuelPoint_OnStatusChanged.htm" />
+  <HelpKINode Title="OnTimeoutExpired method" Url="html/M_TiT_PTS_PTS_OnTimeoutExpired.htm" />
+  <HelpKINode Title="OnTotalsUpdated method" Url="html/M_TiT_PTS_FuelPoint_OnTotalsUpdated.htm" />
+  <HelpKINode Title="OnTotalsUpdated method" Url="html/M_TiT_PTS_PTS_OnTotalsUpdated.htm" />
+  <HelpKINode Title="OnTransactionFinished method" Url="html/M_TiT_PTS_FuelPoint_OnTransactionFinished.htm" />
+  <HelpKINode Title="Open method" Url="html/M_TiT_PTS_PTS_Open.htm" />
+  <HelpKINode Title="Opened event" Url="html/E_TiT_PTS_PTS_Opened.htm" />
+  <HelpKINode Title="Opening event" Url="html/E_TiT_PTS_PTS_Opening.htm" />
+  <HelpKINode Title="OrderMode property" Url="html/P_TiT_PTS_FuelPoint_OrderMode.htm" />
+  <HelpKINode Title="OrderModes enumeration" Url="html/T_TiT_PTS_OrderModes.htm" />
+  <HelpKINode Title="Parameter property" Url="html/P_TiT_PTS_PTS_Parameter.htm" />
+  <HelpKINode Title="ParameterAddress property" Url="html/P_TiT_PTS_PtsParameter_ParameterAddress.htm" />
+  <HelpKINode Title="ParameterNumber property" Url="html/P_TiT_PTS_PtsParameter_ParameterNumber.htm" />
+  <HelpKINode Title="ParameterValue property" Url="html/P_TiT_PTS_PtsParameter_ParameterValue.htm" />
+  <HelpKINode Title="PEC enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="PendingCommandChanged event" Url="html/E_TiT_PTS_FuelPoint_PendingCommandChanged.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs class" Url="html/T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs class">
+    <HelpKINode Title="about PendingCommandChangedEventArgs class" Url="html/T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PendingCommandChangedEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PendingCommandChangedEventArgs.CurrentPendingCommand property" Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_CurrentPendingCommand.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs.PendingCommandChangedEventArgs constructor" Url="html/M_TiT_PTS_PendingCommandChangedEventArgs__ctor.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs.PreviousPendingCommand property" Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_PreviousPendingCommand.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs._currentPendingCommand field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__currentPendingCommand.htm" />
+  <HelpKINode Title="PendingCommandChangedEventArgs._previousPendingCommand field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__previousPendingCommand.htm" />
+  <HelpKINode Title="PETROVEND enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="PhysicalAddress property" Url="html/P_TiT_PTS_ATG_PhysicalAddress.htm" />
+  <HelpKINode Title="PhysicalAddress property" Url="html/P_TiT_PTS_FuelPoint_PhysicalAddress.htm" />
+  <HelpKINode Title="PortName property" Url="html/P_TiT_PTS_PTS_PortName.htm" />
+  <HelpKINode Title="Preset enumeration member" Url="html/T_TiT_PTS_OrderModes.htm" />
+  <HelpKINode Title="PreviousNozzleID property" Url="html/P_TiT_PTS_NozzleChangedEventArgs_PreviousNozzleID.htm" />
+  <HelpKINode Title="PreviousPendingCommand property" Url="html/P_TiT_PTS_FuelPoint_PreviousPendingCommand.htm" />
+  <HelpKINode Title="PreviousPendingCommand property" Url="html/P_TiT_PTS_PendingCommandChangedEventArgs_PreviousPendingCommand.htm" />
+  <HelpKINode Title="PreviousStatus property" Url="html/P_TiT_PTS_StatusChangedEventArgs_PreviousStatus.htm" />
+  <HelpKINode Title="PricePerLiter property" Url="html/P_TiT_PTS_Nozzle_PricePerLiter.htm" />
+  <HelpKINode Title="PricesEventArgs class" Url="html/AllMembers_T_TiT_PTS_PricesEventArgs.htm" />
+  <HelpKINode Title="PricesEventArgs class" Url="html/T_TiT_PTS_PricesEventArgs.htm" />
+  <HelpKINode Title="PricesEventArgs class">
+    <HelpKINode Title="about PricesEventArgs class" Url="html/T_TiT_PTS_PricesEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PricesEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PricesEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_PricesEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PricesEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_PricesEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PricesEventArgs.Address property" Url="html/P_TiT_PTS_PricesEventArgs_Address.htm" />
+  <HelpKINode Title="PricesEventArgs.PricesEventArgs constructor" Url="html/M_TiT_PTS_PricesEventArgs__ctor.htm" />
+  <HelpKINode Title="PricesEventArgs._address field" Url="html/F_TiT_PTS_PricesEventArgs__address.htm" />
+  <HelpKINode Title="PricesGet event" Url="html/E_TiT_PTS_FuelPoint_PricesGet.htm" />
+  <HelpKINode Title="PricesGet event" Url="html/E_TiT_PTS_PTS_PricesGet.htm" />
+  <HelpKINode Title="processResponseMessage method" Url="html/M_TiT_PTS_PTS_processResponseMessage.htm" />
+  <HelpKINode Title="ProductDensity property" Url="html/P_TiT_PTS_ATG_ProductDensity.htm" />
+  <HelpKINode Title="ProductDensityPresent property" Url="html/P_TiT_PTS_ATG_ProductDensityPresent.htm" />
+  <HelpKINode Title="ProductHeight property" Url="html/P_TiT_PTS_ATG_ProductHeight.htm" />
+  <HelpKINode Title="ProductHeightPresent property" Url="html/P_TiT_PTS_ATG_ProductHeightPresent.htm" />
+  <HelpKINode Title="ProductMass property" Url="html/P_TiT_PTS_ATG_ProductMass.htm" />
+  <HelpKINode Title="ProductMassPresent property" Url="html/P_TiT_PTS_ATG_ProductMassPresent.htm" />
+  <HelpKINode Title="ProductTCVolume property" Url="html/P_TiT_PTS_ATG_ProductTCVolume.htm" />
+  <HelpKINode Title="ProductTCVolumePresent property" Url="html/P_TiT_PTS_ATG_ProductTCVolumePresent.htm" />
+  <HelpKINode Title="ProductUllage property" Url="html/P_TiT_PTS_ATG_ProductUllage.htm" />
+  <HelpKINode Title="ProductUllagePresent property" Url="html/P_TiT_PTS_ATG_ProductUllagePresent.htm" />
+  <HelpKINode Title="ProductVolume property" Url="html/P_TiT_PTS_ATG_ProductVolume.htm" />
+  <HelpKINode Title="ProductVolumePresent property" Url="html/P_TiT_PTS_ATG_ProductVolumePresent.htm" />
+  <HelpKINode Title="Protocol property" Url="html/P_TiT_PTS_AtgChannel_Protocol.htm" />
+  <HelpKINode Title="Protocol property" Url="html/P_TiT_PTS_FuelPointChannel_Protocol.htm" />
+  <HelpKINode Title="PROWALCO enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="PTS class" Url="html/AllMembers_T_TiT_PTS_PTS.htm" />
+  <HelpKINode Title="PTS class" Url="html/T_TiT_PTS_PTS.htm" />
+  <HelpKINode Title="PTS class">
+    <HelpKINode Title="about PTS class" Url="html/T_TiT_PTS_PTS.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PTS.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PTS__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_TiT_PTS_PTS.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_PTS.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PTS.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_PTS.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PTS property" Url="html/P_TiT_PTS_AtgChannel_PTS.htm" />
+  <HelpKINode Title="PTS property" Url="html/P_TiT_PTS_FuelPointChannel_PTS.htm" />
+  <HelpKINode Title="PTS.AtgChannels property" Url="html/P_TiT_PTS_PTS_AtgChannels.htm" />
+  <HelpKINode Title="PTS.ATGs property" Url="html/P_TiT_PTS_PTS_ATGs.htm" />
+  <HelpKINode Title="PTS.AuthorizationPolling property" Url="html/P_TiT_PTS_PTS_AuthorizationPolling.htm" />
+  <HelpKINode Title="PTS.AutomaticAuthorize property" Url="html/P_TiT_PTS_PTS_AutomaticAuthorize.htm" />
+  <HelpKINode Title="PTS.Close method" Url="html/M_TiT_PTS_PTS_Close.htm" />
+  <HelpKINode Title="PTS.Closed event" Url="html/E_TiT_PTS_PTS_Closed.htm" />
+  <HelpKINode Title="PTS.Closing event" Url="html/E_TiT_PTS_PTS_Closing.htm" />
+  <HelpKINode Title="PTS.Configuration property" Url="html/P_TiT_PTS_PTS_Configuration.htm" />
+  <HelpKINode Title="PTS.Dispose method" Url="html/Overload_TiT_PTS_PTS_Dispose.htm" />
+  <HelpKINode Title="PTS.FuelPointChannels property" Url="html/P_TiT_PTS_PTS_FuelPointChannels.htm" />
+  <HelpKINode Title="PTS.FuelPoints property" Url="html/P_TiT_PTS_PTS_FuelPoints.htm" />
+  <HelpKINode Title="PTS.GetAtgByID method" Url="html/M_TiT_PTS_PTS_GetAtgByID.htm" />
+  <HelpKINode Title="PTS.GetAtgConfiguration method" Url="html/M_TiT_PTS_PTS_GetAtgConfiguration.htm" />
+  <HelpKINode Title="PTS.GetFuelPointByID method" Url="html/M_TiT_PTS_PTS_GetFuelPointByID.htm" />
+  <HelpKINode Title="PTS.GetFuelPointConfiguration method" Url="html/M_TiT_PTS_PTS_GetFuelPointConfiguration.htm" />
+  <HelpKINode Title="PTS.InitializeConfig method" Url="html/M_TiT_PTS_PTS_InitializeConfig.htm" />
+  <HelpKINode Title="PTS.Initialized event" Url="html/E_TiT_PTS_PTS_Initialized.htm" />
+  <HelpKINode Title="PTS.Initializing event" Url="html/E_TiT_PTS_PTS_Initializing.htm" />
+  <HelpKINode Title="PTS.IsOpen property" Url="html/P_TiT_PTS_PTS_IsOpen.htm" />
+  <HelpKINode Title="PTS.ManualModeAuthorizeValue property" Url="html/P_TiT_PTS_PTS_ManualModeAuthorizeValue.htm" />
+  <HelpKINode Title="PTS.OnClosed method" Url="html/M_TiT_PTS_PTS_OnClosed.htm" />
+  <HelpKINode Title="PTS.OnClosing method" Url="html/M_TiT_PTS_PTS_OnClosing.htm" />
+  <HelpKINode Title="PTS.OnInitialized method" Url="html/M_TiT_PTS_PTS_OnInitialized.htm" />
+  <HelpKINode Title="PTS.OnInitializing method" Url="html/M_TiT_PTS_PTS_OnInitializing.htm" />
+  <HelpKINode Title="PTS.OnMessageError method" Url="html/M_TiT_PTS_PTS_OnMessageError.htm" />
+  <HelpKINode Title="PTS.OnOpened method" Url="html/M_TiT_PTS_PTS_OnOpened.htm" />
+  <HelpKINode Title="PTS.OnOpening method" Url="html/M_TiT_PTS_PTS_OnOpening.htm" />
+  <HelpKINode Title="PTS.OnPricesGet method" Url="html/M_TiT_PTS_PTS_OnPricesGet.htm" />
+  <HelpKINode Title="PTS.OnTimeoutExpired method" Url="html/M_TiT_PTS_PTS_OnTimeoutExpired.htm" />
+  <HelpKINode Title="PTS.OnTotalsUpdated method" Url="html/M_TiT_PTS_PTS_OnTotalsUpdated.htm" />
+  <HelpKINode Title="PTS.Open method" Url="html/M_TiT_PTS_PTS_Open.htm" />
+  <HelpKINode Title="PTS.Opened event" Url="html/E_TiT_PTS_PTS_Opened.htm" />
+  <HelpKINode Title="PTS.Opening event" Url="html/E_TiT_PTS_PTS_Opening.htm" />
+  <HelpKINode Title="PTS.Parameter property" Url="html/P_TiT_PTS_PTS_Parameter.htm" />
+  <HelpKINode Title="PTS.PortName property" Url="html/P_TiT_PTS_PTS_PortName.htm" />
+  <HelpKINode Title="PTS.PricesGet event" Url="html/E_TiT_PTS_PTS_PricesGet.htm" />
+  <HelpKINode Title="PTS.processResponseMessage method" Url="html/M_TiT_PTS_PTS_processResponseMessage.htm" />
+  <HelpKINode Title="PTS.PTS constructor" Url="html/M_TiT_PTS_PTS__ctor.htm" />
+  <HelpKINode Title="PTS.readResponseMessage method" Url="html/M_TiT_PTS_PTS_readResponseMessage.htm" />
+  <HelpKINode Title="PTS.ReleaseInfo property" Url="html/P_TiT_PTS_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="PTS.RequestAtgConfigurationGet method" Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationGet.htm" />
+  <HelpKINode Title="PTS.RequestAtgConfigurationSet method" Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationSet.htm" />
+  <HelpKINode Title="PTS.RequestAtgMeasurementData method" Url="html/M_TiT_PTS_PTS_RequestAtgMeasurementData.htm" />
+  <HelpKINode Title="PTS.RequestAuthorize method" Url="html/M_TiT_PTS_PTS_RequestAuthorize.htm" />
+  <HelpKINode Title="PTS.RequestCloseTransaction method" Url="html/M_TiT_PTS_PTS_RequestCloseTransaction.htm" />
+  <HelpKINode Title="PTS.RequestExtendedAuthorize method" Url="html/M_TiT_PTS_PTS_RequestExtendedAuthorize.htm" />
+  <HelpKINode Title="PTS.RequestExtendedPricesSet method" Url="html/M_TiT_PTS_PTS_RequestExtendedPricesSet.htm" />
+  <HelpKINode Title="PTS.RequestExtendedStatus method" Url="html/M_TiT_PTS_PTS_RequestExtendedStatus.htm" />
+  <HelpKINode Title="PTS.RequestExtendedTotals method" Url="html/M_TiT_PTS_PTS_RequestExtendedTotals.htm" />
+  <HelpKINode Title="PTS.RequestFuelPointConfigurationGet method" Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationGet.htm" />
+  <HelpKINode Title="PTS.RequestFuelPointConfigurationSet method" Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationSet.htm" />
+  <HelpKINode Title="PTS.RequestHalt method" Url="html/M_TiT_PTS_PTS_RequestHalt.htm" />
+  <HelpKINode Title="PTS.RequestLock method" Url="html/M_TiT_PTS_PTS_RequestLock.htm" />
+  <HelpKINode Title="PTS.RequestParameterGet method" Url="html/M_TiT_PTS_PTS_RequestParameterGet.htm" />
+  <HelpKINode Title="PTS.RequestParameterSet method" Url="html/M_TiT_PTS_PTS_RequestParameterSet.htm" />
+  <HelpKINode Title="PTS.RequestPricesGet method" Url="html/M_TiT_PTS_PTS_RequestPricesGet.htm" />
+  <HelpKINode Title="PTS.RequestPricesSet method" Url="html/M_TiT_PTS_PTS_RequestPricesSet.htm" />
+  <HelpKINode Title="PTS.RequestStatus method" Url="html/M_TiT_PTS_PTS_RequestStatus.htm" />
+  <HelpKINode Title="PTS.RequestTotalizers property" Url="html/P_TiT_PTS_PTS_RequestTotalizers.htm" />
+  <HelpKINode Title="PTS.RequestTotals method" Url="html/M_TiT_PTS_PTS_RequestTotals.htm" />
+  <HelpKINode Title="PTS.RequestUnlock method" Url="html/M_TiT_PTS_PTS_RequestUnlock.htm" />
+  <HelpKINode Title="PTS.RequestVersion method" Url="html/M_TiT_PTS_PTS_RequestVersion.htm" />
+  <HelpKINode Title="PTS.ResponseCode property" Url="html/P_TiT_PTS_PTS_ResponseCode.htm" />
+  <HelpKINode Title="PTS.ResponseExtCode property" Url="html/P_TiT_PTS_PTS_ResponseExtCode.htm" />
+  <HelpKINode Title="PTS.ResponseTimeout property" Url="html/P_TiT_PTS_PTS_ResponseTimeout.htm" />
+  <HelpKINode Title="PTS.SelectedAuthorizationType property" Url="html/P_TiT_PTS_PTS_SelectedAuthorizationType.htm" />
+  <HelpKINode Title="PTS.sendMessage method" Url="html/M_TiT_PTS_PTS_sendMessage.htm" />
+  <HelpKINode Title="PTS.SetAtgConfiguration method" Url="html/M_TiT_PTS_PTS_SetAtgConfiguration.htm" />
+  <HelpKINode Title="PTS.SetFuelPointConfiguration method" Url="html/M_TiT_PTS_PTS_SetFuelPointConfiguration.htm" />
+  <HelpKINode Title="PTS.startRefreshThread method" Url="html/M_TiT_PTS_PTS_startRefreshThread.htm" />
+  <HelpKINode Title="PTS.stopRefreshThread method" Url="html/M_TiT_PTS_PTS_stopRefreshThread.htm" />
+  <HelpKINode Title="PTS.TimeoutExpired event" Url="html/E_TiT_PTS_PTS_TimeoutExpired.htm" />
+  <HelpKINode Title="PTS.TotalsUpdated event" Url="html/E_TiT_PTS_PTS_TotalsUpdated.htm" />
+  <HelpKINode Title="PTS.TotalsUpdateTimeout property" Url="html/P_TiT_PTS_PTS_TotalsUpdateTimeout.htm" />
+  <HelpKINode Title="PTS.UniPumpTimeout property" Url="html/P_TiT_PTS_PTS_UniPumpTimeout.htm" />
+  <HelpKINode Title="PTS.UseExtendedCommands property" Url="html/P_TiT_PTS_PTS_UseExtendedCommands.htm" />
+  <HelpKINode Title="PTS._authorizationPolling field" Url="html/F_TiT_PTS_PTS__authorizationPolling.htm" />
+  <HelpKINode Title="PTS._automaticAuthorize field" Url="html/F_TiT_PTS_PTS__automaticAuthorize.htm" />
+  <HelpKINode Title="PTS._configuration field" Url="html/F_TiT_PTS_PTS__configuration.htm" />
+  <HelpKINode Title="PTS._initializing field" Url="html/F_TiT_PTS_PTS__initializing.htm" />
+  <HelpKINode Title="PTS._manualModeAuthorizeValue field" Url="html/F_TiT_PTS_PTS__manualModeAuthorizeValue.htm" />
+  <HelpKINode Title="PTS._maxPacketSize field" Url="html/F_TiT_PTS_PTS__maxPacketSize.htm" />
+  <HelpKINode Title="PTS._maxResponseTimeout field" Url="html/F_TiT_PTS_PTS__maxResponseTimeout.htm" />
+  <HelpKINode Title="PTS._parameter field" Url="html/F_TiT_PTS_PTS__parameter.htm" />
+  <HelpKINode Title="PTS._port field" Url="html/F_TiT_PTS_PTS__port.htm" />
+  <HelpKINode Title="PTS._refreshThread field" Url="html/F_TiT_PTS_PTS__refreshThread.htm" />
+  <HelpKINode Title="PTS._releaseInfo field" Url="html/F_TiT_PTS_PTS__releaseInfo.htm" />
+  <HelpKINode Title="PTS._requestTotalizers field" Url="html/F_TiT_PTS_PTS__requestTotalizers.htm" />
+  <HelpKINode Title="PTS._responseCode field" Url="html/F_TiT_PTS_PTS__responseCode.htm" />
+  <HelpKINode Title="PTS._responseExtCode field" Url="html/F_TiT_PTS_PTS__responseExtCode.htm" />
+  <HelpKINode Title="PTS._selectedAuthorizationType field" Url="html/F_TiT_PTS_PTS__selectedAuthorizationType.htm" />
+  <HelpKINode Title="PTS._totalsUpdateTimeout field" Url="html/F_TiT_PTS_PTS__totalsUpdateTimeout.htm" />
+  <HelpKINode Title="PTS._uniPumpTimeout field" Url="html/F_TiT_PTS_PTS__uniPumpTimeout.htm" />
+  <HelpKINode Title="PTS._useExtendedCommands field" Url="html/F_TiT_PTS_PTS__useExtendedCommands.htm" />
+  <HelpKINode Title="PtsBaudRate field" Url="html/F_TiT_PTS_PtsConfiguration_PtsBaudRate.htm" />
+  <HelpKINode Title="PtsConfiguration class" Url="html/AllMembers_T_TiT_PTS_PtsConfiguration.htm" />
+  <HelpKINode Title="PtsConfiguration class" Url="html/T_TiT_PTS_PtsConfiguration.htm" />
+  <HelpKINode Title="PtsConfiguration class">
+    <HelpKINode Title="about PtsConfiguration class" Url="html/T_TiT_PTS_PtsConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PtsConfiguration.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PtsConfiguration__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_PtsConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PtsConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_PtsConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PtsConfiguration.AtgAddressQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgAddressQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.AtgChannelQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgChannelQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.AtgChannels property" Url="html/P_TiT_PTS_PtsConfiguration_AtgChannels.htm" />
+  <HelpKINode Title="PtsConfiguration.AtgInit method" Url="html/M_TiT_PTS_PtsConfiguration_AtgInit.htm" />
+  <HelpKINode Title="PtsConfiguration.AtgQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_AtgQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.ATGs property" Url="html/P_TiT_PTS_PtsConfiguration_ATGs.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPointAddressQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointAddressQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPointChannelQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointChannelQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPointChannels property" Url="html/P_TiT_PTS_PtsConfiguration_FuelPointChannels.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPointInit method" Url="html/M_TiT_PTS_PtsConfiguration_FuelPointInit.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPointQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_FuelPointQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.FuelPoints property" Url="html/P_TiT_PTS_PtsConfiguration_FuelPoints.htm" />
+  <HelpKINode Title="PtsConfiguration.NozzleQuantity field" Url="html/F_TiT_PTS_PtsConfiguration_NozzleQuantity.htm" />
+  <HelpKINode Title="PtsConfiguration.PtsBaudRate field" Url="html/F_TiT_PTS_PtsConfiguration_PtsBaudRate.htm" />
+  <HelpKINode Title="PtsConfiguration.PtsConfiguration constructor" Url="html/M_TiT_PTS_PtsConfiguration__ctor.htm" />
+  <HelpKINode Title="PtsConfiguration._atgChannels field" Url="html/F_TiT_PTS_PtsConfiguration__atgChannels.htm" />
+  <HelpKINode Title="PtsConfiguration._atgs field" Url="html/F_TiT_PTS_PtsConfiguration__atgs.htm" />
+  <HelpKINode Title="PtsConfiguration._fuelDispensers field" Url="html/F_TiT_PTS_PtsConfiguration__fuelDispensers.htm" />
+  <HelpKINode Title="PtsConfiguration._fuelPointChannels field" Url="html/F_TiT_PTS_PtsConfiguration__fuelPointChannels.htm" />
+  <HelpKINode Title="PtsConfiguration._pts field" Url="html/F_TiT_PTS_PtsConfiguration__pts.htm" />
+  <HelpKINode Title="PtsCRC16 class" Url="html/AllMembers_T_TiT_PTS_PtsCRC16.htm" />
+  <HelpKINode Title="PtsCRC16 class" Url="html/T_TiT_PTS_PtsCRC16.htm" />
+  <HelpKINode Title="PtsCRC16 class">
+    <HelpKINode Title="about PtsCRC16 class" Url="html/T_TiT_PTS_PtsCRC16.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PtsCRC16.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PtsCRC16__cctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_PtsCRC16.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PtsCRC16.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PtsCRC16.Calculate method" Url="html/M_TiT_PTS_PtsCRC16_Calculate.htm" />
+  <HelpKINode Title="PtsCRC16.CalculateFast method" Url="html/M_TiT_PTS_PtsCRC16_CalculateFast.htm" />
+  <HelpKINode Title="PtsCRC16.Crc16Table field" Url="html/F_TiT_PTS_PtsCRC16_Crc16Table.htm" />
+  <HelpKINode Title="PtsCRC16.PtsCRC16 constructor" Url="html/M_TiT_PTS_PtsCRC16__cctor.htm" />
+  <HelpKINode Title="PtsParameter class" Url="html/AllMembers_T_TiT_PTS_PtsParameter.htm" />
+  <HelpKINode Title="PtsParameter class" Url="html/T_TiT_PTS_PtsParameter.htm" />
+  <HelpKINode Title="PtsParameter class">
+    <HelpKINode Title="about PtsParameter class" Url="html/T_TiT_PTS_PtsParameter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_PtsParameter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_PtsParameter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_PtsParameter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_PtsParameter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PtsParameter.ParameterAddress property" Url="html/P_TiT_PTS_PtsParameter_ParameterAddress.htm" />
+  <HelpKINode Title="PtsParameter.ParameterNumber property" Url="html/P_TiT_PTS_PtsParameter_ParameterNumber.htm" />
+  <HelpKINode Title="PtsParameter.ParameterValue property" Url="html/P_TiT_PTS_PtsParameter_ParameterValue.htm" />
+  <HelpKINode Title="PtsParameter.PtsParameter constructor" Url="html/M_TiT_PTS_PtsParameter__ctor.htm" />
+  <HelpKINode Title="PUMALAN enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Pump_ch_diag enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="PUMP_SIMULATOR enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="PUMP_SIMULATOR_10 enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="readResponseMessage method" Url="html/M_TiT_PTS_PTS_readResponseMessage.htm" />
+  <HelpKINode Title="READY enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="ReleaseDate property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseDate.htm" />
+  <HelpKINode Title="ReleaseInfo class" Url="html/AllMembers_T_TiT_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="ReleaseInfo class" Url="html/T_TiT_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="ReleaseInfo class">
+    <HelpKINode Title="about ReleaseInfo class" Url="html/T_TiT_PTS_ReleaseInfo.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_ReleaseInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_ReleaseInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_ReleaseInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_ReleaseInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReleaseInfo property" Url="html/P_TiT_PTS_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="ReleaseInfo.ReleaseDate property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseDate.htm" />
+  <HelpKINode Title="ReleaseInfo.ReleaseInfo constructor" Url="html/M_TiT_PTS_ReleaseInfo__ctor.htm" />
+  <HelpKINode Title="ReleaseInfo.ReleaseNum property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseNum.htm" />
+  <HelpKINode Title="ReleaseInfo.ReleaseVersion property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseVersion.htm" />
+  <HelpKINode Title="ReleaseInfo.SupportedAtgProtocols property" Url="html/P_TiT_PTS_ReleaseInfo_SupportedAtgProtocols.htm" />
+  <HelpKINode Title="ReleaseInfo.SupportedFuelPointProtocols property" Url="html/P_TiT_PTS_ReleaseInfo_SupportedFuelPointProtocols.htm" />
+  <HelpKINode Title="ReleaseNum property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseNum.htm" />
+  <HelpKINode Title="ReleaseVersion property" Url="html/P_TiT_PTS_ReleaseInfo_ReleaseVersion.htm" />
+  <HelpKINode Title="RequestAtgConfigurationGet method" Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationGet.htm" />
+  <HelpKINode Title="RequestAtgConfigurationSet method" Url="html/M_TiT_PTS_PTS_RequestAtgConfigurationSet.htm" />
+  <HelpKINode Title="RequestAtgMeasurementData method" Url="html/M_TiT_PTS_PTS_RequestAtgMeasurementData.htm" />
+  <HelpKINode Title="RequestAuthorize method" Url="html/M_TiT_PTS_PTS_RequestAuthorize.htm" />
+  <HelpKINode Title="RequestCloseTransaction method" Url="html/M_TiT_PTS_PTS_RequestCloseTransaction.htm" />
+  <HelpKINode Title="RequestExtendedAuthorize method" Url="html/M_TiT_PTS_PTS_RequestExtendedAuthorize.htm" />
+  <HelpKINode Title="RequestExtendedPricesSet method" Url="html/M_TiT_PTS_PTS_RequestExtendedPricesSet.htm" />
+  <HelpKINode Title="RequestExtendedStatus method" Url="html/M_TiT_PTS_PTS_RequestExtendedStatus.htm" />
+  <HelpKINode Title="RequestExtendedTotals method" Url="html/M_TiT_PTS_PTS_RequestExtendedTotals.htm" />
+  <HelpKINode Title="RequestFuelPointConfigurationGet method" Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationGet.htm" />
+  <HelpKINode Title="RequestFuelPointConfigurationSet method" Url="html/M_TiT_PTS_PTS_RequestFuelPointConfigurationSet.htm" />
+  <HelpKINode Title="RequestHalt method" Url="html/M_TiT_PTS_PTS_RequestHalt.htm" />
+  <HelpKINode Title="RequestLock method" Url="html/M_TiT_PTS_PTS_RequestLock.htm" />
+  <HelpKINode Title="RequestParameterGet method" Url="html/M_TiT_PTS_PTS_RequestParameterGet.htm" />
+  <HelpKINode Title="RequestParameterSet method" Url="html/M_TiT_PTS_PTS_RequestParameterSet.htm" />
+  <HelpKINode Title="RequestPricesGet method" Url="html/M_TiT_PTS_PTS_RequestPricesGet.htm" />
+  <HelpKINode Title="RequestPricesSet method" Url="html/M_TiT_PTS_PTS_RequestPricesSet.htm" />
+  <HelpKINode Title="RequestStatus method" Url="html/M_TiT_PTS_PTS_RequestStatus.htm" />
+  <HelpKINode Title="RequestTotalizers property" Url="html/P_TiT_PTS_PTS_RequestTotalizers.htm" />
+  <HelpKINode Title="RequestTotals method" Url="html/M_TiT_PTS_PTS_RequestTotals.htm" />
+  <HelpKINode Title="RequestUnlock method" Url="html/M_TiT_PTS_PTS_RequestUnlock.htm" />
+  <HelpKINode Title="RequestVersion method" Url="html/M_TiT_PTS_PTS_RequestVersion.htm" />
+  <HelpKINode Title="ResponseCode property" Url="html/P_TiT_PTS_PTS_ResponseCode.htm" />
+  <HelpKINode Title="ResponseExtCode property" Url="html/P_TiT_PTS_PTS_ResponseExtCode.htm" />
+  <HelpKINode Title="ResponseTimeout property" Url="html/P_TiT_PTS_PTS_ResponseTimeout.htm" />
+  <HelpKINode Title="SAFE_GRAF enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="SANKI enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="SANKI_Rus enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="SB_T10_AR enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="SelectedAuthorizationType property" Url="html/P_TiT_PTS_PTS_SelectedAuthorizationType.htm" />
+  <HelpKINode Title="sendMessage method" Url="html/M_TiT_PTS_PTS_sendMessage.htm" />
+  <HelpKINode Title="SetAtgConfiguration method" Url="html/M_TiT_PTS_PTS_SetAtgConfiguration.htm" />
+  <HelpKINode Title="SetFuelPointConfiguration method" Url="html/M_TiT_PTS_PTS_SetFuelPointConfiguration.htm" />
+  <HelpKINode Title="SetPrices method" Url="html/M_TiT_PTS_FuelPoint_SetPrices.htm" />
+  <HelpKINode Title="SHELF enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="SLAVUTICH_FD_LINK enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="startRefreshThread method" Url="html/M_TiT_PTS_PTS_startRefreshThread.htm" />
+  <HelpKINode Title="START_ITALIANA enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="Status property" Url="html/P_TiT_PTS_FuelPoint_Status.htm" />
+  <HelpKINode Title="StatusChanged event" Url="html/E_TiT_PTS_FuelPoint_StatusChanged.htm" />
+  <HelpKINode Title="StatusChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_StatusChangedEventArgs.htm" />
+  <HelpKINode Title="StatusChangedEventArgs class" Url="html/T_TiT_PTS_StatusChangedEventArgs.htm" />
+  <HelpKINode Title="StatusChangedEventArgs class">
+    <HelpKINode Title="about StatusChangedEventArgs class" Url="html/T_TiT_PTS_StatusChangedEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_StatusChangedEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_StatusChangedEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_StatusChangedEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_StatusChangedEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_StatusChangedEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StatusChangedEventArgs.CurrentStatus property" Url="html/P_TiT_PTS_StatusChangedEventArgs_CurrentStatus.htm" />
+  <HelpKINode Title="StatusChangedEventArgs.PreviousStatus property" Url="html/P_TiT_PTS_StatusChangedEventArgs_PreviousStatus.htm" />
+  <HelpKINode Title="StatusChangedEventArgs.StatusChangedEventArgs constructor" Url="html/M_TiT_PTS_StatusChangedEventArgs__ctor.htm" />
+  <HelpKINode Title="StatusChangedEventArgs._currentStatus field" Url="html/F_TiT_PTS_StatusChangedEventArgs__currentStatus.htm" />
+  <HelpKINode Title="StatusChangedEventArgs._previousStatus field" Url="html/F_TiT_PTS_StatusChangedEventArgs__previousStatus.htm" />
+  <HelpKINode Title="stopRefreshThread method" Url="html/M_TiT_PTS_PTS_stopRefreshThread.htm" />
+  <HelpKINode Title="StringToBytesArray method" Url="html/M_TiT_PTS_AsciiConversion_StringToBytesArray.htm" />
+  <HelpKINode Title="STRUNA_1_4 enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="STX field" Url="html/F_TiT_Unipump_UnipumpUtils_STX.htm" />
+  <HelpKINode Title="SupportedAtgProtocols property" Url="html/P_TiT_PTS_ReleaseInfo_SupportedAtgProtocols.htm" />
+  <HelpKINode Title="SupportedFuelPointProtocols property" Url="html/P_TiT_PTS_ReleaseInfo_SupportedFuelPointProtocols.htm" />
+  <HelpKINode Title="TATSUNO_BENC_PDE enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TATSUNO_SSLAN enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="Temperature property" Url="html/P_TiT_PTS_ATG_Temperature.htm" />
+  <HelpKINode Title="TemperaturePresent property" Url="html/P_TiT_PTS_ATG_TemperaturePresent.htm" />
+  <HelpKINode Title="TimeoutExpired event" Url="html/E_TiT_PTS_PTS_TimeoutExpired.htm" />
+  <HelpKINode Title="TiT.PTS namespace" Url="html/N_TiT_PTS.htm" />
+  <HelpKINode Title="TiT.PTS.AsciiConversion class" Url="html/AllMembers_T_TiT_PTS_AsciiConversion.htm" />
+  <HelpKINode Title="TiT.PTS.AsciiConversion class" Url="html/T_TiT_PTS_AsciiConversion.htm" />
+  <HelpKINode Title="TiT.PTS.ATG class" Url="html/AllMembers_T_TiT_PTS_ATG.htm" />
+  <HelpKINode Title="TiT.PTS.ATG class" Url="html/T_TiT_PTS_ATG.htm" />
+  <HelpKINode Title="TiT.PTS.AtgChannel class" Url="html/AllMembers_T_TiT_PTS_AtgChannel.htm" />
+  <HelpKINode Title="TiT.PTS.AtgChannel class" Url="html/T_TiT_PTS_AtgChannel.htm" />
+  <HelpKINode Title="TiT.PTS.AtgChannelProtocol enumeration" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="TiT.PTS.AuthorizeType enumeration" Url="html/T_TiT_PTS_AuthorizeType.htm" />
+  <HelpKINode Title="TiT.PTS.ChannelBaudRate enumeration" Url="html/T_TiT_PTS_ChannelBaudRate.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPoint class" Url="html/AllMembers_T_TiT_PTS_FuelPoint.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPoint class" Url="html/T_TiT_PTS_FuelPoint.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPointChannel class" Url="html/AllMembers_T_TiT_PTS_FuelPointChannel.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPointChannel class" Url="html/T_TiT_PTS_FuelPointChannel.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPointChannelProtocol enumeration" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TiT.PTS.FuelPointStatus enumeration" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="TiT.PTS.MessageErrorEventArgs class" Url="html/AllMembers_T_TiT_PTS_MessageErrorEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.MessageErrorEventArgs class" Url="html/T_TiT_PTS_MessageErrorEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.Nozzle class" Url="html/AllMembers_T_TiT_PTS_Nozzle.htm" />
+  <HelpKINode Title="TiT.PTS.Nozzle class" Url="html/T_TiT_PTS_Nozzle.htm" />
+  <HelpKINode Title="TiT.PTS.NozzleChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_NozzleChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.NozzleChangedEventArgs class" Url="html/T_TiT_PTS_NozzleChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.OrderModes enumeration" Url="html/T_TiT_PTS_OrderModes.htm" />
+  <HelpKINode Title="TiT.PTS.PendingCommandChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.PendingCommandChangedEventArgs class" Url="html/T_TiT_PTS_PendingCommandChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.PricesEventArgs class" Url="html/AllMembers_T_TiT_PTS_PricesEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.PricesEventArgs class" Url="html/T_TiT_PTS_PricesEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.PTS class" Url="html/AllMembers_T_TiT_PTS_PTS.htm" />
+  <HelpKINode Title="TiT.PTS.PTS class" Url="html/T_TiT_PTS_PTS.htm" />
+  <HelpKINode Title="TiT.PTS.PtsConfiguration class" Url="html/AllMembers_T_TiT_PTS_PtsConfiguration.htm" />
+  <HelpKINode Title="TiT.PTS.PtsConfiguration class" Url="html/T_TiT_PTS_PtsConfiguration.htm" />
+  <HelpKINode Title="TiT.PTS.PtsCRC16 class" Url="html/AllMembers_T_TiT_PTS_PtsCRC16.htm" />
+  <HelpKINode Title="TiT.PTS.PtsCRC16 class" Url="html/T_TiT_PTS_PtsCRC16.htm" />
+  <HelpKINode Title="TiT.PTS.PtsParameter class" Url="html/AllMembers_T_TiT_PTS_PtsParameter.htm" />
+  <HelpKINode Title="TiT.PTS.PtsParameter class" Url="html/T_TiT_PTS_PtsParameter.htm" />
+  <HelpKINode Title="TiT.PTS.ReleaseInfo class" Url="html/AllMembers_T_TiT_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="TiT.PTS.ReleaseInfo class" Url="html/T_TiT_PTS_ReleaseInfo.htm" />
+  <HelpKINode Title="TiT.PTS.StatusChangedEventArgs class" Url="html/AllMembers_T_TiT_PTS_StatusChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.StatusChangedEventArgs class" Url="html/T_TiT_PTS_StatusChangedEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.TotalsEventArgs class" Url="html/AllMembers_T_TiT_PTS_TotalsEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.TotalsEventArgs class" Url="html/T_TiT_PTS_TotalsEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.TransactionEventArgs class" Url="html/AllMembers_T_TiT_PTS_TransactionEventArgs.htm" />
+  <HelpKINode Title="TiT.PTS.TransactionEventArgs class" Url="html/T_TiT_PTS_TransactionEventArgs.htm" />
+  <HelpKINode Title="TiT.Unipump namespace" Url="html/N_TiT_Unipump.htm" />
+  <HelpKINode Title="TiT.Unipump.UnipumpUtils class" Url="html/AllMembers_T_TiT_Unipump_UnipumpUtils.htm" />
+  <HelpKINode Title="TiT.Unipump.UnipumpUtils class" Url="html/T_TiT_Unipump_UnipumpUtils.htm" />
+  <HelpKINode Title="TIT_UNIPUMP enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOKHEIM enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOKHEIM_5_nozzles enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOKICO_SS_LAN enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOMINAGA_SS_LAN enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOPAZ enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="TOPAZ_WONS enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TiT_PTS_AtgChannel_ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TiT_PTS_ATG_ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TiT_PTS_FuelPointChannel_ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TiT_PTS_FuelPoint_ToString.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TiT_PTS_Nozzle_ToString.htm" />
+  <HelpKINode Title="TotalDispensedAmount property" Url="html/P_TiT_PTS_Nozzle_TotalDispensedAmount.htm" />
+  <HelpKINode Title="TotalDispensedVolume property" Url="html/P_TiT_PTS_Nozzle_TotalDispensedVolume.htm" />
+  <HelpKINode Title="TotalsEventArgs class" Url="html/AllMembers_T_TiT_PTS_TotalsEventArgs.htm" />
+  <HelpKINode Title="TotalsEventArgs class" Url="html/T_TiT_PTS_TotalsEventArgs.htm" />
+  <HelpKINode Title="TotalsEventArgs class">
+    <HelpKINode Title="about TotalsEventArgs class" Url="html/T_TiT_PTS_TotalsEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_TotalsEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_TotalsEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_TotalsEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_TotalsEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_TotalsEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TotalsEventArgs.Address property" Url="html/P_TiT_PTS_TotalsEventArgs_Address.htm" />
+  <HelpKINode Title="TotalsEventArgs.Nozzle property" Url="html/P_TiT_PTS_TotalsEventArgs_Nozzle.htm" />
+  <HelpKINode Title="TotalsEventArgs.NozzleID property" Url="html/P_TiT_PTS_TotalsEventArgs_NozzleID.htm" />
+  <HelpKINode Title="TotalsEventArgs.TotalsEventArgs constructor" Url="html/M_TiT_PTS_TotalsEventArgs__ctor.htm" />
+  <HelpKINode Title="TotalsEventArgs._address field" Url="html/F_TiT_PTS_TotalsEventArgs__address.htm" />
+  <HelpKINode Title="TotalsEventArgs._nozzle field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzle.htm" />
+  <HelpKINode Title="TotalsEventArgs._nozzleId field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzleId.htm" />
+  <HelpKINode Title="TotalsUpdated event" Url="html/E_TiT_PTS_FuelPoint_TotalsUpdated.htm" />
+  <HelpKINode Title="TotalsUpdated event" Url="html/E_TiT_PTS_PTS_TotalsUpdated.htm" />
+  <HelpKINode Title="TotalsUpdateTimeout property" Url="html/P_TiT_PTS_PTS_TotalsUpdateTimeout.htm" />
+  <HelpKINode Title="TRANSACTIONCOMPLETED enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="TransactionEventArgs class" Url="html/AllMembers_T_TiT_PTS_TransactionEventArgs.htm" />
+  <HelpKINode Title="TransactionEventArgs class" Url="html/T_TiT_PTS_TransactionEventArgs.htm" />
+  <HelpKINode Title="TransactionEventArgs class">
+    <HelpKINode Title="about TransactionEventArgs class" Url="html/T_TiT_PTS_TransactionEventArgs.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_PTS_TransactionEventArgs.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_PTS_TransactionEventArgs__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_PTS_TransactionEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_PTS_TransactionEventArgs.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TiT_PTS_TransactionEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TransactionEventArgs.DispensedAmount property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedAmount.htm" />
+  <HelpKINode Title="TransactionEventArgs.DispensedPrice property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedPrice.htm" />
+  <HelpKINode Title="TransactionEventArgs.DispensedVolume property" Url="html/P_TiT_PTS_TransactionEventArgs_DispensedVolume.htm" />
+  <HelpKINode Title="TransactionEventArgs.Nozzle property" Url="html/P_TiT_PTS_TransactionEventArgs_Nozzle.htm" />
+  <HelpKINode Title="TransactionEventArgs.TransactionEventArgs constructor" Url="html/M_TiT_PTS_TransactionEventArgs__ctor.htm" />
+  <HelpKINode Title="TransactionEventArgs.TransactionID property" Url="html/P_TiT_PTS_TransactionEventArgs_TransactionID.htm" />
+  <HelpKINode Title="TransactionEventArgs._dispensedAmount field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedAmount.htm" />
+  <HelpKINode Title="TransactionEventArgs._dispensedPrice field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedPrice.htm" />
+  <HelpKINode Title="TransactionEventArgs._dispensedVolume field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedVolume.htm" />
+  <HelpKINode Title="TransactionEventArgs._nozzle field" Url="html/F_TiT_PTS_TransactionEventArgs__nozzle.htm" />
+  <HelpKINode Title="TransactionEventArgs._transactionId field" Url="html/F_TiT_PTS_TransactionEventArgs__transactionId.htm" />
+  <HelpKINode Title="TransactionFinished event" Url="html/E_TiT_PTS_FuelPoint_TransactionFinished.htm" />
+  <HelpKINode Title="TransactionID property" Url="html/P_TiT_PTS_FuelPoint_TransactionID.htm" />
+  <HelpKINode Title="TransactionID property" Url="html/P_TiT_PTS_TransactionEventArgs_TransactionID.htm" />
+  <HelpKINode Title="TransactionNozzleID property" Url="html/P_TiT_PTS_FuelPoint_TransactionNozzleID.htm" />
+  <HelpKINode Title="TRANSACTIONSTOPPED enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="TransFinished property" Url="html/P_TiT_PTS_FuelPoint_TransFinished.htm" />
+  <HelpKINode Title="uAmountInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAmountInfoResponse.htm" />
+  <HelpKINode Title="uAtgConfigGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigGetRequest.htm" />
+  <HelpKINode Title="uAtgConfigResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigResponse.htm" />
+  <HelpKINode Title="uAtgConfigSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigSetRequest.htm" />
+  <HelpKINode Title="uAtgMeasureRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureRequest.htm" />
+  <HelpKINode Title="uAtgMeasureResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureResponse.htm" />
+  <HelpKINode Title="uAutorizeRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAutorizeRequest.htm" />
+  <HelpKINode Title="uCloseTransactionRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uCloseTransactionRequest.htm" />
+  <HelpKINode Title="uExtended field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtended.htm" />
+  <HelpKINode Title="uExtendedSeparator field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtendedSeparator.htm" />
+  <HelpKINode Title="uHaltRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uHaltRequest.htm" />
+  <HelpKINode Title="uLockRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uLockRequest.htm" />
+  <HelpKINode Title="UNIGAZ enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="UNIPROBE enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="UniPumpTimeout property" Url="html/P_TiT_PTS_PTS_UniPumpTimeout.htm" />
+  <HelpKINode Title="UnipumpUtils class" Url="html/AllMembers_T_TiT_Unipump_UnipumpUtils.htm" />
+  <HelpKINode Title="UnipumpUtils class" Url="html/T_TiT_Unipump_UnipumpUtils.htm" />
+  <HelpKINode Title="UnipumpUtils class">
+    <HelpKINode Title="about UnipumpUtils class" Url="html/T_TiT_Unipump_UnipumpUtils.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_TiT_Unipump_UnipumpUtils.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TiT_Unipump_UnipumpUtils__cctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TiT_Unipump_UnipumpUtils.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TiT_Unipump_UnipumpUtils.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnipumpUtils.CreateAtgConfigGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigGetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateAtgConfigSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgConfigSetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateAtgDataRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAtgDataRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateAuthorizeRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateAuthorizeRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateCloseTransactionRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateCloseTransactionRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateExtendedAuthorizeRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedAuthorizeRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateExtendedPricesSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedPricesSetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateExtendedStatusRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedStatusRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateExtendedTotalRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateExtendedTotalRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateHaltRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateHaltRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateLockRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateLockRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateParameterGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterGetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateParameterSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateParameterSetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreatePricesGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesGetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreatePricesSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePricesSetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreatePumpConfigGetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigGetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreatePumpConfigSetRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreatePumpConfigSetRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateStatusRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateStatusRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateTotalRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateTotalRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateUnlockRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateUnlockRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.CreateVersionRequestMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_CreateVersionRequestMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.DLE field" Url="html/F_TiT_Unipump_UnipumpUtils_DLE.htm" />
+  <HelpKINode Title="UnipumpUtils.ETX field" Url="html/F_TiT_Unipump_UnipumpUtils_ETX.htm" />
+  <HelpKINode Title="UnipumpUtils.IsValidCRC method" Url="html/M_TiT_Unipump_UnipumpUtils_IsValidCRC.htm" />
+  <HelpKINode Title="UnipumpUtils.IsValidMessage method" Url="html/M_TiT_Unipump_UnipumpUtils_IsValidMessage.htm" />
+  <HelpKINode Title="UnipumpUtils.STX field" Url="html/F_TiT_Unipump_UnipumpUtils_STX.htm" />
+  <HelpKINode Title="UnipumpUtils.uAmountInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAmountInfoResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uAtgConfigGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigGetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uAtgConfigResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uAtgConfigSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgConfigSetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uAtgMeasureRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uAtgMeasureResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uAtgMeasureResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uAutorizeRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uAutorizeRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uCloseTransactionRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uCloseTransactionRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uExtended field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtended.htm" />
+  <HelpKINode Title="UnipumpUtils.uExtendedSeparator field" Url="html/F_TiT_Unipump_UnipumpUtils_uExtendedSeparator.htm" />
+  <HelpKINode Title="UnipumpUtils.uHaltRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uHaltRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uLockRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uLockRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.UnipumpUtils constructor" Url="html/M_TiT_Unipump_UnipumpUtils__cctor.htm" />
+  <HelpKINode Title="UnipumpUtils.uParamGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamGetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uParamResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uParamSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamSetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uPricesGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesGetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uPricesResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uPricesSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesSetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uPumpConfigGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigGetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uPumpConfigResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uPumpConfigSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigSetRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uStatusRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uStatusResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uTotalInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalInfoResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uTotalRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uTransactionInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uTransactionInfoResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uUnlockRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uUnlockStatusResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockStatusResponse.htm" />
+  <HelpKINode Title="UnipumpUtils.uVersionRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionRequest.htm" />
+  <HelpKINode Title="UnipumpUtils.uVersionResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionResponse.htm" />
+  <HelpKINode Title="UnipumpUtils._dle field" Url="html/F_TiT_Unipump_UnipumpUtils__dle.htm" />
+  <HelpKINode Title="Unlock method" Url="html/M_TiT_PTS_FuelPoint_Unlock.htm" />
+  <HelpKINode Title="uParamGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamGetRequest.htm" />
+  <HelpKINode Title="uParamResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamResponse.htm" />
+  <HelpKINode Title="uParamSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uParamSetRequest.htm" />
+  <HelpKINode Title="UpdateTotals method" Url="html/M_TiT_PTS_Nozzle_UpdateTotals.htm" />
+  <HelpKINode Title="uPricesGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesGetRequest.htm" />
+  <HelpKINode Title="uPricesResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesResponse.htm" />
+  <HelpKINode Title="uPricesSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPricesSetRequest.htm" />
+  <HelpKINode Title="uPumpConfigGetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigGetRequest.htm" />
+  <HelpKINode Title="uPumpConfigResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigResponse.htm" />
+  <HelpKINode Title="uPumpConfigSetRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uPumpConfigSetRequest.htm" />
+  <HelpKINode Title="UseExtendedCommands property" Url="html/P_TiT_PTS_PTS_UseExtendedCommands.htm" />
+  <HelpKINode Title="uStatusRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusRequest.htm" />
+  <HelpKINode Title="uStatusResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uStatusResponse.htm" />
+  <HelpKINode Title="uTotalInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalInfoResponse.htm" />
+  <HelpKINode Title="uTotalRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uTotalRequest.htm" />
+  <HelpKINode Title="uTransactionInfoResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uTransactionInfoResponse.htm" />
+  <HelpKINode Title="uUnlockRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockRequest.htm" />
+  <HelpKINode Title="uUnlockStatusResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uUnlockStatusResponse.htm" />
+  <HelpKINode Title="uVersionRequest field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionRequest.htm" />
+  <HelpKINode Title="uVersionResponse field" Url="html/F_TiT_Unipump_UnipumpUtils_uVersionResponse.htm" />
+  <HelpKINode Title="VEEDER_ROOT enumeration member" Url="html/T_TiT_PTS_AtgChannelProtocol.htm" />
+  <HelpKINode Title="Volume enumeration member" Url="html/T_TiT_PTS_AuthorizeType.htm" />
+  <HelpKINode Title="WaterHeight property" Url="html/P_TiT_PTS_ATG_WaterHeight.htm" />
+  <HelpKINode Title="WaterHeightPresent property" Url="html/P_TiT_PTS_ATG_WaterHeightPresent.htm" />
+  <HelpKINode Title="WaterVolume property" Url="html/P_TiT_PTS_ATG_WaterVolume.htm" />
+  <HelpKINode Title="WaterVolumePresent property" Url="html/P_TiT_PTS_ATG_WaterVolumePresent.htm" />
+  <HelpKINode Title="WAYNE_DART enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="WAYNE_DART_SIMPLEX enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="WAYNE_USCL enumeration member" Url="html/T_TiT_PTS_FuelPointChannelProtocol.htm" />
+  <HelpKINode Title="WORK enumeration member" Url="html/T_TiT_PTS_FuelPointStatus.htm" />
+  <HelpKINode Title="_activeNozzleId field" Url="html/F_TiT_PTS_FuelPoint__activeNozzleId.htm" />
+  <HelpKINode Title="_address field" Url="html/F_TiT_PTS_PricesEventArgs__address.htm" />
+  <HelpKINode Title="_address field" Url="html/F_TiT_PTS_TotalsEventArgs__address.htm" />
+  <HelpKINode Title="_atgChannel field" Url="html/F_TiT_PTS_ATG__atgChannel.htm" />
+  <HelpKINode Title="_atgChannels field" Url="html/F_TiT_PTS_PtsConfiguration__atgChannels.htm" />
+  <HelpKINode Title="_atgs field" Url="html/F_TiT_PTS_AtgChannel__atgs.htm" />
+  <HelpKINode Title="_atgs field" Url="html/F_TiT_PTS_PtsConfiguration__atgs.htm" />
+  <HelpKINode Title="_authorizationPolling field" Url="html/F_TiT_PTS_PTS__authorizationPolling.htm" />
+  <HelpKINode Title="_automaticAuthorize field" Url="html/F_TiT_PTS_PTS__automaticAuthorize.htm" />
+  <HelpKINode Title="_baudRate field" Url="html/F_TiT_PTS_AtgChannel__baudRate.htm" />
+  <HelpKINode Title="_baudRate field" Url="html/F_TiT_PTS_FuelPointChannel__baudRate.htm" />
+  <HelpKINode Title="_channel field" Url="html/F_TiT_PTS_FuelPoint__channel.htm" />
+  <HelpKINode Title="_channelId field" Url="html/F_TiT_PTS_ATG__channelId.htm" />
+  <HelpKINode Title="_channelId field" Url="html/F_TiT_PTS_FuelPoint__channelId.htm" />
+  <HelpKINode Title="_configuration field" Url="html/F_TiT_PTS_PTS__configuration.htm" />
+  <HelpKINode Title="_currentNozzleId field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__currentNozzleId.htm" />
+  <HelpKINode Title="_currentPendingCommand field" Url="html/F_TiT_PTS_FuelPoint__currentPendingCommand.htm" />
+  <HelpKINode Title="_currentPendingCommand field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__currentPendingCommand.htm" />
+  <HelpKINode Title="_currentStatus field" Url="html/F_TiT_PTS_StatusChangedEventArgs__currentStatus.htm" />
+  <HelpKINode Title="_dispensedAmount field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedAmount.htm" />
+  <HelpKINode Title="_dispensedPrice field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedPrice.htm" />
+  <HelpKINode Title="_dispensedVolume field" Url="html/F_TiT_PTS_TransactionEventArgs__dispensedVolume.htm" />
+  <HelpKINode Title="_dispensers field" Url="html/F_TiT_PTS_FuelPointChannel__dispensers.htm" />
+  <HelpKINode Title="_dle field" Url="html/F_TiT_Unipump_UnipumpUtils__dle.htm" />
+  <HelpKINode Title="_errorCode field" Url="html/F_TiT_PTS_MessageErrorEventArgs__errorCode.htm" />
+  <HelpKINode Title="_fuelDispensers field" Url="html/F_TiT_PTS_PtsConfiguration__fuelDispensers.htm" />
+  <HelpKINode Title="_fuelPoint field" Url="html/F_TiT_PTS_Nozzle__fuelPoint.htm" />
+  <HelpKINode Title="_fuelPointChannels field" Url="html/F_TiT_PTS_PtsConfiguration__fuelPointChannels.htm" />
+  <HelpKINode Title="_id field" Url="html/F_TiT_PTS_Nozzle__id.htm" />
+  <HelpKINode Title="_initializing field" Url="html/F_TiT_PTS_PTS__initializing.htm" />
+  <HelpKINode Title="_isActive field" Url="html/F_TiT_PTS_ATG__isActive.htm" />
+  <HelpKINode Title="_isActive field" Url="html/F_TiT_PTS_FuelPoint__isActive.htm" />
+  <HelpKINode Title="_manualModeAuthorizeValue field" Url="html/F_TiT_PTS_PTS__manualModeAuthorizeValue.htm" />
+  <HelpKINode Title="_maxPacketSize field" Url="html/F_TiT_PTS_PTS__maxPacketSize.htm" />
+  <HelpKINode Title="_maxResponseTimeout field" Url="html/F_TiT_PTS_PTS__maxResponseTimeout.htm" />
+  <HelpKINode Title="_message field" Url="html/F_TiT_PTS_MessageErrorEventArgs__message.htm" />
+  <HelpKINode Title="_nozzle field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzle.htm" />
+  <HelpKINode Title="_nozzle field" Url="html/F_TiT_PTS_TransactionEventArgs__nozzle.htm" />
+  <HelpKINode Title="_nozzleId field" Url="html/F_TiT_PTS_TotalsEventArgs__nozzleId.htm" />
+  <HelpKINode Title="_nozzles field" Url="html/F_TiT_PTS_FuelPoint__nozzles.htm" />
+  <HelpKINode Title="_orderMode field" Url="html/F_TiT_PTS_FuelPoint__orderMode.htm" />
+  <HelpKINode Title="_parameter field" Url="html/F_TiT_PTS_PTS__parameter.htm" />
+  <HelpKINode Title="_physicalAddress field" Url="html/F_TiT_PTS_ATG__physicalAddress.htm" />
+  <HelpKINode Title="_physicalAddress field" Url="html/F_TiT_PTS_FuelPoint__physicalAddress.htm" />
+  <HelpKINode Title="_port field" Url="html/F_TiT_PTS_PTS__port.htm" />
+  <HelpKINode Title="_previousNozzleId field" Url="html/F_TiT_PTS_NozzleChangedEventArgs__previousNozzleId.htm" />
+  <HelpKINode Title="_previousPendingCommand field" Url="html/F_TiT_PTS_FuelPoint__previousPendingCommand.htm" />
+  <HelpKINode Title="_previousPendingCommand field" Url="html/F_TiT_PTS_PendingCommandChangedEventArgs__previousPendingCommand.htm" />
+  <HelpKINode Title="_previousStatus field" Url="html/F_TiT_PTS_StatusChangedEventArgs__previousStatus.htm" />
+  <HelpKINode Title="_pricePerLiter field" Url="html/F_TiT_PTS_Nozzle__pricePerLiter.htm" />
+  <HelpKINode Title="_protocol field" Url="html/F_TiT_PTS_AtgChannel__protocol.htm" />
+  <HelpKINode Title="_protocol field" Url="html/F_TiT_PTS_FuelPointChannel__protocol.htm" />
+  <HelpKINode Title="_pts field" Url="html/F_TiT_PTS_AtgChannel__pts.htm" />
+  <HelpKINode Title="_pts field" Url="html/F_TiT_PTS_ATG__pts.htm" />
+  <HelpKINode Title="_pts field" Url="html/F_TiT_PTS_FuelPointChannel__pts.htm" />
+  <HelpKINode Title="_pts field" Url="html/F_TiT_PTS_FuelPoint__pts.htm" />
+  <HelpKINode Title="_pts field" Url="html/F_TiT_PTS_PtsConfiguration__pts.htm" />
+  <HelpKINode Title="_refreshThread field" Url="html/F_TiT_PTS_PTS__refreshThread.htm" />
+  <HelpKINode Title="_releaseInfo field" Url="html/F_TiT_PTS_PTS__releaseInfo.htm" />
+  <HelpKINode Title="_requestTotalizers field" Url="html/F_TiT_PTS_PTS__requestTotalizers.htm" />
+  <HelpKINode Title="_responseCode field" Url="html/F_TiT_PTS_PTS__responseCode.htm" />
+  <HelpKINode Title="_responseExtCode field" Url="html/F_TiT_PTS_PTS__responseExtCode.htm" />
+  <HelpKINode Title="_selectedAuthorizationType field" Url="html/F_TiT_PTS_PTS__selectedAuthorizationType.htm" />
+  <HelpKINode Title="_status field" Url="html/F_TiT_PTS_FuelPoint__status.htm" />
+  <HelpKINode Title="_totalsUpdateTimeout field" Url="html/F_TiT_PTS_PTS__totalsUpdateTimeout.htm" />
+  <HelpKINode Title="_transactionId field" Url="html/F_TiT_PTS_TransactionEventArgs__transactionId.htm" />
+  <HelpKINode Title="_transactionNozzleId field" Url="html/F_TiT_PTS_FuelPoint__transactionNozzleId.htm" />
+  <HelpKINode Title="_transEventRised field" Url="html/F_TiT_PTS_FuelPoint__transEventRised.htm" />
+  <HelpKINode Title="_transFinished field" Url="html/F_TiT_PTS_FuelPoint__transFinished.htm" />
+  <HelpKINode Title="_uniPumpTimeout field" Url="html/F_TiT_PTS_PTS__uniPumpTimeout.htm" />
+  <HelpKINode Title="_useExtendedCommands field" Url="html/F_TiT_PTS_PTS__useExtendedCommands.htm" />
+</HelpKI>
