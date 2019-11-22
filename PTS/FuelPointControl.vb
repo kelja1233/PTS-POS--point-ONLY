@@ -449,7 +449,7 @@ Namespace TiT.PTS
           If _fuelPoint.CurrentPendingCommand <> 0 Then
             lblExecutedCommand.Text = "'" & (ChrW(_fuelPoint.CurrentPendingCommand)).ToString() & "' (0x" & _fuelPoint.CurrentPendingCommand.ToString("X") & ")"
             If (ChrW(_fuelPoint.CurrentPendingCommand)).ToString() = "H" Then
-              Invoke(New Action(Sub() stopz()))
+
             End If
           Else
             lblExecutedCommand.Text = ""
@@ -513,6 +513,9 @@ Namespace TiT.PTS
 
           If _fuelPoint.CurrentPendingCommand <> 0 Then
             lblExecutedCommand.Text = "'" & (ChrW(_fuelPoint.CurrentPendingCommand)).ToString() & "' (0x" & _fuelPoint.CurrentPendingCommand.ToString("X") & ")"
+            If (ChrW(_fuelPoint.CurrentPendingCommand)).ToString() = "H" Then
+              _stopButton.PerformClick()
+            End If
           Else
             lblExecutedCommand.Text = ""
           End If

@@ -28,6 +28,15 @@
     End Try
   End Function
 
+  Public Function cardnumberZ(customerid As Integer) As String
+
+    Dim codez As String = cmd.getSpecificRecord($"Select  code FROM Point_Setting where id='{ customerid }'").ToString
+
+    Return codez
+
+  End Function
+
+
   Public Function CustomerName(cardnumber As String) As String
     'Try
     Dim codez As Integer = Integer.Parse(cmd.getSpecificRecord($"Select  0+COALESCE(Max(ID),0) FROM Point_Setting where code='{ cardnumber }'"))
@@ -144,67 +153,81 @@
 
     Select Case categoryId
       Case 1
-        Select Case _Itemlookupcode
-          Case "1"
+        Select Case Integer.Parse(_Itemlookupcode)
+          Case 1
             If set1 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "11"
+          Case 11
             If set1 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.
                 Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "111"
+          Case 111
             If set1 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Diesel FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "2"
+          Case 2
             If set2 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "22"
+          Case 22
             If set2 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "222"
+          Case 222
             If set2 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Premium FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "3"
-            If set2 = 1 Then
+          Case 3
+            If set3 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "33"
-            If set2 = 1 Then
+          Case 33
+            If set3 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case "333"
-            If set2 = 1 Then
+          Case 333
+            If set3 = 1 Then
               GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
               GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Unleaded FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
             End If
-          Case Else
-            If setCategory1 = 1 Then
-              GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Item1 FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
+          Case 4
+            If set4 = 1 Then
+              GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
             Else
-              GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Item1 FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
+              GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
+            End If
+          Case 44
+            If set4 = 1 Then
+              GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
+            Else
+              GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
+            End If
+          Case 444
+            If set4 = 1 Then
+              GPC = _amt / Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_Quantity where code='{_cardnumber }'"))
+            Else
+              GPC = _Qty * Decimal.Parse(cmd.getSpecificRecord($"Select Regular FROM Point_loyalsetting_amount where Code='{_cardnumber }'"))
+
+
             End If
         End Select
 

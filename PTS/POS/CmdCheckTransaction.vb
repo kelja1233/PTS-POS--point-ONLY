@@ -73,7 +73,7 @@
     Try
       Dim _PtId As Integer = PtId
 
-      Dim TransNum As Integer = Integer.Parse(cmd.getSpecificRecord($"SELECT  0+COALESCE(Max(TransNum),0) FROM [PumpTransactions] where [id]='{_PtId}'").ToString)
+      Dim TransNum As Integer = Integer.Parse(cmd.getSpecificRecord($"SELECT  0+COALESCE(Max(TransNum),0) FROM [PumpTransactions] where status=0 and [id]='{_PtId}'").ToString)
 
 
 
@@ -85,4 +85,23 @@
 
 
   End Function
+
+  Public Function CheckTransNumCheckmax(PtId As Integer) As Integer
+    Try
+      Dim _PtId As Integer = PtId
+
+      Dim TransNum As Integer = Integer.Parse(cmd.getSpecificRecord($"SELECT  0+COALESCE(Max(id),0) FROM [PumpTransactions] where [Dispenser]='{_PtId}'").ToString)
+
+
+
+
+      Return TransNum
+    Catch ex As Exception
+      Return 0
+    End Try
+
+
+  End Function
+
+
 End Class

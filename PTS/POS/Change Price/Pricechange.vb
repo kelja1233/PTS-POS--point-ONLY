@@ -350,7 +350,13 @@ Public Class Pricechange
         PricechangeSet.ShowDialog()
 
     MessageBox.Show("Price Change Successful Updated. Pls Re-Open Program....")
+    Dim pProcess() As Process = System.Diagnostics.Process.GetProcessesByName("PtsApplication")
 
+    For Each p As Process In pProcess
+      p.Kill()
+    Next
+    Application.Exit()
+    frmLogin.Close()
     Me.Close()
 
 

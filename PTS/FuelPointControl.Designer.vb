@@ -62,6 +62,7 @@
       Me.LBProduct = New System.Windows.Forms.Label()
       Me.lbState = New System.Windows.Forms.Label()
       Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+      Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
       CType(Me.paymentUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
       CType(Me.volumeUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
       Me.panelPumpID.SuspendLayout()
@@ -525,5 +526,6 @@
     Friend WithEvents LBProduct As Label
     Friend WithEvents lbState As Label
     Friend WithEvents lbID As Label
+    Friend WithEvents Timer1 As Timer
   End Class
 End Namespace

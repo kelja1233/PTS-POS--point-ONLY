@@ -10,6 +10,7 @@ Public Class frmRedeem
     SQLConnect.txtdb.Text = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Kel_database", "Value", Nothing).ToString
     SQLConnect.txtuser.Text = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Kel_user", "Value", Nothing).ToString
     SQLConnect.txtpass.Text = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Kel_Password", "Value", Nothing).ToString
+    txtcode.Clear()
     type()
         txtcode.Focus()
 
@@ -169,13 +170,13 @@ Public Class frmRedeem
 
 
         Dim message As String
-        message = "PERDIDO LOYALTY CARD: " & "You have redeemed " & TextBox1.Text & " point/s. You have " & total123 & " point/s as of today"
+        message = "PETRA GAS LOYALTY CARD: " & "You have redeemed " & TextBox1.Text & " point/s. You have " & total123 & " point/s as of today"
 
         sms.message(codez, message)
 
       Catch ex As Exception
 
-            End Try
+      End Try
 
 
 
@@ -184,36 +185,36 @@ Public Class frmRedeem
 
 
 
-            frmprint1.Close()
-            frmprint1.ShowDialog()
+      frmprint1.Close()
+      frmprint1.ShowDialog()
 
 
 
 
-            Button1.PerformClick()
-            MessageBox.Show("Item has been Redeemed")
-            TextBox1.Text = 0
+      Button1.PerformClick()
+      MessageBox.Show("Item has been Redeemed")
+      TextBox1.Text = 0
 
-            txtcode.Focus()
-
-
-
-        End If
+      txtcode.Focus()
 
 
+
+    End If
 
 
 
 
 
-    End Sub
-    Public Sub BUPTender()
+
+
+  End Sub
+  Public Sub BUPTender()
 
 
 
-        Dim storeid = cmd.getSpecificRecord("Select [StoreID] FROM [Configuration]")
+    Dim storeid = cmd.getSpecificRecord("Select [StoreID] FROM [Configuration]")
 
-        Dim batch = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ")
+    Dim batch = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ")
 
 
     Dim id = TiT.PTS.MainForm.Cashierid
@@ -222,16 +223,16 @@ Public Class frmRedeem
 
 
 
-        Dim tranNo1 = cmd.getSpecificRecord("SELECT        0 + COALESCE (MAX([Transaction].TranNo), 0)+1 FROM            [Transaction] INNER JOIN TenderEntry ON [Transaction].TransactionNumber = TenderEntry.TransactionNumber WHERE        (TenderEntry.TenderID = 7)")
+    Dim tranNo1 = cmd.getSpecificRecord("SELECT        0 + COALESCE (MAX([Transaction].TranNo), 0)+1 FROM            [Transaction] INNER JOIN TenderEntry ON [Transaction].TransactionNumber = TenderEntry.TransactionNumber WHERE        (TenderEntry.TenderID = 7)")
 
 
-        cmd.AddRecord("INSERT INTO [TransacationTender] ([Transaction_number],[Store_id],[Batch],[Cashier_id],[Customer_id],[Item_id],[Item_lookupcode],[Category_id],[Quantity],[Price],[Amount],[Total_amount],[Amount_paid],Discount,Total_Discount,[Change],[Tender_id],[TotalPoint],[TotalRebate],[EarnPoint],[EarnRebate],Transno )values( '" & tranNo1 & "','" & storeid & "','" & batch & "','" & id & "','" & idcus & "','0','0','0','0','0','0','0','0','0','0','0',7,0,0,0,0,'0')")
+    cmd.AddRecord("INSERT INTO [TransacationTender] ([Transaction_number],[Store_id],[Batch],[Cashier_id],[Customer_id],[Item_id],[Item_lookupcode],[Category_id],[Quantity],[Price],[Amount],[Total_amount],[Amount_paid],Discount,Total_Discount,[Change],[Tender_id],[TotalPoint],[TotalRebate],[EarnPoint],[EarnRebate],Transno )values( '" & tranNo1 & "','" & storeid & "','" & batch & "','" & id & "','" & idcus & "','0','0','0','0','0','0','0','0','0','0','0',7,0,0,0,0,'0')")
 
 
 
 
 
-    End Sub
+  End Sub
 
 
 
@@ -239,116 +240,131 @@ Public Class frmRedeem
 
 
   Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        lbpoint.Text = 0
+    lbpoint.Text = 0
 
-        txtname.Text = "none"
-        txtcode.Clear()
-        txtcode.Focus()
-        btredeem.Enabled = False
-        Button3.Enabled = False
-        txtcode.Focus()
-    End Sub
-
-
-    Private Sub btexit_Click(sender As Object, e As EventArgs) Handles btexit.Click
-        Me.Close()
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        frmprint2.Close()
-        frmprint2.ShowDialog()
-        txtcode.Focus()
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-        If TextBox1.Text.Contains(".") Then
-            Dim First As Integer = TextBox1.Text.IndexOf("."c)
-            Dim Last As Integer = TextBox1.Text.LastIndexOf("."c)
-            If First <> Last Then
-                Dim StartPos = TextBox1.SelectionStart - 1
-                TextBox1.Text = TextBox1.Text.Remove(TextBox1.SelectionStart - 1, 1)
-                TextBox1.SelectionStart = StartPos
-            End If
-        End If
+    txtname.Text = "none"
+    txtcode.Clear()
+    txtcode.Focus()
+    btredeem.Enabled = False
+    Button3.Enabled = False
+    txtcode.Focus()
+  End Sub
 
 
-    End Sub
+  Private Sub btexit_Click(sender As Object, e As EventArgs) Handles btexit.Click
+    Me.Close()
+  End Sub
 
-    Private Sub TextBox1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress
-        If Char.IsPunctuation(e.KeyChar) And e.KeyChar.ToString <> "." Or Char.IsLetter(e.KeyChar) Or Char.IsSymbol(e.KeyChar) Then 'Allows only numbers, "." and some keys like delete, backspace, enter, etc in Control
+  Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    frmprint2.Close()
+    frmprint2.ShowDialog()
+    txtcode.Focus()
+  End Sub
 
-            e.Handled = True
-        End If
-
-
-    End Sub
-
-    Private Sub DisallowPaste(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
-        If e.Control AndAlso (e.KeyCode = Keys.V) Then e.SuppressKeyPress = True 'Disallows paste to TextBox. Or allowing only one decimal in textchanged event can fail.
-        If (e.KeyCode = Keys.Space) Then e.SuppressKeyPress = True 'Disallows paste to TextBox. Or allowing only one decimal in textchanged event can fail.
-
-
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
-        TextBox1.Text = lbpoint.Text
-
-
-        If Double.Parse(TextBox1.Text) > Double.Parse(lbpoint.Text) Then
-
-            MessageBox.Show("You do not have Enough Loyalty Points")
-
-        Else
+  Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    If TextBox1.Text.Contains(".") Then
+      Dim First As Integer = TextBox1.Text.IndexOf("."c)
+      Dim Last As Integer = TextBox1.Text.LastIndexOf("."c)
+      If First <> Last Then
+        Dim StartPos = TextBox1.SelectionStart - 1
+        TextBox1.Text = TextBox1.Text.Remove(TextBox1.SelectionStart - 1, 1)
+        TextBox1.SelectionStart = StartPos
+      End If
+    End If
 
 
-            Dim storeid = cmd.getSpecificRecord("Select [StoreID] FROM [Configuration]")
+  End Sub
 
-            Dim BatchNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ")
+  Private Sub TextBox1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress
+    If Char.IsPunctuation(e.KeyChar) And e.KeyChar.ToString <> "." Or Char.IsLetter(e.KeyChar) Or Char.IsSymbol(e.KeyChar) Then 'Allows only numbers, "." and some keys like delete, backspace, enter, etc in Control
 
-            Dim Cashierid = cmd.getSpecificRecord("SELECT       [CashierID]  FROM [Transaction]  where [TransactionNumber]= (SELECT     max  ([TransactionNumber])  FROM [Transaction]) ")
-            Dim codez = cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_Setting where code='" & txtcode.Text & "'")
-
-
-
-
-            Dim accountnumber = cmd.getSpecificRecord("SELECT [AccountNumber] FROM [Customer]  where ID='" & codez & "'")
-
-            Dim lbpointr As Double = Double.Parse(TextBox1.Text)
-            Dim datenow As DateTime
-            datenow = Date.Now.ToString("MM/dd/yyyy h:mm:ss tt")
-
-            cmd.AddRecord("INSERT INTO Point_RedeemTransaction ([Cashier],[StoreID],[BatchNo] ,[CustomerID],[LoyalPoint],[RebatesPoint],[TransactionNumber],[Datenow],AccountNumber,[Point_Tansfer_Status],itemrid) values('" & Cashierid & "','" & storeid & "','" & BatchNo & "','" & codez & "','" & lbpointr & "','" & 0 & "','0','" & datenow & "','" & accountnumber & "','0','0')")
+      e.Handled = True
+    End If
 
 
-            cmd.Update("UPDATE Customer SET  [CustomNumber1]=0   where ID='" & codez & "' ")
+  End Sub
 
-            BUPTender()
+  Private Sub DisallowPaste(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
+    If e.Control AndAlso (e.KeyCode = Keys.V) Then e.SuppressKeyPress = True 'Disallows paste to TextBox. Or allowing only one decimal in textchanged event can fail.
+    If (e.KeyCode = Keys.Space) Then e.SuppressKeyPress = True 'Disallows paste to TextBox. Or allowing only one decimal in textchanged event can fail.
 
-            Dim tranNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([ID]),0)  FROM [TransacationTender]  ")
-            Dim total123 As Double = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([CustomNumber1]),0)  FROM [Customer] where ID='" & codez & "' ")
+
+  End Sub
+
+  Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+    TextBox1.Text = lbpoint.Text
 
 
-            cmd.Update("UPDATE TransacationTender SET Item_id=7, [EarnPoint]='" & Double.Parse(TextBox1.Text) * -1 & "', [TotalPoint]='" & total123 & "',[Change]=0 where Transaction_number='" & tranNo & "' ")
+    If Double.Parse(TextBox1.Text) > Double.Parse(lbpoint.Text) Then
+
+      MessageBox.Show("You do not have Enough Loyalty Points")
+
+    Else
+
+
+      Dim storeid = cmd.getSpecificRecord("Select [StoreID] FROM [Configuration]")
+
+      Dim BatchNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ")
+
+      Dim Cashierid = cmd.getSpecificRecord("SELECT       [CashierID]  FROM [Transaction]  where [TransactionNumber]= (SELECT     max  ([TransactionNumber])  FROM [Transaction]) ")
+      Dim codez = cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_Setting where code='" & txtcode.Text & "'")
+
+
+
+
+      Dim accountnumber = cmd.getSpecificRecord("SELECT [AccountNumber] FROM [Customer]  where ID='" & codez & "'")
+
+      Dim lbpointr As Double = Double.Parse(TextBox1.Text)
+      Dim datenow As DateTime
+      datenow = Date.Now.ToString("MM/dd/yyyy h:mm:ss tt")
+
+
+
+
+
+      cmd.AddRecord("INSERT INTO Point_RedeemTransaction ([Cashier],[StoreID],[BatchNo] ,[CustomerID],[LoyalPoint],[RebatesPoint],[TransactionNumber],[Datenow],AccountNumber,[Point_Tansfer_Status],itemrid) values('" & Cashierid & "','" & storeid & "','" & BatchNo & "','" & codez & "','" & lbpointr & "','" & 0 & "','0','" & datenow & "','" & accountnumber & "','0','0')")
+
+      Dim maxidredeem As Integer = Integer.Parse(cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_RedeemTransaction where  CustomerID='" & codez & "' "))
+
+      cmd.Update("UPDATE Point_Transaction SET  [RebatesPoint]='" & maxidredeem & "'  where RebatesPoint=0 and CustomerID='" & codez & "' ")
+
+      Dim pmaxid As Integer = Integer.Parse(cmd.getSpecificRecord("Select  0+COALESCE(Max(TransactionNumber),0) FROM Point_Transaction where  CustomerID='" & codez & "' and [RebatesPoint]='" & maxidredeem & "'  "))
+      Dim pminid As Integer = Integer.Parse(cmd.getSpecificRecord("Select  0+COALESCE(min(TransactionNumber),0) FROM Point_Transaction where  CustomerID='" & codez & "' and [RebatesPoint]='" & maxidredeem & "'  "))
+
+
+
+      cmd.Update("UPDATE Point_RedeemTransaction SET  [RebatesPoint]='" & pminid & "' ,TransactionNumber='" & pmaxid & "'  where ID='" & maxidredeem & "' ")
+
+      cmd.Update("UPDATE Customer SET  [CustomNumber1]=0 where ID='" & codez & "' ")
+
+      BUPTender()
+
+      Dim tranNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([ID]),0)  FROM [TransacationTender]  ")
+      Dim total123 As Double = Integer.Parse(cmd.getSpecificRecord("SELECT  0+COALESCE(Max([CustomNumber1]),0)  FROM [Customer] where ID='" & codez & "' "))
+
+
+
+
       Dim sms As New SMSTextClass
 
 
 
 
       Dim message As String
-      message = "PERDIDO LOYALTY CARD: " & "You have redeemed " & TextBox1.Text & " point/s. You have " & total123 & " point/s as of today"
+      message = "PETRA GAS LOYALTY CARD: " & "You have redeemed " & TextBox1.Text & " point/s. You have " & total123 & " point/s as of today"
 
       sms.message(codez, message)
 
 
 
-      frmprint1.Close()
-            frmprint1.ShowDialog()
+      Dim rp As New PrintRedeem
+      rp.printRecord(False, maxidredeem, pminid, pmaxid, codez, TiT.PTS.MainForm.Cashierid)
 
 
 
 
-            Button1.PerformClick()
+      Button1.PerformClick()
             MessageBox.Show("Item has been Redeemed")
             TextBox1.Text = 0
 

@@ -37,6 +37,7 @@ Namespace TiT.PTS
     Public Cashierid As Integer = 0
     Public storeid As Integer = 0
     Public tenderidz As Integer = 0
+    Public security As Integer = 0
     Public Sub New()
       InitializeComponent()
 
@@ -315,6 +316,7 @@ Namespace TiT.PTS
           Next ctrl
 
           VisualizeOpenConnection(True)
+
         Catch ex As InvalidOperationException
           MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
@@ -391,6 +393,7 @@ Namespace TiT.PTS
       '_atgMainForm.optionsToolStripMenuItem.Enabled = state
       'btstart.Enabled = state
       'tsStopAllPumps.Enabled = state
+      showpump()
     End Sub
 
     Private Sub exitToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs)
@@ -440,71 +443,104 @@ Namespace TiT.PTS
 
 
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs)
+    Public Sub showpump()
 
 
       If _fuelPointControl1.lbID.Text = "-" Then
         _fuelPointControl1.Hide()
+      Else
+        _fuelPointControl1.Show()
+
       End If
 
       If _fuelPointControl2.lbID.Text = "-" Then
         _fuelPointControl2.Hide()
+      Else
+        _fuelPointControl2.Show()
       End If
 
       If _fuelPointControl3.lbID.Text = "-" Then
         _fuelPointControl3.Hide()
+      Else
+        _fuelPointControl3.Show()
       End If
 
       If _fuelPointControl4.lbID.Text = "-" Then
         _fuelPointControl4.Hide()
+      Else
+        _fuelPointControl4.Show()
       End If
 
       If _fuelPointControl5.lbID.Text = "-" Then
         _fuelPointControl5.Hide()
+      Else
+        _fuelPointControl5.Show()
       End If
 
       If _fuelPointControl6.lbID.Text = "-" Then
         _fuelPointControl6.Hide()
+      Else
+        _fuelPointControl6.Show()
       End If
 
       If _fuelPointControl7.lbID.Text = "-" Then
         _fuelPointControl7.Hide()
+      Else
+        _fuelPointControl7.Show()
       End If
 
       If _fuelPointControl8.lbID.Text = "-" Then
         _fuelPointControl8.Hide()
+      Else
+        _fuelPointControl8.Show()
       End If
 
       If _fuelPointControl9.lbID.Text = "-" Then
         _fuelPointControl9.Hide()
+      Else
+        _fuelPointControl9.Show()
       End If
 
       If _fuelPointControl10.lbID.Text = "-" Then
         _fuelPointControl10.Hide()
+      Else
+        _fuelPointControl10.Show()
       End If
 
       If _fuelPointControl11.lbID.Text = "-" Then
         _fuelPointControl11.Hide()
+      Else
+        _fuelPointControl11.Show()
       End If
 
       If _fuelPointControl12.lbID.Text = "-" Then
         _fuelPointControl12.Hide()
+      Else
+        _fuelPointControl12.Show()
       End If
 
       If _fuelPointControl13.lbID.Text = "-" Then
         _fuelPointControl13.Hide()
+      Else
+        _fuelPointControl13.Show()
       End If
 
       If _fuelPointControl14.lbID.Text = "-" Then
         _fuelPointControl14.Hide()
+      Else
+        _fuelPointControl4.Show()
       End If
 
       If _fuelPointControl15.lbID.Text = "-" Then
         _fuelPointControl15.Hide()
+      Else
+        _fuelPointControl5.Show()
       End If
 
       If _fuelPointControl16.lbID.Text = "-" Then
         _fuelPointControl16.Hide()
+      Else
+        _fuelPointControl16.Show()
       End If
 
 
@@ -512,10 +548,19 @@ Namespace TiT.PTS
 
     Private Sub btstart_Click(sender As Object, e As EventArgs) Handles bttotalizer.Click
       If _pts.IsOpen = True Then
+
+
         RefreshRecord()
         Dim crc As New CashierReportUpdate
         crc.cr(Me.batchNumber, Me.ShiftNumber, Me.Cashierid)
-        _allTotalsDialog.ShowDialog()
+
+
+
+        _allTotalsDialog = New AllTotalsDialog(_pts)
+          _allTotalsDialog.ShowDialog()
+
+
+
       End If
 
 
@@ -593,6 +638,39 @@ Namespace TiT.PTS
       Invoke(New Action(Sub() cmdShowPT.ShowPT()))
       RefreshRecord()
     End Sub
+    Public Sub AddALL()
+      Dim cmdCT As New cmdCheckTransaction
+      Invoke(New Action(Sub() cmdShowPT.ShowPT()))
+      If Me.DataGridView1.RowCount <> 0 Then
+        For e As Integer = 0 To Me.DataGridView1.RowCount - 1
+
+          Dim ItemLookUp As String = DataGridView1.Rows(e).Cells(1).Value.ToString
+          Dim Description As String = DataGridView1.Rows(e).Cells(2).Value.ToString
+          Dim Quantity As Decimal = Decimal.Parse(DataGridView1.Rows(e).Cells(3).Value.ToString)
+          Dim UnitPrice As Decimal = Decimal.Parse(DataGridView1.Rows(e).Cells(4).Value.ToString)
+          Dim Amount As Decimal = Decimal.Parse(DataGridView1.Rows(e).Cells(5).Value.ToString)
+          Dim Discount As Decimal = 0
+          Dim pointw As Decimal = 0
+          Dim pointx As Decimal = 0
+          Dim IDZ As Integer = Integer.Parse(DataGridView1.Rows(e).Cells(0).Value.ToString)
+          Dim Column1 As Integer = Integer.Parse(DataGridView1.Rows(e).Cells(6).Value.ToString)
+          If IDZ <> cmdCT.CheckTransNumCheckmax(Column1) Then
+            If cmdCT.CheckTransNum(IDZ) = 0 Then
+
+
+              Me.DataGridView2.Rows.Add(ItemLookUp, Description & "(" & Column1 & ")", Quantity, UnitPrice, Amount, Discount, 0, 0, IDZ, Column1)
+            End If
+
+
+          End If
+
+
+        Next
+      End If
+      Invoke(New Action(Sub() cmdShowPT.ShowPT()))
+      RefreshRecord()
+
+    End Sub
     Public Sub RefreshRecord()
       On Error Resume Next
       Dim CSR As New ComputationShow
@@ -669,7 +747,24 @@ Namespace TiT.PTS
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
       DateTimePicker2.Text = DateTime.Now
     End Sub
+    Public Sub clearrecord()
+      Dim cmdptr As New CmdptRefershPedding
 
+      txtchange.Text = "0.00"
+      txttotalTender.Text = "0.00"
+      txttotaldue.Text = "0.00"
+      txtdis.Text = "0.00"
+      TXTVAT.Text = "0.00"
+      txttax.Text = "0.00"
+
+      txtact.Clear()
+      txtDN.Clear()
+      txtcash.Clear()
+      txtname.Text = "None"
+      cmdptr.UpdatePT()
+      DataGridView2.Rows.Clear()
+      Invoke(New Action(Sub() cmdShowPT.ShowPT()))
+    End Sub
     Private Sub btclear_Click(sender As Object, e As EventArgs) Handles btclear.Click
       Dim cmdptr As New CmdptRefershPedding
 
@@ -721,7 +816,7 @@ Namespace TiT.PTS
 
 
           btclear.PerformClick()
-
+          clearrecord()
 
         End If
       End If
@@ -753,7 +848,7 @@ Namespace TiT.PTS
 
 
             btclear.PerformClick()
-
+            clearrecord()
 
           End If
         End If
@@ -780,6 +875,41 @@ Namespace TiT.PTS
       Dim _price As Decimal = price * 100
       _price = Math.Round(_price, 0)
 
+      Select Case pumpid
+        Case 1
+          _fuelPointControl1.changePrice(nozzle, CInt(_price))
+        Case 2
+          _fuelPointControl2.changePrice(nozzle, CInt(_price))
+        Case 3
+          _fuelPointControl3.changePrice(nozzle, CInt(_price))
+        Case 4
+          _fuelPointControl4.changePrice(nozzle, CInt(_price))
+        Case 5
+          _fuelPointControl5.changePrice(nozzle, CInt(_price))
+        Case 6
+          _fuelPointControl6.changePrice(nozzle, CInt(_price))
+        Case 7
+          _fuelPointControl7.changePrice(nozzle, CInt(_price))
+        Case 8
+          _fuelPointControl8.changePrice(nozzle, CInt(_price))
+        Case 9
+          _fuelPointControl9.changePrice(nozzle, CInt(_price))
+        Case 10
+          _fuelPointControl10.changePrice(nozzle, CInt(_price))
+        Case 11
+          _fuelPointControl11.changePrice(nozzle, CInt(_price))
+        Case 12
+          _fuelPointControl12.changePrice(nozzle, CInt(_price))
+        Case 13
+          _fuelPointControl13.changePrice(nozzle, CInt(_price))
+        Case 14
+          _fuelPointControl14.changePrice(nozzle, CInt(_price))
+        Case 15
+          _fuelPointControl5.changePrice(nozzle, CInt(_price))
+        Case 16
+          _fuelPointControl6.changePrice(nozzle, CInt(_price))
+
+      End Select
 
       _fuelPointControl2.changePrice(nozzle, CInt(_price))
     End Sub
@@ -802,7 +932,7 @@ Namespace TiT.PTS
           tenderidz = 1
           frmPoint.ShowDialog()
           btclear.PerformClick()
-
+          clearrecord()
 
         End If
       End If
@@ -826,7 +956,7 @@ Namespace TiT.PTS
           tenderidz = 2
           frmPoint.ShowDialog()
           btclear.PerformClick()
-
+          clearrecord()
 
         End If
       End If
@@ -849,11 +979,13 @@ Namespace TiT.PTS
 
 
     Private Sub btchangep_Click(sender As Object, e As EventArgs) Handles btchangep.Click
+
       If _pts.IsOpen = True Then
+
         RefreshRecord()
         Dim crc As New CashierReportUpdate
         crc.cr(Me.batchNumber, Me.ShiftNumber, Me.Cashierid)
-        Pricechange.ShowDialog()
+        Pricechange.Show()
       End If
 
     End Sub
@@ -863,7 +995,9 @@ Namespace TiT.PTS
     End Sub
 
     Private Sub btreedem_Click(sender As Object, e As EventArgs) Handles btreedem.Click
+      frmRedeem.txtcode.Clear()
       frmRedeem.ShowDialog()
+      frmRedeem.txtcode.Clear()
     End Sub
 
     Private Sub btsplit_Click(sender As Object, e As EventArgs) Handles btsplit.Click
@@ -908,11 +1042,11 @@ Namespace TiT.PTS
           Dim transactionnumber As Integer
           transactionnumber = cmdIt.InsertCashTransaction(3, txtact.Text, storeid, batchNumber, Cashierid, txtact.Text, txtDN.Text, txtPlateNo.Text, txtchange.Text, ShiftNumber)
           Dim ttr As New TenderTyperReceipt
-          ttr.printRecord(1, discount, transactionnumber)
+          ttr.printRecord(3, discount, transactionnumber)
 
 
           btclear.PerformClick()
-
+          clearrecord()
 
         End If
       End If
@@ -978,7 +1112,12 @@ Namespace TiT.PTS
     End Sub
 
     Private Sub bddiscount_Click(sender As Object, e As EventArgs) Handles bddiscount.Click
-      frmDiscount.ShowDialog()
+      If security = 0 Then
+        Addcustomer.ShowDialog()
+      Else
+        MessageBox.Show("For admin use only")
+      End If
+
     End Sub
     Private Sub bt1_Click(sender As Object, e As EventArgs) Handles bt1.Click
       Try
@@ -1342,6 +1481,7 @@ Namespace TiT.PTS
     Private Sub Main_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
       If e.KeyCode = Keys.Escape Then
         btclear.PerformClick()
+        clearrecord()
       ElseIf e.KeyCode = Keys.Delete Then
         Try
           Dim cmd As commands
@@ -1355,7 +1495,10 @@ Namespace TiT.PTS
 
           Dim a8 As Integer = Integer.Parse(DataGridView2.Rows(Me.DataGridView2.CurrentRow.Index).Cells(8).Value.ToString)
           Me.DataGridView2.Rows.Remove(Me.DataGridView2.CurrentRow)
-          cmd.Update($"UPDATE PumpTransactions SET      Status = '0  WHERE    ID = '{ a8 }'")
+          cmd.Update($"UPDATE PumpTransactions SET      Status = 0  WHERE    ID = '{ a8 }'")
+          RefreshRecord()
+          Dim cmdCT As New cmdCheckTransaction
+          Invoke(New Action(Sub() cmdShowPT.ShowPT()))
         Catch ex As Exception
 
         End Try
@@ -1365,6 +1508,28 @@ Namespace TiT.PTS
 
     Private Sub btLoyaltyReport_Click(sender As Object, e As EventArgs) Handles btLoyaltyReport.Click
       LoyalTYreportzz.ShowDialog()
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+      If security = 0 Then
+        UpdatePoint.ShowDialog()
+      Else
+        MessageBox.Show("For admin use only")
+      End If
+
+    End Sub
+
+    Private Sub btcredittocredit_Click(sender As Object, e As EventArgs) Handles btcredittocredit.Click
+      rePrintRedeem.ShowDialog()
+    End Sub
+
+    Private Sub DataGridView2_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView2.CellContentClick
+
+    End Sub
+
+    Private Sub btaddall_Click(sender As Object, e As EventArgs) Handles btaddall.Click
+      AddALL()
+
     End Sub
   End Class
 

@@ -28,7 +28,7 @@ Public Class frmLogin
         If cmd.VerifyRecord("SELECT [Number] from [Cashier] where Number = '" & Me.txtUserName.Text & "'") = True Then
           If cmd.VerifyRecord("SELECT [Password] from [Cashier] where Number = '" & Me.txtUserName.Text & "' and Password = '" & Me.txtPassword.Text & "'") = True Then
             TiT.PTS.MainForm.txtusername.Text = cmd.getSpecificRecord("SELECT [Name] from [Cashier] where Number = '" & Me.txtUserName.Text & "' and Password = '" & Me.txtPassword.Text & "' ")
-            Dim uni = cmd.getSpecificRecord("SELECT [SecurityLevel]  from [Cashier] where Number = '" & Me.txtUserName.Text & "' and Password = '" & Me.txtPassword.Text & "' ")
+            Dim uni As Integer = Integer.Parse(cmd.getSpecificRecord("SELECT [SecurityLevel]  from [Cashier] where Number = '" & Me.txtUserName.Text & "' and Password = '" & Me.txtPassword.Text & "' "))
             Dim uno As Integer = Integer.Parse(cmd.getSpecificRecord("SELECT ID  from [Cashier] where Number = '" & Me.txtUserName.Text & "' and Password = '" & Me.txtPassword.Text & "' ").ToString)
             TiT.PTS.MainForm.txtuser.Text = uno
             Dim batch As Integer = Integer.Parse(cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ").ToString)
@@ -42,7 +42,7 @@ Public Class frmLogin
 
             Me.txtUserName.Clear()
             Me.txtPassword.Clear()
-
+            TiT.PTS.MainForm.security = uni
             TiT.PTS.MainForm.batchNumber = batch
             TiT.PTS.MainForm.ShiftNumber = Shiftno
             TiT.PTS.MainForm.Cashierid = uno
@@ -63,6 +63,7 @@ Public Class frmLogin
             TiT.PTS.MainForm.Enabled = True
             TiT.PTS.MainForm.Show()
             timesetting()
+            TiT.PTS.MainForm.clearrecord()
             Me.Hide()
           Else
             MessageBox.Show("Password error do not exist!")

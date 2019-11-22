@@ -122,6 +122,7 @@
     <Compile Include="AtgMainForm.designer.vb">
       <DependentUpon>AtgMainForm.vb</DependentUpon>
     </Compile>
+    <Compile Include="Connect\PrintRedeem.vb" />
     <Compile Include="POS\BALANCr Reading\BalanceReadingBatch.Designer.vb">
       <DependentUpon>BalanceReadingBatch.vb</DependentUpon>
     </Compile>
@@ -217,11 +218,23 @@
     <Compile Include="POS\Item\Void.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="POS\POINT\Addcustomer.designer.vb">
+      <DependentUpon>Addcustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POINT\Addcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="POS\POINT\ClassCheckCard.vb" />
     <Compile Include="POS\POINT\frmPoint.Designer.vb">
       <DependentUpon>frmPoint.vb</DependentUpon>
     </Compile>
     <Compile Include="POS\POINT\frmPoint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS\POINT\ShowCustomer1.Designer.vb">
+      <DependentUpon>ShowCustomer1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POINT\ShowCustomer1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="POS\POINT\SMSTextClass.vb" />
@@ -280,6 +293,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="POS\Report\PumpReadingReport.vb" />
+    <Compile Include="POS\Report\rePrintRedeem.Designer.vb">
+      <DependentUpon>rePrintRedeem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\Report\rePrintRedeem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="POS\Split\Split.Designer.vb">
       <DependentUpon>Split.vb</DependentUpon>
     </Compile>
@@ -329,6 +348,12 @@
     </Compile>
     <Compile Include="TotalsDialog.Designer.vb">
       <DependentUpon>TotalsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POINT\UpdatePoint.Designer.vb">
+      <DependentUpon>UpdatePoint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POINT\UpdatePoint.vb">
+      <SubType>Form</SubType>
     </Compile>
     <EmbeddedResource Include="AboutBox.resx">
       <DependentUpon>AboutBox.vb</DependentUpon>
@@ -393,8 +418,17 @@
     <EmbeddedResource Include="POS\Item\Void.resx">
       <DependentUpon>Void.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="POS\POINT\Addcustomer.resx">
+      <DependentUpon>Addcustomer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="POS\POINT\frmPoint.resx">
       <DependentUpon>frmPoint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\POINT\ShowCustomer1.resx">
+      <DependentUpon>ShowCustomer1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\POINT\UpdatePoint.resx">
+      <DependentUpon>UpdatePoint.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="POS\Receipt\LoyalTYreport.resx">
       <DependentUpon>LoyalTYreport.vb</DependentUpon>
@@ -413,6 +447,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="POS\Report\PumpBatch.resx">
       <DependentUpon>PumpBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Report\rePrintRedeem.resx">
+      <DependentUpon>rePrintRedeem.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="POS\Split\Split.resx">
       <DependentUpon>Split.vb</DependentUpon>
@@ -556,7 +593,9 @@
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="POS\Report\NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

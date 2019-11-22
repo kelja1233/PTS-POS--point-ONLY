@@ -18,23 +18,15 @@ Public Class frmprint1
     SQLConnect.txtuser.Text = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Kel_user", "Value", Nothing).ToString
     SQLConnect.txtpass.Text = My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Kel_Password", "Value", Nothing).ToString
     batch = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([BatchNumber]),0)  FROM [Batch]  ")
-        TransactionNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([id]),0)  FROM [Point_Transaction] ")
-        rec()
-    End Sub
+    TransactionNo = cmd.getSpecificRecord("SELECT  0+COALESCE(Max([id]),0)  FROM [Point_RedeemTransaction] ")
+
+  End Sub
 
 
 
-    Public Sub rec()
 
 
-        '  cmd.SelectRecord("SELECT         LEFT( Item.Description,11), Item.Price, TransactionEntry.Quantity, Item.Price * TransactionEntry.Quantity AS Total FROM            TransactionEntry INNER JOIN  Item ON TransactionEntry.ItemID = Item.ID WHERE        (TransactionEntry.TransactionNumber ='" & TransactionNo & "')", "TransactionEntry", Me.DataGridView1)
-        ' cmd.SelectRecord("SELECT          LEFT( Item.Description,8), Item.Price, TransactionEntry.Quantity, TransactionEntry.POSTECPrice, Item.ItemLookupCode FROM            TransactionEntry INNER JOIN  Item ON TransactionEntry.ItemID = Item.ID  WHERE        (TransactionEntry.TransactionNumber ='" & TransactionNo & "')", "TransactionEntry", Me.DataGridView1)
-
-
-
-    End Sub
-
-    Public Sub PrintHeader()
+  Public Sub PrintHeader()
         On Error Resume Next
         TextToPrint = ""
         'send Business Name
@@ -58,52 +50,17 @@ Public Class frmprint1
         TextToPrint &= spcLen2 & StringToPrint & Environment.NewLine
 
 
-        '' send phone number
-        'StringToPrint = cmd.getSpecificRecord("SELECT  VATRegistrationNumber FROM   Configuration   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen4 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen4 & StringToPrint & Environment.NewLine
 
+    StringToPrint = "PETRA GAS LOYALTY CARD: "
 
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  Heading FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen5 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen5 & StringToPrint & Environment.NewLine
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  Heading2 FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen6 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen6 & StringToPrint & Environment.NewLine
-
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  Heading3 FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen7 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen7 & StringToPrint & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-
-
-        'StringToPrint = "DUPLICATE"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen8 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen8 & StringToPrint & Environment.NewLine
-
-
-        ' Dim a16 = cmd.getSpecificRecord("SELECT[TenderID]  FROM [TenderEntry]  where [TransactionNumber]= '" & TransactionNo & "'")
-
-
-        StringToPrint = "PERDIDO LOYALTY CARD"
-
-        LineLen = StringToPrint.Length
+    LineLen = StringToPrint.Length
         Dim spcLen4c As New String(" "c, Math.Round((40 - LineLen) / 2))
         TextToPrint &= spcLen4c & StringToPrint & Environment.NewLine
 
 
 
         Dim a1 As String = "Transaction No:  " & cmd.getSpecificRecord("SELECT       0+COALESCE(Max( [ID]),0) FROM  [Point_RedeemTransaction] ")
-        Dim a2 As String = "DATE TIME:       " & cmd.getSpecificRecord("SELECT  [Datenow] FROM   [Point_Transaction]  where [ID]='" & TransactionNo & "'  ")
+    Dim a2 As String = "DATE TIME:       " & cmd.getSpecificRecord("SELECT  [Datenow] FROM   [Point_RedeemTransaction]  where [ID]='" & TransactionNo & "'  ").ToString
     Dim a3 As String = "Cashier:         " & cmd.getSpecificRecord("SELECT [Name] FROM   [Cashier]  where [ID]='" & TiT.PTS.MainForm.Cashierid & "'  ")
     Dim a4 As String = "Customer:        " & frmRedeem.txtname.Text
 
@@ -119,158 +76,58 @@ Public Class frmprint1
 
 
     End Sub
-    Public Sub ItemsToBePrinted()
+  Public Sub ItemsToBePrinted(itemid As Integer)
+    Dim maxidredeem = cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_RedeemTransaction")
 
-        'On Error Resume Next
+    Dim t1 As Integer = Integer.Parse(cmd.getSpecificRecord($"Select  0+COALESCE(Max(RebatesPoint),0) FROM Point_RedeemTransaction where id={ maxidredeem}"))
+    Dim t2 As Integer = Integer.Parse(cmd.getSpecificRecord($"Select  0+COALESCE(Max(TransactionNumber),0) FROM Point_RedeemTransaction where id={ maxidredeem}"))
+    Dim c1 As Integer = Integer.Parse(cmd.getSpecificRecord($"Select  0+COALESCE(Max(CustomerID),0) FROM Point_RedeemTransaction where id={ maxidredeem}"))
 
 
-        'TextToPrint &= "==========================================" & Environment.NewLine
-        'TextToPrint &= "Description" & Environment.NewLine
-        'TextToPrint &= "Description" & " " & "Price    " & " " & "QTY      " & " " & "Total      "
-        'TextToPrint &= "Description  " & " " & "Price    " & " " & "QTY      " & " " & "Total      "
-        'TextToPrint &= "" & Environment.NewLine
+    Dim cmdstr As String = ""
+    cmdstr += "SELECT        CONVERT(varchar, [Transaction].Time, 0) , TransactionEntry.Quantity"
+    cmdstr += " FROM            TransactionEntry INNER JOIN "
+    cmdstr += " [Transaction] ON TransactionEntry.TransactionNumber = [Transaction].TransactionNumber INNER JOIN "
+    cmdstr += " Item ON TransactionEntry.ItemID = Item.ID "
+    cmdstr += $" where  TransactionEntry.TransactionNumber between { t1}  and { t2} and [Transaction].CashierID={c1}  and itemid={ itemid } order by  TransactionEntry.TransactionNumber "
 
-        'Dim count = DataGridView1.RowCount
-        'Dim a = 0
+    Dim product As String = cmd.getSpecificRecord($"Select  Description FROM item where id={ itemid }").ToString
 
+    TextToPrint &= "==========================================" & Environment.NewLine
 
-        'do loop execution 
 
+    Dim dt As New DataTable
+    dt = cmd.LoaderData(cmdstr)
+    If dt.Rows.Count <> 0 Then
+      TextToPrint &= product & Environment.NewLine
+      TextToPrint &= "==========================================" & Environment.NewLine
+      For i As Integer = 0 To dt.Rows.Count - 1
+        Dim LF As String = dt.Rows(i).Item(0).ToString
+        Dim Point As Decimal = Decimal.Parse(dt.Rows(i).Item(1).ToString)
+        Dim b1 As Integer
+        b1 = 0
+        Dim s As String = LF
+        For Each c As Char In s
+          b1 += 1
+        Next
+        Dim b11 = 20 - b1
 
-        '    Do
+        Dim total As String = " " & LF & Space(b11) & " " & String.Format("{0:N2}", Point)
+        TextToPrint &= total & Environment.NewLine
 
-        '        Dim a1 = DataGridView1.Item(0, a).Value
-        '        Dim a2 As Double = Math.Round(DataGridView1.Item(1, a).Value, 2)
-        '        Dim a3 As Double = Math.Round(DataGridView1.Item(2, a).Value, 2)
-        '        Dim a4 As Double = Math.Round(DataGridView1.Item(3, a).Value, 2)
-        '        Dim a5 = DataGridView1.Item(4, a).Value
+      Next
+      TextToPrint &= "==========================================" & Environment.NewLine
+    End If
 
 
-        '        Dim a6 = cmd.getSpecificRecord("SELECT       [Dispenser] FROM [PumpTransactions] where [Grade]='" & a5 & "' and [TransNum]='" & TransactionNo & "'")
-        '        Dim a7 = "(" & a6 & ")" & a1
 
+  End Sub
 
-        '        Dim a11 As Integer
-        '        a11 = 0
-        '        Dim s As String = a7
-        '        For Each c As Char In s
-        '            a11 += 1
-        '        Next
-        '        Dim a111 = 12 - a11
 
+  Public Sub printFooter()
 
-        '        Dim a22 As Integer
-        '        a22 = 0
 
-        '        Dim s1 As String = a2
-        '        For Each c As Char In s1
-        '            a22 += 1
-        '        Next
-        '        Dim a222 = 9 - a22
-
-
-        '        Dim a33 As Integer
-        '        a33 = 0
-
-        '        Dim s2 As String = a3
-        '        For Each c As Char In s2
-        '            a33 += 1
-        '        Next
-        '        Dim a333 = 9 - a33
-
-
-        '        Dim a44 As Integer
-        '        a44 = 0
-
-        '        Dim s3 As String = a4
-        '        For Each c As Char In s3
-        '            a44 += 1
-        '        Next
-        '        Dim a444 = 9 - a44
-
-        '        Dim total As String = " " & a7 & Space(a111) & " " & a2 & Space(a222) & " " & a3 & Space(a333) & " " & a4 & Space(a444)
-        '        TextToPrint &= total & Environment.NewLine
-
-
-
-        '        a = a + 1
-
-
-        '    Loop While (a < count)
-        '    TextToPrint &= "==========================================" & Environment.NewLine
-        '    Dim StrExport As String = ""
-        '    For Each C As DataGridViewColumn In DataGridView1.Columns
-        '        StrExport &= "" & C.HeaderText & ","
-        '    Next
-        '    StrExport = StrExport.Substring(0, StrExport.Length - 1)
-        '    StrExport &= Environment.NewLine
-
-        '    For Each R As DataGridViewRow In DataGridView1.Rows
-        '        For Each C As DataGridViewCell In R.Cells
-        '        If Not C.Value Is Nothing Then
-        '            StrExport &= "" & C.Value.ToString & ","
-        '        Else
-        '            StrExport &= "" & "" & ","
-        '        End If
-        '    Next
-
-
-
-        '    StrExport = StrExport.Substring(0, StrExport.Length - 1)
-        '    StrExport &= Environment.NewLine
-
-        'Next
-        'TextToPrint &= StrExport & Environment.NewLine
-    End Sub
-    Public Sub printFooter()
-
-
-
-
-
-    On Error Resume Next
-
-
-        Dim tpoint As Double = cmd.getSpecificRecord("SELECT        0+COALESCE( Customer.CustomNumber1,0) FROM    [Transaction] INNER JOIN Customer ON [Transaction].CustomerID = Customer.ID  WHERE        [Transaction].TransactionNumber ='" & TransactionNo & "'  ")
-        Dim trebate As Double = cmd.getSpecificRecord("SELECT       0+COALESCE(  Customer.CustomNumber2,0) FROM    [Transaction] INNER JOIN Customer ON [Transaction].CustomerID = Customer.ID  WHERE        [Transaction].TransactionNumber ='" & TransactionNo & "'  ")
-
-
-
-        Dim point As Double = cmd.getSpecificRecord("SELECT  0+COALESCE([LoyalPoint] ,0)         FROM [Point_Transaction]  where  [TransactionNumber] ='" & TransactionNo & "'  ")
-        Dim rebate As Double = cmd.getSpecificRecord("SELECT  0+COALESCE([RebatesPoint] ,0)     FROM [Point_Transaction]  where  [TransactionNumber] ='" & TransactionNo & "'  ")
-
-        tpoint = Math.Round(tpoint, 2)
-        trebate = Math.Round(trebate, 2)
-
-        point = Math.Round(point, 2)
-        rebate = Math.Round(rebate, 2)
-
-
-
-
-
-
-
-
-
-
-
-        'a11 = Math.Round(a11, 2)
-
-        'a22 = Math.Round(a22, 2)
-
-        'a33 = Math.Round(a33, 2)
-
-        'a44 = Math.Round(a44, 2)
-
-        'a55 = Math.Round(a55, 2)
-
-
-        'a77 = Math.Round(a77, 2)
-        'a88 = Math.Round(a88, 2)
-
-
-        Dim codez = cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_Setting where code='" & frmRedeem.txtcode.Text & "'")
+    Dim codez = cmd.getSpecificRecord("Select  0+COALESCE(Max(ID),0) FROM Point_Setting where code='" & frmRedeem.txtcode.Text & "'")
         Dim pointa = cmd.getSpecificRecord("SELECT [customnumber1] FROM [Customer]  where ID='" & codez & "'")
 
 
@@ -332,84 +189,7 @@ Public Class frmprint1
 
 
 
-
-        'StringToPrint = "THIS RECEIPTS SHALL BE VALID FOR"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen3 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen3 & StringToPrint & Environment.NewLine
-
-
-
-        'StringToPrint = "FIVE (5) YEARS FROM THE DATE"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen4 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen4 & StringToPrint & Environment.NewLine
-
-
-
-        'StringToPrint = "OF THE PERMIT USE."
-        'LineLen = StringToPrint.Length
-        'Dim spcLen5 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen5 & StringToPrint & Environment.NewLine
-
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  footer FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen6 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen6 & StringToPrint & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-
-        'StringToPrint = "NAME: _______________________"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen7 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen7 & StringToPrint & Environment.NewLine
-
-
-        'StringToPrint = "ADRESS: _____________________"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen8 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen8 & StringToPrint & Environment.NewLine
-
-
-        'StringToPrint = "TIN: ________________________"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen9 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen9 & StringToPrint & Environment.NewLine
-
-
-
-        'StringToPrint = "SIGNATURE: _________________"
-        'LineLen = StringToPrint.Length
-        'Dim spcLen10 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen10 & StringToPrint & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-        'TextToPrint &= "" & Environment.NewLine
-
-
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  footer2 FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen11 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen11 & StringToPrint & Environment.NewLine
-
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  footer3 FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen12 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen12 & StringToPrint & Environment.NewLine
-
-
-
-        'StringToPrint = cmd.getSpecificRecord("SELECT  footer4 FROM   Headfoot   ")
-        'LineLen = StringToPrint.Length
-        'Dim spcLen13 As New String(" "c, Math.Round((40 - LineLen) / 2))
-        'TextToPrint &= spcLen13 & StringToPrint & Environment.NewLine
-
-
-        '= cmd.getSpecificRecord("SELECT  Heading3 FROM   Headfoot   ")
-
-    End Sub
+  End Sub
 
     Private Sub PrintDocument1_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
         Static currentChar As Integer
@@ -450,9 +230,10 @@ Public Class frmprint1
     End Sub
     Private Sub yes_Click(sender As Object, e As EventArgs) Handles yes.Click
         PrintHeader()
-
-        ItemsToBePrinted()
-        printFooter()
+    ItemsToBePrinted(1)
+    ItemsToBePrinted(2)
+    ItemsToBePrinted(3)
+    printFooter()
         Dim printControl = New Printing.StandardPrintController
         PrintDocument1.PrintController = printControl
         Try

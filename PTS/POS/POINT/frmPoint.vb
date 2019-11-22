@@ -93,7 +93,7 @@
       Dim sms As New SMSTextClass
       Dim message As String
       Dim CCcard As New ClassCheckCard
-      message = "Privilege Card: " & "You have earned " & _geneartedPoint & " point/s. You have " & CCcard.Totalpoint(_Numbercard) & " point/s as of today"
+      message = "PETRA GAS LOYALTY CARD: " & "You have earned " & _geneartedPoint & " point/s. You have " & CCcard.Totalpoint(_Numbercard) & " point/s as of today"
 
       sms.message(CCcard.Customerid(_Numbercard), message)
 

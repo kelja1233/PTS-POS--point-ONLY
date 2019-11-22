@@ -14,7 +14,7 @@
         End If
       Case 2
         RC.GetReceiptDetails(False, tenderid, tranNo)
-        RC.GetReceiptDetails(True, tenderid, tranNo)
+
 
       Case Else
         RC.GetReceiptDetails(False, tenderid, tranNo)

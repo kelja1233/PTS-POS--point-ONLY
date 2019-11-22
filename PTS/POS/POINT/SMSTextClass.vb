@@ -35,7 +35,7 @@ Public Class SMSTextClass
   Public Sub message(customerid As Integer, msg As String)
     Try
 
-
+      connection()
 
       Dim contact As String = cmd.getSpecificRecord("Select PhoneNumber FROM Customer where  id='" & customerid & "'").ToString
 

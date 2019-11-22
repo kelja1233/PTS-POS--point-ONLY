@@ -24,10 +24,10 @@
 		''' </summary>
 		Private Sub InitializeComponent()
       Me.components = New System.ComponentModel.Container()
-      Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-      Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-      Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-      Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+      Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+      Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+      Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+      Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
       Me.btnRebuildTable = New System.Windows.Forms.Button()
       Me.cbhDisplayNonZeroNozzles = New System.Windows.Forms.CheckBox()
       Me.updateLabel = New System.Windows.Forms.Label()
@@ -40,6 +40,7 @@
       Me.timer1 = New System.Windows.Forms.Timer(Me.components)
       Me.btChangeShift = New System.Windows.Forms.Button()
       Me.btEndShift = New System.Windows.Forms.Button()
+      Me.Button1 = New System.Windows.Forms.Button()
       CType(Me.tblTotals, System.ComponentModel.ISupportInitialize).BeginInit()
       CType(Me.pbTotalsRequest, System.ComponentModel.ISupportInitialize).BeginInit()
       Me.SuspendLayout()
@@ -83,25 +84,25 @@
       Me.tblTotals.AllowUserToResizeColumns = False
       Me.tblTotals.AllowUserToResizeRows = False
       Me.tblTotals.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders
-      DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-      DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
-      DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-      DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
-      DataGridViewCellStyle5.Padding = New System.Windows.Forms.Padding(3)
-      DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-      DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-      DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-      Me.tblTotals.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+      DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+      DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control
+      DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+      DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText
+      DataGridViewCellStyle9.Padding = New System.Windows.Forms.Padding(3)
+      DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+      DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+      DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+      Me.tblTotals.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
       Me.tblTotals.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
       Me.tblTotals.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PumpsColumn, Me.Nozzles, Me.VolumeTotalCounters, Me.AmountTotalCounters})
-      DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-      DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
-      DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-      DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
-      DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-      DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-      DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-      Me.tblTotals.DefaultCellStyle = DataGridViewCellStyle8
+      DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+      DataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window
+      DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+      DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText
+      DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight
+      DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+      DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+      Me.tblTotals.DefaultCellStyle = DataGridViewCellStyle12
       Me.tblTotals.Location = New System.Drawing.Point(12, 81)
       Me.tblTotals.MultiSelect = False
       Me.tblTotals.Name = "tblTotals"
@@ -115,9 +116,9 @@
       '
       'PumpsColumn
       '
-      DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-      DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-      Me.PumpsColumn.DefaultCellStyle = DataGridViewCellStyle6
+      DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+      DataGridViewCellStyle10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+      Me.PumpsColumn.DefaultCellStyle = DataGridViewCellStyle10
       Me.PumpsColumn.Frozen = True
       Me.PumpsColumn.HeaderText = "Pumps"
       Me.PumpsColumn.Name = "PumpsColumn"
@@ -128,8 +129,8 @@
       '
       'Nozzles
       '
-      DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-      Me.Nozzles.DefaultCellStyle = DataGridViewCellStyle7
+      DataGridViewCellStyle11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+      Me.Nozzles.DefaultCellStyle = DataGridViewCellStyle11
       Me.Nozzles.Frozen = True
       Me.Nozzles.HeaderText = "Nozzles"
       Me.Nozzles.Name = "Nozzles"
@@ -195,12 +196,23 @@
       Me.btEndShift.Text = "End Shift"
       Me.btEndShift.UseVisualStyleBackColor = True
       '
+      'Button1
+      '
+      Me.Button1.Location = New System.Drawing.Point(432, 28)
+      Me.Button1.Name = "Button1"
+      Me.Button1.Size = New System.Drawing.Size(75, 47)
+      Me.Button1.TabIndex = 11
+      Me.Button1.Text = "EXIT"
+      Me.Button1.UseVisualStyleBackColor = True
+      '
       'AllTotalsDialog
       '
       Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
       Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
       Me.AutoScroll = True
       Me.ClientSize = New System.Drawing.Size(540, 447)
+      Me.ControlBox = False
+      Me.Controls.Add(Me.Button1)
       Me.Controls.Add(Me.btEndShift)
       Me.Controls.Add(Me.btChangeShift)
       Me.Controls.Add(Me.pbTotalsRequest)
@@ -232,5 +244,6 @@
 		Private timer1 As Timer
     Friend WithEvents btChangeShift As Button
     Friend WithEvents btEndShift As Button
+    Friend WithEvents Button1 As Button
   End Class
 End Namespace

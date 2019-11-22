@@ -40,7 +40,7 @@ Public Class CmdInsertTender
     Dim _BatchNumber As Integer = BatchNumber
     Dim _CustomerID As Integer = Integer.Parse(cmd.getSpecificRecord($"SELECT 0+COALESCE(Max( id),0)  FROM [Customer]  where [AccountNumber]='{ _Accountnumber }' "))
     If _CustomerID = 0 Then
-      _CustomerID = 1
+      _CustomerID = 99999
     End If
 
     Dim _Total As Decimal = csp.TotalAmount - csp.TotalDiscount
